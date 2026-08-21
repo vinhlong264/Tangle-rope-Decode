@@ -1,1 +1,2 @@
+Assets/GameObject filter=lfs diff=lfs merge=lfs -text
 *.prefab filter=lfs diff=lfs merge=lfs -text
