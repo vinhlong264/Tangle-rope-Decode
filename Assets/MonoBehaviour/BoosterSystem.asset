@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258f908308d2abf550f72749faa0b0ae, type: 3}
+  m_Name: BoosterSystem
+  m_EditorClassIdentifier:
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}
+  boosterGroups:
+  - boosters:
+    - {fileID: 11400000, guid: 2c0e0f8bb5482c54a9cff7f47e06bdc3, type: 2}
+  - boosters:
+    - {fileID: 11400000, guid: b220b9ddfb3922b4795c59b21b700345, type: 2}
+    - {fileID: 11400000, guid: 7032fce12728e8d47817ba131d99ab69, type: 2}
+  - boosters:
+    - {fileID: 11400000, guid: 1fc0da925a2a5594ca188bae54329aec, type: 2}
+  didClaimFirstTimeThisLevel: {fileID: 11400000, guid: 13339e0060a54e84789bdb81a91ec9c6, type: 2}
+  boostersEnabled: {fileID: 11400000, guid: 80d5ee4fcae8b544389c4f0cf0f750b5, type: 2}
+  popupsNavigationChannel: {fileID: 11400000, guid: 828f370002d0a2249af318cbc4427f58, type: 2}
+  tutorialPopupId:
+    variableReferenceType: 0
+    atomReference:
+      _usage: 1
+      _value:
+      _constant: {fileID: 11400000, guid: f98a2e1c69ea9d44dbcf7abd9ff0439f, type: 2}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+  anyBoosterClaimPopupConditions:
+  - variableReferenceType: 100
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+    customType1: {fileID: 11400000, guid: 77b7b562148dc704fb50326d0f2adf5a, type: 2}
+  anyBoosterButtonClickableConditions:
+  - variableReferenceType: 100
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+    customType1: {fileID: 11400000, guid: 207d117feb8a36a4283d653c6cf0f725, type: 2}
+  currentBoosters: []
+  OnRequested:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPerformed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCanceledOrFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResourceNotEnough:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBoosterPurchasedWithResource:
+    m_PersistentCalls:
+      m_Calls: []

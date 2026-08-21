@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce781939bfae8e37d01412fc977ffa1, type: 3}
+  m_Name: RaceServiceLocalBackendDatabase
+  m_EditorClassIdentifier:
+  raceDataPersistent: {fileID: 11400000, guid: 7b08b94bd88ccc04899f33af8de75958, type: 2}
+  playerRacerDataPersistent: {fileID: 11400000, guid: 87bd69313e2fd804b8fb935736f25277, type: 2}
+  opponentRacersDataPersistent: {fileID: 11400000, guid: 4afb3f69d066df245bfbeee826d1a341, type: 2}
+  raceSettingsDataRead: {fileID: 11400000, guid: a9b9f576617a2cb458a147ea49cd0fd1, type: 2}
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}
+  lastLevelNumberPlayerCompletion: {fileID: 11400000, guid: 354b0a7452867fe48825a8bf782c6ff4, type: 2}
+  <OpponentCompletionCurve>k__BackingField:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 5.8018866
+      outSlope: 5.8018866
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.12779379
+    - serializedVersion: 3
+      time: 0.07334055
+      value: 0.5
+      inSlope: 1.5187984
+      outSlope: 1.5187984
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.36938557
+      outWeight: 0.07373379
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.13535686
+      outSlope: 0.13535686
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20683613
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

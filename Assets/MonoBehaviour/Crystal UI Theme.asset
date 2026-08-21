@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48462f987331d2220fc9fa7120cb067e, type: 3}
+  m_Name: Crystal UI Theme
+  m_EditorClassIdentifier:
+  data:
+    colorData:
+      primaryColor: {r: 1, g: 1, b: 1, a: 1}
+      secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+      quaternaryColor: {r: 1, g: 1, b: 1, a: 1}
+    popupData:
+      popupBackground: {fileID: 21300000, guid: 9eefb3ff1580e2343b24748b628c4cc0, type: 2}
+      popupBackgroundGradient:
+        direction: 1
+        rotation: 0
+        offset1: 0.2
+        offset2: {x: 0, y: 0}
+        color1: {r: 1, g: 1, b: 1, a: 1}
+        color2: {r: 1, g: 1, b: 1, a: 1}
+        color3: {r: 1, g: 1, b: 1, a: 1}
+        color4: {r: 1, g: 1, b: 1, a: 1}
+      popupTitleBackground: {fileID: 21300000, guid: 259b60b0df173404796b33350daded4d, type: 2}
+    countdownData:
+      textBackground: {fileID: 21300000, guid: 2c7ce6f952c2fc34cae30e0b8929809f, type: 2}
+    progressBarData:
+      barBackground: {fileID: 21300000, guid: 2de8d26370ce289448277d5bd65ae56f, type: 2}
+      barFillBackground: {fileID: 21300000, guid: d3688b697c56d4d4c923f8153c2c33e7, type: 2}
+      barFill: {fileID: 21300000, guid: b6fc783aed145694b82ac55dff7713fb, type: 2}
+    buttonData:
+      primaryButtonBackground: {fileID: 21300000, guid: 30fca1d0709ddaf4e8c3ee6c6378bb31, type: 2}
+      secondaryButtonBackground: {fileID: 21300000, guid: efecd3f859831c244b971da726dcc22c, type: 2}
+      tertiaryButtonBackground: {fileID: 0}
+      quaternaryButtonBackground: {fileID: 0}
+    tabData:
+      tabItemIdleBackground: {fileID: 0}
+      tabItemSelectedBackground: {fileID: 0}

@@ -1,0 +1,20 @@
+
+Daily_Banner_Base_Seperate_Hooks.png
+size: 638, 638
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Layer 14
+  rotate: false
+  xy: 0, 204
+  size: 435, 131
+  orig: 638, 301
+  offset: 84, 170
+  index: -1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  rotate: false
+  xy: 0, 337
+  size: 638, 301
+  orig: 638, 301
+  offset: 0, 0
+  index: -1

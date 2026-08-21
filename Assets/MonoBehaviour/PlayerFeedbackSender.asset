@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d95679104677a027cdcc328a9c469ea4, type: 3}
+  m_Name: PlayerFeedbackSender
+  m_EditorClassIdentifier:
+  logsDataChannel: {fileID: 11400000, guid: 6a7216dfa7e86f74ba11b07bada6f543, type: 2}
+  includeRemoteConfigs: 0
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}
+  variablesToInclude:
+  - {fileID: 11400000, guid: 0ac585a235f2b2a47b83ac3bd4124cd3, type: 2}
+  - {fileID: 11400000, guid: 80d5ee4fcae8b544389c4f0cf0f750b5, type: 2}
+  persistentsToInclude:
+  - {fileID: 11400000, guid: 91c6432d13613a3408a4f19468723372, type: 2}
+  - {fileID: 11400000, guid: 315df407b8afa2d42b7fe8cbbc8c2ff6, type: 2}
+  propertiesToInclude:
+  - {fileID: 11400000, guid: cc309cefc0362384baf88b78a125b76e, type: 2}
+  - {fileID: 11400000, guid: 2e6c2a13de3af3e46ab06e0c666a4909, type: 2}
+  - {fileID: 11400000, guid: f0ede833f2bbf274caa58851f81b80aa, type: 2}
+  - {fileID: 11400000, guid: afb52357667de5044a719264d425ff8c, type: 2}
+  - {fileID: 11400000, guid: f9872499c594acc48874f920c5f0c698, type: 2}

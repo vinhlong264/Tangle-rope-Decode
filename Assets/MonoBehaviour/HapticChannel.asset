@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18372493f0d1ee6753ed1b9d2237e9e, type: 3}
+  m_Name: HapticChannel
+  m_EditorClassIdentifier:
+  DataGroup: 2
+  ReadableSaveKey: HapticChannel
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 1291756647
+    m_Value1: 1139074056
+    m_Value2: 1519975685
+    m_Value3: 3534227788
+  setSessionStartValue: 0
+  initialValue:
+    Active: 1
+  value:
+    Active: 1
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  iosInterval: 0
+  iosRequestInterval: 0.1
+  androidInterval: 1
+  androidRequestInterval: 0.5

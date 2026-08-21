@@ -1,0 +1,383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c577d8fb6910b60af69b74746c900fc6, type: 3}
+  m_Name: Persistent Ranking Entries
+  m_EditorClassIdentifier:
+  DataGroup: 15
+  ReadableSaveKey: PersistentRankingEntries
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 2954984613
+    m_Value1: 3116990692
+    m_Value2: 3402843398
+    m_Value3: 138673234
+  setSessionStartValue: 0
+  initialValue:
+  - id: 0
+    playerName: Player
+    score: 1
+    countryCode:
+  - id: 1
+    playerName: kayki
+    score: 3790
+    countryCode:
+  - id: 2
+    playerName: steelMan
+    score: 9940
+    countryCode:
+  - id: 3
+    playerName: DragonCat
+    score: 1000
+    countryCode:
+  - id: 4
+    playerName: trex43
+    score: 1343
+    countryCode:
+  - id: 5
+    playerName: CowardMic
+    score: 1132
+    countryCode:
+  - id: 6
+    playerName: HatefulSincap
+    score: 6543
+    countryCode:
+  - id: 7
+    playerName: bozboz1923
+    score: 5543
+    countryCode:
+  - id: 8
+    playerName: BloodPin
+    score: 4324
+    countryCode:
+  - id: 9
+    playerName: whiteLynx
+    score: 3900
+    countryCode:
+  - id: 10
+    playerName: Shibby
+    score: 11
+    countryCode:
+  - id: 11
+    playerName: Finor
+    score: 1444
+    countryCode:
+  - id: 12
+    playerName: Mordoq44
+    score: 1234
+    countryCode:
+  - id: 13
+    playerName: dr.Snake
+    score: 212
+    countryCode:
+  - id: 14
+    playerName: MasterOfTangles
+    score: 2555
+    countryCode:
+  - id: 15
+    playerName: 12best34
+    score: 1999
+    countryCode:
+  - id: 16
+    playerName: optimalPlayer
+    score: 525
+    countryCode:
+  - id: 17
+    playerName: makerfaker
+    score: 1322
+    countryCode:
+  - id: 18
+    playerName: __MONSTER__
+    score: 1414
+    countryCode:
+  - id: 19
+    playerName: whisperer
+    score: 148
+    countryCode:
+  - id: 20
+    playerName: Mythero
+    score: 1232
+    countryCode:
+  - id: 21
+    playerName: sunriseLady
+    score: 9982
+    countryCode:
+  - id: 22
+    playerName: twisted_rider
+    score: 3212
+    countryCode:
+  - id: 23
+    playerName: hyperTheory
+    score: 244
+    countryCode:
+  - id: 24
+    playerName: zombie_alive
+    score: 21447
+    countryCode:
+  - id: 25
+    playerName: invincible_falcon
+    score: 7532
+    countryCode:
+  - id: 26
+    playerName: _bestOf
+    score: 256
+    countryCode:
+  - id: 27
+    playerName: OrdinaryPlayer
+    score: 6244
+    countryCode:
+  - id: 28
+    playerName: heatnbeat
+    score: 242
+    countryCode:
+  - id: 29
+    playerName: ninjaa
+    score: 6321
+    countryCode:
+  - id: 30
+    playerName: barbei
+    score: 4422
+    countryCode:
+  - id: 31
+    playerName: __kitty
+    score: 242
+    countryCode:
+  - id: 32
+    playerName: iron-bubble
+    score: 778
+    countryCode:
+  - id: 33
+    playerName: God_Of_Rope
+    score: 9125
+    countryCode:
+  - id: 34
+    playerName: progamer34
+    score: 6521
+    countryCode:
+  - id: 35
+    playerName: P1Nokyo
+    score: 2562
+    countryCode:
+  - id: 36
+    playerName: Unstoppable01
+    score: 5521
+    countryCode:
+  - id: 37
+    playerName: Ice_King
+    score: 2356
+    countryCode:
+  - id: 38
+    playerName: gentle__
+    score: 2145
+    countryCode:
+  - id: 39
+    playerName: Senorita
+    score: 4765
+    countryCode:
+  - id: 40
+    playerName: lovelyDino
+    score: 6237
+    countryCode:
+  - id: 41
+    playerName: madWoman
+    score: 6242
+    countryCode:
+  - id: 42
+    playerName: jon_targaryen
+    score: 0
+    countryCode: 8993
+  value:
+  - id: 0
+    playerName: Player
+    score: 1
+    countryCode:
+  - id: 1
+    playerName: kayki
+    score: 3790
+    countryCode:
+  - id: 2
+    playerName: steelMan
+    score: 9940
+    countryCode:
+  - id: 3
+    playerName: DragonCat
+    score: 1000
+    countryCode:
+  - id: 4
+    playerName: trex43
+    score: 1343
+    countryCode:
+  - id: 5
+    playerName: CowardMic
+    score: 1132
+    countryCode:
+  - id: 6
+    playerName: HatefulSincap
+    score: 6543
+    countryCode:
+  - id: 7
+    playerName: bozboz1923
+    score: 5543
+    countryCode:
+  - id: 8
+    playerName: BloodPin
+    score: 4324
+    countryCode:
+  - id: 9
+    playerName: whiteLynx
+    score: 3900
+    countryCode:
+  - id: 10
+    playerName: Shibby
+    score: 11
+    countryCode:
+  - id: 11
+    playerName: Finor
+    score: 1444
+    countryCode:
+  - id: 12
+    playerName: Mordoq44
+    score: 1234
+    countryCode:
+  - id: 13
+    playerName: dr.Snake
+    score: 212
+    countryCode:
+  - id: 14
+    playerName: MasterOfTangles
+    score: 2555
+    countryCode:
+  - id: 15
+    playerName: 12best34
+    score: 1999
+    countryCode:
+  - id: 16
+    playerName: optimalPlayer
+    score: 525
+    countryCode:
+  - id: 17
+    playerName: makerfaker
+    score: 1322
+    countryCode:
+  - id: 18
+    playerName: __MONSTER__
+    score: 1414
+    countryCode:
+  - id: 19
+    playerName: whisperer
+    score: 148
+    countryCode:
+  - id: 20
+    playerName: Mythero
+    score: 1232
+    countryCode:
+  - id: 21
+    playerName: sunriseLady
+    score: 9982
+    countryCode:
+  - id: 22
+    playerName: twisted_rider
+    score: 3212
+    countryCode:
+  - id: 23
+    playerName: hyperTheory
+    score: 244
+    countryCode:
+  - id: 24
+    playerName: zombie_alive
+    score: 21447
+    countryCode:
+  - id: 25
+    playerName: invincible_falcon
+    score: 7532
+    countryCode:
+  - id: 26
+    playerName: _bestOf
+    score: 256
+    countryCode:
+  - id: 27
+    playerName: OrdinaryPlayer
+    score: 6244
+    countryCode:
+  - id: 28
+    playerName: heatnbeat
+    score: 242
+    countryCode:
+  - id: 29
+    playerName: ninjaa
+    score: 6321
+    countryCode:
+  - id: 30
+    playerName: barbei
+    score: 4422
+    countryCode:
+  - id: 31
+    playerName: __kitty
+    score: 242
+    countryCode:
+  - id: 32
+    playerName: iron-bubble
+    score: 778
+    countryCode:
+  - id: 33
+    playerName: God_Of_Rope
+    score: 9125
+    countryCode:
+  - id: 34
+    playerName: progamer34
+    score: 6521
+    countryCode:
+  - id: 35
+    playerName: P1Nokyo
+    score: 2562
+    countryCode:
+  - id: 36
+    playerName: Unstoppable01
+    score: 5521
+    countryCode:
+  - id: 37
+    playerName: Ice_King
+    score: 2356
+    countryCode:
+  - id: 38
+    playerName: gentle__
+    score: 2145
+    countryCode:
+  - id: 39
+    playerName: Senorita
+    score: 4765
+    countryCode:
+  - id: 40
+    playerName: lovelyDino
+    score: 6237
+    countryCode:
+  - id: 41
+    playerName: madWoman
+    score: 6242
+    countryCode:
+  - id: 42
+    playerName: jon_targaryen
+    score: 0
+    countryCode: 8993
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  persistentRankingEntryProfiles: {fileID: 11400000, guid: 59902f96a22fb78459447e07fb4a3e96, type: 2}
+  playerRankId: {fileID: 11400000, guid: 34bb9e510657fed4d8c1de38ce64dca3, type: 2}

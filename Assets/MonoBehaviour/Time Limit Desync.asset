@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d61a700ca634185218e0814c2474bf, type: 3}
+  m_Name: Time Limit Desync
+  m_EditorClassIdentifier:
+  initialIsSyncing: 1
+  isSyncing: 0
+  realVariable:
+    settableVariableReferenceType: 0
+    atomVariable: {fileID: 11400000, guid: ede59f6cdb389d94db315222cdddbee6, type: 2}
+    atomVariableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    settableScriptableProperty: {fileID: 0}
+  desyncVariables:
+  - settableVariableReferenceType: 0
+    atomVariable: {fileID: 11400000, guid: f819fbe9f1b0c9c4fa3b1c25a18d6a26, type: 2}
+    atomVariableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    settableScriptableProperty: {fileID: 0}
+  runtimeDesyncVariables: []

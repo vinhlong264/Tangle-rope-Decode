@@ -1,0 +1,97 @@
+
+summer3.png
+size: 1278, 472
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Base
+  rotate: false
+  xy: 472, 208
+  size: 518, 264
+  orig: 518, 264
+  offset: 0, 0
+  index: -1
+Layer 1 copy
+  rotate: true
+  xy: 992, 59
+  size: 242, 148
+  orig: 531, 162
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 992, 303
+  size: 168, 169
+  orig: 174, 174
+  offset: 3, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 632, 2
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 0, 2
+  size: 470, 470
+  orig: 470, 470
+  offset: 0, 0
+  index: -1
+Surfboard
+  rotate: true
+  xy: 632, 98
+  size: 108, 273
+  orig: 118, 273
+  offset: 0, 0
+  index: -1
+Surfboard_Background
+  rotate: false
+  xy: 923, 30
+  size: 94, 27
+  orig: 96, 31
+  offset: 2, 4
+  index: -1
+Tree_Base
+  rotate: false
+  xy: 1162, 128
+  size: 116, 344
+  orig: 116, 344
+  offset: 0, 0
+  index: -1
+Tree_Mask
+  rotate: true
+  xy: 907, 90
+  size: 116, 83
+  orig: 116, 83
+  offset: 0, 0
+  index: -1
+tree_leaf1
+  rotate: true
+  xy: 472, 0
+  size: 87, 100
+  orig: 87, 100
+  offset: 0, 0
+  index: -1
+tree_leaf2
+  rotate: false
+  xy: 728, 14
+  size: 193, 74
+  orig: 193, 74
+  offset: 0, 0
+  index: -1
+tree_leaf3
+  rotate: false
+  xy: 472, 89
+  size: 158, 117
+  orig: 158, 117
+  offset: 0, 0
+  index: -1
+tree_leaf4
+  rotate: true
+  xy: 1142, 25
+  size: 101, 127
+  orig: 101, 127
+  offset: 0, 0
+  index: -1

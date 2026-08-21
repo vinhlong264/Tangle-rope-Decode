@@ -1,0 +1,13 @@
+KittyRace.png
+size:533,533
+filter:Linear,Linear
+1/Flag
+bounds:288,163,243,101
+offsets:22,111,287,405
+1/Group 1171276526
+bounds:288,266,265,236
+offsets:13,169,287,405
+rotate:90
+1/Group 1171276528
+bounds:2,233,284,298
+offsets:2,68,287,405

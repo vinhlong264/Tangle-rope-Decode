@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_PowerUps
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: hammer_pack
+      Name: hammer_pack_name
+      Description: hammer_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_1
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_2
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_3
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_6
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_12
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_15
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_inf
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam: hammer_inf
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: pocket_watch_pack
+      Name: pocket_watch_pack_name
+      Description: pocket_watch_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_1
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_2
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_3
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_6
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_12
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_15
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_inf
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam: pocket_watch_inf
+        Price: 0
+      DisablerIds: []
+    BundlePacks: []
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds:
+    - productPackId: casual_bundles
+      allSettings:
+      - Id: twistedtangle_casualstarter_v1_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 0
+        DependentRemoteConfigKey:
+        DependentValue: 1

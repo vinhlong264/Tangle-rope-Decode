@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a8415f7ad10795300d23530749fa26, type: 3}
+  m_Name: Casual Packs Bundle View Settings
+  m_EditorClassIdentifier:
+  baseSettings: {fileID: 11400000, guid: 3faabb4379779ec448c04bb4b60efdf3, type: 2}
+  defaultViewPrefab: {fileID: 114711914853252429, guid: c2461e8de958e7b4287e9e76fbffbdfc, type: 2}
+  viewPrefabsWithProductId: []
+  viewPrefabsWithId:
+  - productPackId: coin_pack
+    productType: {fileID: 11400000, guid: dcfa708e75cdcc041905f34e56d376fd, type: 2}
+    view: {fileID: 114587397909062814, guid: a28366a4904e7284f957bbd6f5b003b6, type: 2}
+  - productPackId: coin_pack_2
+    productType: {fileID: 11400000, guid: dcfa708e75cdcc041905f34e56d376fd, type: 2}
+    view: {fileID: 114587397909062814, guid: a28366a4904e7284f957bbd6f5b003b6, type: 2}
+  - productPackId: coin_noniap
+    productType: {fileID: 11400000, guid: dcfa708e75cdcc041905f34e56d376fd, type: 2}
+    view: {fileID: 114587397909062814, guid: a28366a4904e7284f957bbd6f5b003b6, type: 2}
+  - productPackId: heart_pack
+    productType: {fileID: 11400000, guid: f7440c5ec0210a540bdc1947ed071cb4, type: 2}
+    view: {fileID: 114371939378208658, guid: 9334fdf92736fb34a949b1a0369cb07f, type: 2}
+  - productPackId: cut_pack
+    productType: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+    view: {fileID: 114711914853252429, guid: 7300859e768d2214e84700d8f24c5ede, type: 2}
+  - productPackId: shuffle_pack
+    productType: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+    view: {fileID: 114711914853252429, guid: 7300859e768d2214e84700d8f24c5ede, type: 2}
+  - productPackId: time_freeze_pack
+    productType: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+    view: {fileID: 114711914853252429, guid: 7300859e768d2214e84700d8f24c5ede, type: 2}
+  - productPackId: undo_pack
+    productType: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+    view: {fileID: 114711914853252429, guid: 7300859e768d2214e84700d8f24c5ede, type: 2}
+  - productPackId: hammer_pack
+    productType: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+    view: {fileID: 114711914853252429, guid: 7300859e768d2214e84700d8f24c5ede, type: 2}
+  - productPackId: pocket_watch_pack
+    productType: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+    view: {fileID: 114711914853252429, guid: 7300859e768d2214e84700d8f24c5ede, type: 2}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a8415f7ad10795300d23530749fa26, type: 3}
+  m_Name: Regular Packs Bundle View Settings
+  m_EditorClassIdentifier:
+  baseSettings: {fileID: 0}
+  defaultViewPrefab: {fileID: 114946936116752871, guid: c82ba6905a00c524f914f89ab9a8bbf7, type: 2}
+  viewPrefabsWithProductId: []
+  viewPrefabsWithId:
+  - productPackId: rope_pack
+    productType: {fileID: 0}
+    view: {fileID: 114946936116752871, guid: a292a5f861c9493418ffb9dc9eaad710, type: 2}
+  - productPackId: pin_pack
+    productType: {fileID: 0}
+    view: {fileID: 114946936116752871, guid: 98d6cd9dc2263a44881722df8fb16a10, type: 2}
+  - productPackId: money_pack
+    productType: {fileID: 0}
+    view: {fileID: 114946936116752871, guid: 2467ff4bd4a31424682f67f7338af9da, type: 2}
+  - productPackId: heart_pack
+    productType: {fileID: 0}
+    view: {fileID: 114946936116752871, guid: 0fc285b7d5f021541a4e8f66aaddd67f, type: 2}
+  - productPackId: skip_it_pack
+    productType: {fileID: 0}
+    view: {fileID: 114946936116752871, guid: 9191db87742c5bb43a81a6d2668f7028, type: 2}
+  - productPackId: no_ads_pack
+    productType: {fileID: 0}
+    view: {fileID: 114946936116752871, guid: 1a96af482d4cfba4eaad43407c55bd53, type: 2}
+  - productPackId: coin_pack
+    productType: {fileID: 0}
+    view: {fileID: 114946936116752871, guid: 2467ff4bd4a31424682f67f7338af9da, type: 2}

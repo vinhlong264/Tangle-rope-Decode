@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Skins
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: rope_pack
+      Name: rope_pack_name
+      Description: rope_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Disco Ball
+        Id: twistedtangle_rope_disco
+        Description: Disco Rope
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: jn03jz
+        ElephantEventParam: rope_disco
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pearls
+        Id: twistedtangle_rope_pearls
+        Description: Pealrs Rope
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: y6qa4x
+        ElephantEventParam: rope_pearls
+        Price: 1.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: pin_pack
+      Name: pin_pack_name
+      Description: pin_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Lotus Flower
+        Id: twistedtangle_pin_lotus
+        Description: Lotus Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: 9cm62n
+        ElephantEventParam: pin_lotus
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Sport Shoe
+        Id: twistedtangle_pin_sportshoe
+        Description: Sportshoe Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: x7smv8
+        ElephantEventParam: pin_sportshoe
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Speaker
+        Id: twistedtangle_pin_speaker
+        Description: Speaker Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: x7smv8
+        ElephantEventParam: pin_speaker
+        Price: 2.99
+      DisablerIds: []
+    BundlePacks: []
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds: []

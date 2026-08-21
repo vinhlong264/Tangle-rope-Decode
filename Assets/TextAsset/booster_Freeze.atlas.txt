@@ -1,0 +1,19 @@
+booster_Freeze.png
+size:2048,2048
+filter:Linear,Linear
+Normal/Layer 1
+bounds:647,4,674,448
+rotate:90
+Normal/timer
+bounds:1032,568,497,611
+rotate:270
+Normal/timer_box
+bounds:4,682,1024,1024
+black/Layer 1
+bounds:4,216,697,462
+black/timer
+bounds:1525,858,519,637
+white/Layer 1
+bounds:1347,231,697,462
+white/timer
+bounds:1032,1069,519,637

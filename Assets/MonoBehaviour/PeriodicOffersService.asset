@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c6e524c84b79b639e89479cd3ae754, type: 3}
+  m_Name: PeriodicOffersService
+  m_EditorClassIdentifier:
+  initialData:
+    Offers:
+    - Id: twistedtangle_heartinf_single_1
+      PeriodDays: 0
+      PeriodHours: 6
+      PeriodMinutes: 0
+    - Id: rw_heartinf_1
+      PeriodDays: 0
+      PeriodHours: 6
+      PeriodMinutes: 0
+    - Id: free_heartinf_1
+      PeriodDays: 0
+      PeriodHours: 6
+      PeriodMinutes: 0
+  actualData:
+    Offers:
+    - Id: twistedtangle_heartinf_single_1
+      PeriodDays: 0
+      PeriodHours: 6
+      PeriodMinutes: 0
+    - Id: rw_heartinf_1
+      PeriodDays: 0
+      PeriodHours: 6
+      PeriodMinutes: 0
+    - Id: free_heartinf_1
+      PeriodDays: 0
+      PeriodHours: 6
+      PeriodMinutes: 0
+  plainDataProvider: {fileID: 11400000, guid: 566cbfdd2f9bc434a8db310b16ac1582, type: 2}

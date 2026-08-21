@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412baf5f3b79312c1c664c58661664d9, type: 3}
+  m_Name: Dust Explosion Factory
+  m_EditorClassIdentifier:
+  factoryType: 0
+  prefab: {fileID: 1709254077376921, guid: 40d812547c6cae7408651a02c424c871, type: 2}
+  prefabSource: {fileID: 0}
+  pooler: {fileID: 0}

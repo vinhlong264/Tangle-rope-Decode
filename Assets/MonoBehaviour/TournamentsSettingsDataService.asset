@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8aebe7974e738d6ce1ce216e1069a69, type: 3}
+  m_Name: TournamentsSettingsDataService
+  m_EditorClassIdentifier:
+  initialData:
+    ActiveTournamentId: 2
+    TournamentsSettingsList:
+    - Id: 2
+      isActive: 1
+      showLevelLimit: 35
+      tournamentPrizeList:
+      - place: 1
+        segmentProducts:
+        - productType: 10
+          productAmount: 1000
+        - productType: 50
+          productAmount: 1
+      - place: 2
+        segmentProducts:
+        - productType: 10
+          productAmount: 500
+      - place: 3
+        segmentProducts:
+        - productType: 10
+          productAmount: 100
+    - Id: 1
+      isActive: 1
+      showLevelLimit: 35
+      tournamentPrizeList:
+      - place: 1
+        segmentProducts:
+        - productType: 10
+          productAmount: 1000
+      - place: 2
+        segmentProducts:
+        - productType: 10
+          productAmount: 500
+      - place: 3
+        segmentProducts:
+        - productType: 10
+          productAmount: 100
+  actualData:
+    ActiveTournamentId: 2
+    TournamentsSettingsList:
+    - Id: 2
+      isActive: 1
+      showLevelLimit: 35
+      tournamentPrizeList:
+      - place: 1
+        segmentProducts:
+        - productType: 10
+          productAmount: 1000
+      - place: 2
+        segmentProducts:
+        - productType: 10
+          productAmount: 500
+      - place: 3
+        segmentProducts:
+        - productType: 10
+          productAmount: 100
+    - Id: 1
+      isActive: 1
+      showLevelLimit: 35
+      tournamentPrizeList:
+      - place: 1
+        segmentProducts:
+        - productType: 10
+          productAmount: 1000
+      - place: 2
+        segmentProducts:
+        - productType: 10
+          productAmount: 500
+      - place: 3
+        segmentProducts:
+        - productType: 10
+          productAmount: 100
+  plainDataProvider: {fileID: 11400000, guid: 064bff64cc80c2f40b931398340d0d60, type: 2}
+  segmentedOfferRewardIcons:
+  - type: 20
+    icon: {fileID: 21300000, guid: 91a4c53f27a0de34db66559b9dd760cd, type: 2}
+  - type: 30
+    icon: {fileID: 21300000, guid: cc48e8bd55ffe8841a7c16d9443ae0ab, type: 2}
+  - type: 40
+    icon: {fileID: 21300000, guid: f8623561c5f80a84fba1d48a5dc0e7a9, type: 2}
+  - type: 50
+    icon: {fileID: 21300000, guid: 0c58c59630c4d7e41a93e390c0714b33, type: 2}
+  - type: 60
+    icon: {fileID: 21300000, guid: 4eab1a8ece8363b429eda6820dd6ff28, type: 2}
+  - type: 80
+    icon: {fileID: 21300000, guid: c107c7bb930edc24da6078de42325036, type: 2}
+  - type: 10
+    icon: {fileID: 21300000, guid: 43cfd0407f2c8304990881812cf99150, type: 2}
+  - type: 100
+    icon: {fileID: 21300000, guid: c702607c36cd2b8449f5faca8130931a, type: 2}
+  - type: 0
+    icon: {fileID: 21300000, guid: 9f7b652cf146a6b419cb37e0d9aadb14, type: 2}
+  level: {fileID: 11400000, guid: cfd859abdd6a9854c81a6f97199dc0b0, type: 2}

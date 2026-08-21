@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6dda03d633a3377d298a3550ca44f0a, type: 3}
+  m_Name: Time Freeze Booster Settings Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    Name: time_freeze
+    Description: time_freeze_description
+    Price: 1900
+    PurchaseCount: 3
+    MinLevel: 10
+    BoosterData:
+    - Name: time_freeze_duration
+      Value: 10
+  actualData:
+    Name: time_freeze
+    Description: time_freeze_description
+    Price: 1900
+    PurchaseCount: 3
+    MinLevel: 10
+    BoosterData:
+    - Name: time_freeze_duration
+      Value: 10
+  plainDataProvider: {fileID: 11400000, guid: 92616f784c1ffd448a04687b71c7510e, type: 2}
+  variables:
+  - {fileID: 11400000, guid: f84eafb63d563d8468d6c6c3975f4c4a, type: 2}
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}

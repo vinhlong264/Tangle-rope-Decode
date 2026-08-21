@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Gold Non IAP
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: coin_pack
+      Name: gold_pack_name
+      Description: gold_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_100
+        Description:
+        IsConsumable: 1
+        Amount: 100
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_200
+        Description:
+        IsConsumable: 1
+        Amount: 200
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_300
+        Description:
+        IsConsumable: 1
+        Amount: 300
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_250
+        Description:
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_350
+        Description:
+        IsConsumable: 1
+        Amount: 350
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_450
+        Description:
+        IsConsumable: 1
+        Amount: 450
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_500
+        Description:
+        IsConsumable: 1
+        Amount: 500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_750
+        Description:
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_1000
+        Description:
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_1500
+        Description:
+        IsConsumable: 1
+        Amount: 1500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_2000
+        Description:
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_2500
+        Description:
+        IsConsumable: 1
+        Amount: 2500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_3000
+        Description:
+        IsConsumable: 1
+        Amount: 3000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_3500
+        Description:
+        IsConsumable: 1
+        Amount: 3500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_4000
+        Description:
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_4500
+        Description:
+        IsConsumable: 1
+        Amount: 4500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_5000
+        Description:
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_5500
+        Description:
+        IsConsumable: 1
+        Amount: 5500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_6000
+        Description:
+        IsConsumable: 1
+        Amount: 6000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_10000
+        Description:
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_25000
+        Description:
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_1000
+        Description:
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_2000
+        Description:
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_5000
+        Description:
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_10000
+        Description:
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_25000
+        Description:
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_50000
+        Description:
+        IsConsumable: 1
+        Amount: 50000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_65000
+        Description:
+        IsConsumable: 1
+        Amount: 65000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    BundlePacks: []
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds: []

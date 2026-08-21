@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565f2386a86085885a9bcf4565b82783, type: 3}
+  m_Name: PersistentColorListList
+  m_EditorClassIdentifier:
+  DataGroup: 13
+  ReadableSaveKey: PersistentColorListList
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 2314456415
+    m_Value1: 2251705012
+    m_Value2: 950895154
+    m_Value3: 3204852958
+  setSessionStartValue: 0
+  initialValue:
+  - ColorList:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+  value:
+  - ColorList:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0, g: 0, b: 0, a: 1}
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

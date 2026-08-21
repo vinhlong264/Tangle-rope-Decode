@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Dynamic Quest
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: multiplier_pack
+      Name: multiplier_pack_name
+      Description: multiplier_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: 2x
+        Id: twistedtangle_multiplier_2x
+        Description: Multiply your rewards!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam: multiplier_2x
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: dynamic_quest_golden_pass_pack
+      Name: dynamic_quest_golden_pass_name
+      Description: dynamic_quest_golden_pass_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: golden_pass
+        Id: twistedtangle_dynamic_quest_golden_pass
+        Description: Golden Pass
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    BundlePacks:
+    - Enabled: 1
+      IsDiscount: 0
+      Id: dynamic_quest_golden_pass_bundles
+      Name: dynamic_quest_golden_pass_name
+      Description: dynamic_quest_golden_pass_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Golden Pass
+          Id: twistedtangle_dynamic_quest_golden_pass_1
+          Description:
+          IsConsumable: 1
+          Amount: 1
+          AdjustEventToken: iw8ua4
+          ElephantEventParam: dynamic_quest_golden_pass_1
+          Price: 9.99
+        ProductIds:
+        - twistedtangle_dynamic_quest_golden_pass
+      - BundleInfo:
+          Enabled: 0
+          UseInShop: 0
+          Name: Golden Pass
+          Id: twistedtangle_dynamic_quest_golden_pass_2
+          Description:
+          IsConsumable: 1
+          Amount: 1
+          AdjustEventToken: 94lubs
+          ElephantEventParam: dynamic_quest_golden_pass_2
+          Price: 4.99
+        ProductIds:
+        - twistedtangle_dynamic_quest_golden_pass
+    - Enabled: 1
+      IsDiscount: 0
+      Id: multiplier_options_pack
+      Name: multiplier_pack_name
+      Description: multiplier_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Double Reward
+          Id: twistedtangle_multiplier_2x_15m
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 15
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Double Reward
+          Id: twistedtangle_multiplier_2x_30m
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 30
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: 2X
+          Id: twistedtangle_multiplier_2x_1h
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken:
+          ElephantEventParam: multiplier_2x_1h
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts:
+    - productPackId: multiplier_pack
+      allSettings:
+      - Id: twistedtangle_multiplier_2x_15m
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 0
+        ExpirationMinutes: 15
+        ExpirationSeconds: 0
+      - Id: twistedtangle_multiplier_2x_30m
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 0
+        ExpirationMinutes: 30
+        ExpirationSeconds: 0
+      - Id: twistedtangle_multiplier_2x_1h
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    ConditionalIds: []

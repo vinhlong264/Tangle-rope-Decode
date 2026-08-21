@@ -1,0 +1,24 @@
+TangleCards.png
+size:1825,1825
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:2,1109,587,714
+BlackOutline/card2
+bounds:1067,522,431,627
+BlackOutline/card3
+bounds:591,518,474,631
+Normal/Layer 1
+bounds:591,1151,545,672
+Normal/card2
+bounds:2,2,389,585
+rotate:90
+Normal/card3
+bounds:591,84,432,589
+rotate:90
+WhiteOutline/Layer 1
+bounds:2,393,587,714
+WhiteOutline/card2
+bounds:1182,89,431,627
+rotate:90
+WhiteOutline/card3
+bounds:1138,1192,474,631

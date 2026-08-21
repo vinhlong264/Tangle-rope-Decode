@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421a26043afe12f18bd59aedcfa7e7ef, type: 3}
+  m_Name: Persistent Ranking Entry Profiles
+  m_EditorClassIdentifier:
+  DataGroup: 15
+  ReadableSaveKey: PersistentRankingEntryProfiles
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 2328311500
+    m_Value1: 3087688910
+    m_Value2: 2323323252
+    m_Value3: 1511722557
+  setSessionStartValue: 0
+  initialValue:
+  - rankingEntryId: 1
+    iconId: 1
+    iconColorId: 1
+  - rankingEntryId: 2
+    iconId: 2
+    iconColorId: 2
+  - rankingEntryId: 3
+    iconId: 3
+    iconColorId: 3
+  - rankingEntryId: 4
+    iconId: 4
+    iconColorId: 4
+  - rankingEntryId: 5
+    iconId: 5
+    iconColorId: 5
+  - rankingEntryId: 6
+    iconId: 6
+    iconColorId: 6
+  - rankingEntryId: 7
+    iconId: 7
+    iconColorId: 7
+  - rankingEntryId: 8
+    iconId: 8
+    iconColorId: 8
+  - rankingEntryId: 9
+    iconId: 9
+    iconColorId: 9
+  - rankingEntryId: 10
+    iconId: 10
+    iconColorId: 10
+  - rankingEntryId: 11
+    iconId: 11
+    iconColorId: 11
+  - rankingEntryId: 12
+    iconId: 12
+    iconColorId: 12
+  - rankingEntryId: 13
+    iconId: 13
+    iconColorId: 0
+  - rankingEntryId: 14
+    iconId: 14
+    iconColorId: 1
+  - rankingEntryId: 15
+    iconId: 15
+    iconColorId: 2
+  - rankingEntryId: 16
+    iconId: 16
+    iconColorId: 3
+  - rankingEntryId: 17
+    iconId: 17
+    iconColorId: 4
+  - rankingEntryId: 18
+    iconId: 18
+    iconColorId: 5
+  - rankingEntryId: 19
+    iconId: 19
+    iconColorId: 6
+  - rankingEntryId: 20
+    iconId: 20
+    iconColorId: 7
+  - rankingEntryId: 21
+    iconId: 21
+    iconColorId: 8
+  - rankingEntryId: 22
+    iconId: 22
+    iconColorId: 9
+  - rankingEntryId: 23
+    iconId: 23
+    iconColorId: 10
+  - rankingEntryId: 24
+    iconId: 24
+    iconColorId: 11
+  - rankingEntryId: 25
+    iconId: 25
+    iconColorId: 12
+  - rankingEntryId: 26
+    iconId: 26
+    iconColorId: 0
+  - rankingEntryId: 27
+    iconId: 27
+    iconColorId: 1
+  - rankingEntryId: 28
+    iconId: 28
+    iconColorId: 2
+  - rankingEntryId: 29
+    iconId: 29
+    iconColorId: 3
+  - rankingEntryId: 30
+    iconId: 30
+    iconColorId: 4
+  - rankingEntryId: 31
+    iconId: 31
+    iconColorId: 5
+  - rankingEntryId: 32
+    iconId: 32
+    iconColorId: 6
+  - rankingEntryId: 33
+    iconId: 33
+    iconColorId: 7
+  - rankingEntryId: 34
+    iconId: 34
+    iconColorId: 8
+  - rankingEntryId: 35
+    iconId: 35
+    iconColorId: 9
+  - rankingEntryId: 36
+    iconId: 36
+    iconColorId: 10
+  - rankingEntryId: 37
+    iconId: 37
+    iconColorId: 11
+  - rankingEntryId: 38
+    iconId: 38
+    iconColorId: 12
+  - rankingEntryId: 39
+    iconId: 39
+    iconColorId: 0
+  - rankingEntryId: 40
+    iconId: 40
+    iconColorId: 1
+  - rankingEntryId: 41
+    iconId: 41
+    iconColorId: 2
+  - rankingEntryId: 42
+    iconId: 42
+    iconColorId: 3
+  value:
+  - rankingEntryId: 1
+    iconId: 1
+    iconColorId: 1
+  - rankingEntryId: 2
+    iconId: 2
+    iconColorId: 2
+  - rankingEntryId: 3
+    iconId: 3
+    iconColorId: 3
+  - rankingEntryId: 4
+    iconId: 4
+    iconColorId: 4
+  - rankingEntryId: 5
+    iconId: 5
+    iconColorId: 5
+  - rankingEntryId: 6
+    iconId: 6
+    iconColorId: 6
+  - rankingEntryId: 7
+    iconId: 7
+    iconColorId: 7
+  - rankingEntryId: 8
+    iconId: 8
+    iconColorId: 8
+  - rankingEntryId: 9
+    iconId: 9
+    iconColorId: 9
+  - rankingEntryId: 10
+    iconId: 10
+    iconColorId: 10
+  - rankingEntryId: 11
+    iconId: 11
+    iconColorId: 11
+  - rankingEntryId: 12
+    iconId: 12
+    iconColorId: 12
+  - rankingEntryId: 13
+    iconId: 13
+    iconColorId: 0
+  - rankingEntryId: 14
+    iconId: 14
+    iconColorId: 1
+  - rankingEntryId: 15
+    iconId: 15
+    iconColorId: 2
+  - rankingEntryId: 16
+    iconId: 16
+    iconColorId: 3
+  - rankingEntryId: 17
+    iconId: 17
+    iconColorId: 4
+  - rankingEntryId: 18
+    iconId: 18
+    iconColorId: 5
+  - rankingEntryId: 19
+    iconId: 19
+    iconColorId: 6
+  - rankingEntryId: 20
+    iconId: 20
+    iconColorId: 7
+  - rankingEntryId: 21
+    iconId: 21
+    iconColorId: 8
+  - rankingEntryId: 22
+    iconId: 22
+    iconColorId: 9
+  - rankingEntryId: 23
+    iconId: 23
+    iconColorId: 10
+  - rankingEntryId: 24
+    iconId: 24
+    iconColorId: 11
+  - rankingEntryId: 25
+    iconId: 25
+    iconColorId: 12
+  - rankingEntryId: 26
+    iconId: 26
+    iconColorId: 0
+  - rankingEntryId: 27
+    iconId: 27
+    iconColorId: 1
+  - rankingEntryId: 28
+    iconId: 28
+    iconColorId: 2
+  - rankingEntryId: 29
+    iconId: 29
+    iconColorId: 3
+  - rankingEntryId: 30
+    iconId: 30
+    iconColorId: 4
+  - rankingEntryId: 31
+    iconId: 31
+    iconColorId: 5
+  - rankingEntryId: 32
+    iconId: 32
+    iconColorId: 6
+  - rankingEntryId: 33
+    iconId: 33
+    iconColorId: 7
+  - rankingEntryId: 34
+    iconId: 34
+    iconColorId: 8
+  - rankingEntryId: 35
+    iconId: 35
+    iconColorId: 9
+  - rankingEntryId: 36
+    iconId: 36
+    iconColorId: 10
+  - rankingEntryId: 37
+    iconId: 37
+    iconColorId: 11
+  - rankingEntryId: 38
+    iconId: 38
+    iconColorId: 12
+  - rankingEntryId: 39
+    iconId: 39
+    iconColorId: 0
+  - rankingEntryId: 40
+    iconId: 40
+    iconColorId: 1
+  - rankingEntryId: 41
+    iconId: 41
+    iconColorId: 2
+  - rankingEntryId: 42
+    iconId: 42
+    iconColorId: 3
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,10 @@
+InfinityHeart.png
+size:1689,1689
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:2,85,922,799
+Normal/Layer 1
+bounds:928,805,882,759
+rotate:90
+WhiteOutline/Layer 1
+bounds:2,886,924,801

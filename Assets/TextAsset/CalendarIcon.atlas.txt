@@ -1,0 +1,83 @@
+
+CalendarIcon.png
+size: 1662, 1662
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BlackOutline/Layer 1
+  rotate: false
+  xy: 2, 1100
+  size: 572, 560
+  orig: 572, 560
+  offset: 0, 0
+  index: -1
+Normal/Layer 1
+  rotate: false
+  xy: 576, 1120
+  size: 552, 540
+  orig: 552, 540
+  offset: 0, 0
+  index: -1
+Normal/page2
+  rotate: true
+  xy: 576, 516
+  size: 602, 463
+  orig: 602, 463
+  offset: 0, 0
+  index: -1
+Normal/page3
+  rotate: true
+  xy: 1041, 459
+  size: 659, 244
+  orig: 659, 244
+  offset: 0, 0
+  index: -1
+Normal/page4
+  rotate: true
+  xy: 1287, 566
+  size: 609, 353
+  orig: 609, 353
+  offset: 0, 0
+  index: -1
+Normal/page5
+  rotate: false
+  xy: 1130, 1177
+  size: 513, 483
+  orig: 513, 483
+  offset: 0, 0
+  index: -1
+Normal/page6
+  rotate: false
+  xy: 2, 74
+  size: 487, 462
+  orig: 487, 462
+  offset: 0, 0
+  index: -1
+Normal/page7
+  rotate: true
+  xy: 491, 2
+  size: 512, 325
+  orig: 512, 325
+  offset: 0, 0
+  index: -1
+Normal/page8
+  rotate: false
+  xy: 1025, 276
+  size: 519, 181
+  orig: 519, 181
+  offset: 0, 0
+  index: -1
+Normal/page9
+  rotate: true
+  xy: 818, 5
+  size: 509, 205
+  orig: 509, 205
+  offset: 0, 0
+  index: -1
+WhiteOutline/Layer 1
+  rotate: false
+  xy: 2, 538
+  size: 572, 560
+  orig: 572, 560
+  offset: 0, 0
+  index: -1

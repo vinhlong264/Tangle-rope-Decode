@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a8415f7ad10795300d23530749fa26, type: 3}
+  m_Name: Ladder Offer Nested Bundle View Settings
+  m_EditorClassIdentifier:
+  baseSettings: {fileID: 0}
+  defaultViewPrefab: {fileID: 114002669891404536, guid: 4bc523e4c849c9840b150b4fd523486e, type: 2}
+  viewPrefabsWithProductId: []
+  viewPrefabsWithId:
+  - productPackId: heart_pack
+    productType: {fileID: 11400000, guid: f7440c5ec0210a540bdc1947ed071cb4, type: 2}
+    view: {fileID: 114711914853252429, guid: 0d287e1ba036ada47b6bfb8c06405780, type: 2}
+  - productPackId: multiplier_pack
+    productType: {fileID: 11400000, guid: 756e4131ca08148479fb516860582e04, type: 2}
+    view: {fileID: 114711914853252429, guid: d4ae79fb4c222164ba90fdb8fd79c3f0, type: 2}

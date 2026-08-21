@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e40444320065bc8d75cb38897f9aac6, type: 3}
+  m_Name: Grid Ladder Offer View Item Prefab Settings
+  m_EditorClassIdentifier:
+  itemViewsPrefabs:
+  - Type: Free
+    ItemViewPrefab: {fileID: 114642988549198181, guid: 38fc096cb8f6cf849ba66543a2ebd60f, type: 2}
+  - Type: IAP
+    ItemViewPrefab: {fileID: 114587397909062814, guid: d26d26d2a433dfa4db3b4908788cc805, type: 2}
+  - Type: RW
+    ItemViewPrefab: {fileID: 114518489005915545, guid: 199d691774d79a244ab6850ee91227a6, type: 2}

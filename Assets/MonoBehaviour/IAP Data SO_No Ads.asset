@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_No Ads
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: no_ads_pack
+      Name: no_ads_pack_name
+      Description: Remove Ads
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: no_ads_product_name
+        Id: noads_twistedtangle
+        Description: no_ads_product_info
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: 9ehqnp
+        ElephantEventParam: noads
+        Price: 7.99
+      DisablerIds: []
+    BundlePacks:
+    - Enabled: 1
+      IsDiscount: 1
+      Id: discounts_no_ads
+      Name: Discounts No Ads
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: No Ads 2
+          Id: twistedtangle_noads_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: m6a8x1
+          ElephantEventParam: noads_2
+          Price: 6.49
+        ProductIds:
+        - noads_twistedtangle
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: No Ads 3
+          Id: twistedtangle_noads_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: d5z4ja
+          ElephantEventParam: noads_3
+          Price: 4.99
+        ProductIds:
+        - noads_twistedtangle
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: No Ads 24H
+          Id: noads_twistedtangle_24h
+          Description:
+          IsConsumable: 1
+          Amount: 24
+          AdjustEventToken: yhil9j
+          ElephantEventParam: noads_24h
+          Price: 0.99
+        ProductIds:
+        - noads_twistedtangle
+    FakeReceiptIds: []
+    OfferPopUpsSettings:
+    - Enabled: 1
+      Id: noads_twistedtangle
+      Priority: 1
+      EarlyOffer: 1
+      MinEarlyOfferLevel: 8
+      MinEarlyOfferInterCount: 1
+      MinOfferLevel: 20
+      LevelFrequency: 20
+      InterFrequency: 6
+      MinPayment: 0
+      DailyShowLimit: 2
+      TotalShowLimit: 9999999
+    LimitedOffers:
+    - Enabled: 0
+      OfferId: noads_twistedtangle_24h
+      HasInfiniteDuration: 1
+      OfferDurationHours: 0.01
+      HasInfiniteOfferCount: 1
+      MaxOfferCount: 0
+      ProductId: noads_twistedtangle_24h
+    TemporaryProducts:
+    - productPackId: discounts_no_ads
+      allSettings:
+      - Id: noads_twistedtangle_24h
+        OriginalSaveProductId: noads_twistedtangle_24h
+        ExpirationHours: 24
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    ConditionalIds:
+    - productPackId: no_ads_pack
+      allSettings:
+      - Id: no_ads_pack
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: interstitial_enabled
+        DependentValue: 1

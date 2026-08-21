@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7d4ad4c5eccd5a5416ad7be875f7b3, type: 3}
+  m_Name: Shop Products Type Settings
+  m_EditorClassIdentifier:
+  iapDataService: {fileID: 11400000, guid: a6768798eb39b7444897e842db82e5f8, type: 2}
+  typesDataWithProductPackId:
+  - productPackId: cut_pack
+    type: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+  - productPackId: shuffle_pack
+    type: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+  - productPackId: time_freeze_pack
+    type: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+  - productPackId: undo_pack
+    type: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+  - productPackId: coin_pack
+    type: {fileID: 11400000, guid: dcfa708e75cdcc041905f34e56d376fd, type: 2}
+  - productPackId: coin_pack_2
+    type: {fileID: 11400000, guid: dcfa708e75cdcc041905f34e56d376fd, type: 2}
+  - productPackId: heart_infinite_pack
+    type: {fileID: 11400000, guid: f7440c5ec0210a540bdc1947ed071cb4, type: 2}
+  - productPackId: hammer_pack
+    type: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+  - productPackId: pocket_watch_pack
+    type: {fileID: 11400000, guid: a9b3ece747b1eb248bcc9881c8097629, type: 2}
+  typesDataWithProductId:
+  - productId: twistedtangle_heart_inf
+    type: {fileID: 11400000, guid: f7440c5ec0210a540bdc1947ed071cb4, type: 2}

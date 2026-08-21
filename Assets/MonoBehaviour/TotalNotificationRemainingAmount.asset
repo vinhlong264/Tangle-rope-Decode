@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef65a150a8b1925750e85e6ed9576f15, type: 3}
+  m_Name: TotalNotificationRemainingAmount
+  m_EditorClassIdentifier:
+  DataGroup: 0
+  ReadableSaveKey: TotalNotificationRemainingAmount
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 3877658944
+    m_Value1: 3309868212
+    m_Value2: 186826243
+    m_Value3: 3474880474
+  setSessionStartValue: 0
+  initialValue: 0
+  value: 0
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

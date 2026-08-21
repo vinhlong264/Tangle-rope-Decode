@@ -1,0 +1,57 @@
+Labor Day_Icon.png
+size:1935,1935
+filter:Linear,Linear
+coin 1
+bounds:1766,832,101,107
+offsets:321,376,1181,1049
+rotate:90
+coin 2
+bounds:1766,935,114,105
+offsets:405,298,1181,1049
+rotate:90
+coin 3
+bounds:1729,1179,132,104
+offsets:553,300,1181,1049
+coin 4
+bounds:1766,1051,126,98
+offsets:488,310,1181,1049
+rotate:90
+cover down back
+bounds:2,365,788,597
+offsets:123,78,1181,1049
+cover down front
+bounds:943,1166,784,437
+offsets:125,87,1181,1049
+cover down shadow
+bounds:2,4,786,359
+offsets:132,72,1181,1049
+cover up
+bounds:792,324,659,552
+offsets:466,420,1181,1049
+hammer
+bounds:1453,560,316,301
+offsets:161,276,1181,1049
+rotate:90
+hammer tip
+bounds:1562,126,153,175
+offsets:164,401,1181,1049
+image
+bounds:2,964,939,969
+pliers
+bounds:1453,303,281,255
+offsets:387,266,1181,1049
+red rope
+bounds:943,1605,919,328
+offsets:150,148,1181,1049
+red rope pieces
+bounds:790,2,542,320
+offsets:50,147,1181,1049
+red rope shadow
+bounds:943,878,821,286
+offsets:77,155,1181,1049
+scissors
+bounds:1334,85,226,216
+offsets:280,344,1181,1049
+screwdriver
+bounds:1729,1285,165,318
+offsets:716,299,1181,1049

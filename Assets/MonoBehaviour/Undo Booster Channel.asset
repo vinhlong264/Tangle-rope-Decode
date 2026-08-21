@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e458e055862ae84b653d7da3a697267, type: 3}
+  m_Name: Undo Booster Channel
+  m_EditorClassIdentifier:
+  currentState: 0
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}
+  resourceChannel: {fileID: 11400000, guid: f2000bd81781c164d9fa1968928b1285, type: 2}
+  settings: {fileID: 11400000, guid: f599984c93f3b64428944fae6fe19806, type: 2}
+  uiData: {fileID: 11400000, guid: 43b09cf29d7b3fe4fb6d066d6bf000ed, type: 2}
+  boosterAvailableConditions:
+  - variableReferenceType: 100
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+    customType1: {fileID: 11400000, guid: 136e7c731be4d684cb0d64d68cd1082a, type: 2}
+  buttonVisibleConditions: []
+  buttonActiveConditions:
+  - {fileID: 11400000, guid: 83d52fa9d5ba1824c8a349632481a430, type: 2}
+  - {fileID: 11400000, guid: b8c4d3ab1ea6b8b41bb093c710cea9d1, type: 2}
+  buttonClickableConditions: []
+  didClaimFirstTime: {fileID: 11400000, guid: 27f0afabcdb23eb48bd73ae56ae5c121, type: 2}
+  OnRequested:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPerformed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCanceledOrFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBoosterPurchasedWithResource:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResourceNotEnough:
+    m_PersistentCalls:
+      m_Calls: []

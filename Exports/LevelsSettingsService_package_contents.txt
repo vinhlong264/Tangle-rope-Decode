@@ -1,0 +1,9 @@
+Assets/MonoBehaviour/LevelsSettingsService.asset
+Assets/Scripts/Assembly-CSharp/Crescive/Levels/LevelsSettingsService.cs
+Assets/Scripts/Assembly-CSharp/Crescive/Levels/LevelsSettingsData.cs
+Assets/Scripts/Assembly-CSharp/Crescive/Levels/LevelSettingsData.cs
+Assets/Scripts/Assembly-CSharp/Crescive/Levels/DifficultySettingsData.cs
+Assets/Scripts/Assembly-CSharp/Crescive/Levels/LevelFunnelData.cs
+Assets/Scripts/Assembly-CSharp/Crescive/Levels/BaseLevelFunnelData.cs
+Assets/Scripts/Assembly-CSharp/Crescive/CreatorMode/LevelCreatorData.cs
+Assets/Scripts/Assembly-CSharp/Crescive/CreatorMode/LevelCreatorSaveData.cs

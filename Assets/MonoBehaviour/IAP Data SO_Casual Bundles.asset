@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Casual Bundles
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks: []
+    BundlePacks:
+    - Enabled: 1
+      IsDiscount: 0
+      Id: casual_bundles
+      Name: casual_bundles_pack_name
+      Description: casual_bundles_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualstarter_1_name
+          Id: twistedtangle_casualstarter_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: xcuahv
+          ElephantEventParam: casualstarter_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_1000
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 0
+          UseInShop: 1
+          Name: casualstarter_v1_1_name
+          Id: twistedtangle_casualstarter_v1_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: bisppz
+          ElephantEventParam: casualstarter_v1_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_1000
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack1_name
+          Id: twistedtangle_casualpack1_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: vvxv0q
+          ElephantEventParam: casualpack1_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_2000
+        - twistedtangle_heartinf_15m
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack2_name
+          Id: twistedtangle_casualpack2_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: kkuf42
+          ElephantEventParam: casualpack2_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_5000
+        - twistedtangle_heartinf_45m
+        - twistedtangle_cut_2
+        - twistedtangle_undo_2
+        - twistedtangle_timefreeze_2
+        - twistedtangle_shuffle_2
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack3_name
+          Id: twistedtangle_casualpack3_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: p6mqjz
+          ElephantEventParam: casualpack3_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_10000
+        - twistedtangle_heartinf_3h
+        - twistedtangle_cut_5
+        - twistedtangle_undo_5
+        - twistedtangle_timefreeze_5
+        - twistedtangle_shuffle_5
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack4_name
+          Id: twistedtangle_casualpack4_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: kvqkqu
+          ElephantEventParam: casualpack4_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_25000
+        - twistedtangle_heartinf_9h
+        - twistedtangle_cut_12
+        - twistedtangle_undo_12
+        - twistedtangle_timefreeze_12
+        - twistedtangle_shuffle_12
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack5_name
+          Id: twistedtangle_casualpack5_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: ft3qt1
+          ElephantEventParam: casualpack5_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_50000
+        - twistedtangle_heartinf_24h
+        - twistedtangle_cut_25
+        - twistedtangle_undo_25
+        - twistedtangle_timefreeze_25
+        - twistedtangle_shuffle_25
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack6_name
+          Id: twistedtangle_casualpack6_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: krn770
+          ElephantEventParam: casualpack6_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_65000
+        - twistedtangle_heartinf_48h
+        - twistedtangle_cut_30
+        - twistedtangle_undo_30
+        - twistedtangle_timefreeze_30
+        - twistedtangle_shuffle_30
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds:
+    - productPackId: casual_bundles
+      allSettings:
+      - Id: casual_bundles
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.402823E+38
+        DependentRemoteConfigKey: boosters_enabled
+        DependentValue: 1

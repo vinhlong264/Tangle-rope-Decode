@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18193b314b9ba775182cc39f33981084, type: 3}
+  m_Name: Dynamic Quest System
+  m_EditorClassIdentifier:
+  service: {fileID: 11400000, guid: 7bf548f80645f02499648fe18a9856c6, type: 2}
+  saveData: {fileID: 11400000, guid: 315df407b8afa2d42b7fe8cbbc8c2ff6, type: 2}
+  scheduler: {fileID: 11400000, guid: 5b4995f08805962409e2f2c5936b4ed7, type: 2}
+  iapStoreControllerChannel: {fileID: 11400000, guid: 65e3f29e411d14243af92063bb1bc821, type: 2}
+  tokensMultiplier: {fileID: 11400000, guid: df92d69ff9de57346b201d8463682f0f, type: 2}
+  collectedInLevelTokens:
+    settableVariableReferenceType: 0
+    atomVariable: {fileID: 11400000, guid: c00a5fe894ccd27438ff7c98f29de44e, type: 2}
+    atomVariableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    settableScriptableProperty: {fileID: 0}

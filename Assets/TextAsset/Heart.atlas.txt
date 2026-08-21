@@ -1,0 +1,13 @@
+Heart.png
+size:1718,1718
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:2,886,954,830
+offsets:0,0,954,831
+Normal/Layer 1
+bounds:958,834,882,758
+offsets:0,0,882,759
+rotate:90
+WhiteOutline/Layer 1
+bounds:2,54,954,830
+offsets:0,0,954,831

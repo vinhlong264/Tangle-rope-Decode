@@ -1,0 +1,386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Boosters
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: cut_pack
+      Name: cut_pack_name
+      Description: cut_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_1
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_2
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_3
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_5
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_6
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_12
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_15
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_25
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_30
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: shuffle_pack
+      Name: shuffle_pack_name
+      Description: shuffle_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_1
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_2
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_3
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_5
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_6
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_12
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_15
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_25
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_30
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: time_freeze_pack
+      Name: time_freeze_pack_name
+      Description: time_freeze_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_1
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_2
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_3
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_5
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_6
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_12
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_15
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_25
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_30
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: undo_pack
+      Name: undo_pack_name
+      Description: undo_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_1
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_2
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_3
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_5
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_12
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_25
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_30
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    BundlePacks: []
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds: []

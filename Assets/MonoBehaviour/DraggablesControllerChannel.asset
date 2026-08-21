@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa35446147e0c0cbaaa6951e50a5256, type: 3}
+  m_Name: DraggablesControllerChannel
+  m_EditorClassIdentifier:
+  OnTapDraggable:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGrab:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDrag:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDropTargetSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDropTargetUnselected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnselectWithoutGrab:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTapDropTarget:
+    m_PersistentCalls:
+      m_Calls: []
+  currentDraggable: {fileID: 0}
+  currentDropTarget: {fileID: 0}
+  dragThresholdReached: 0

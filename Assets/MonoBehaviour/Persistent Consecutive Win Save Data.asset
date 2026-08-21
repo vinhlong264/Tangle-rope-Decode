@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1cec42f121bf0e4c90579a3635437c, type: 3}
+  m_Name: Persistent Consecutive Win Save Data
+  m_EditorClassIdentifier:
+  DataGroup: 10
+  ReadableSaveKey: PersistentConsecutiveWinSaveData
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 653334408
+    m_Value1: 3500923684
+    m_Value2: 2830442260
+    m_Value3: 4238082675
+  setSessionStartValue: 0
+  initialValue:
+    WinCount: 0
+    IsRewardClaimed: 0
+    IsTutorialActive: 1
+    IsWinCountChanged: 0
+  value:
+    WinCount: 0
+    IsRewardClaimed: 0
+    IsTutorialActive: 1
+    IsWinCountChanged: 0
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

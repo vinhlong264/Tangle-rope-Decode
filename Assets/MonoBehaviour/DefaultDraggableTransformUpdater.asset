@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052f36d0700ddc4571f940c2b4961b51, type: 3}
+  m_Name: DefaultDraggableTransformUpdater
+  m_EditorClassIdentifier:
+  dragPositionClampers:
+  - {fileID: 11400000, guid: 4da374e0fc1551344955a9f18e6c95ca, type: 2}
+  useRigidbody: 0
+  lerpPosition: 1
+  moveTime: 30
+  affectRotation: 0
+  isRotationReversed: 0
+  wobbleStrength: 140
+  wobbleTime: 10
+  wobbleMinMaxAngles: {x: -45, y: 45}

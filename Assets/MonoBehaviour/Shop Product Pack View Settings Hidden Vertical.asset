@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e2bb36fef458015fa1aedbf650f689, type: 3}
+  m_Name: Shop Product Pack View Settings Hidden Vertical
+  m_EditorClassIdentifier:
+  defaultViewPrefab: {fileID: 114672306508523268, guid: c8b206040500ef547a58947b07864c5f, type: 2}
+  viewPrefabsWithId: []

@@ -1,0 +1,25 @@
+fall_icon.png
+size:624,624
+filter:Linear,Linear
+1
+bounds:321,184,66,70
+2
+bounds:389,277,85,95
+offsets:0,2,86,97
+3
+bounds:491,399,75,80
+4
+bounds:389,374,100,105
+offsets:1,0,101,105
+bucket
+bounds:2,256,385,366
+offsets:1,0,392,366
+ek parça
+bounds:269,91,163,50
+rotate:90
+image
+bounds:2,2,252,265
+rotate:90
+ribbon
+bounds:389,481,226,141
+offsets:5,15,231,156

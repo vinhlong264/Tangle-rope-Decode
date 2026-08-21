@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3cc0be10ac80c3080c75cb917eb5caf, type: 3}
+  m_Name: CollectionItemRankingRewardClaimer
+  m_EditorClassIdentifier:
+  collectionItemSystemsChannel: {fileID: 11400000, guid: c30b2b6743cb1284bad2856419fda7db, type: 2}

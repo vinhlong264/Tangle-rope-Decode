@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4cb061d3a5fd53eb0f3ed2666032f0, type: 3}
+  m_Name: Offer Requester
+  m_EditorClassIdentifier:
+  coinResourceChannel: {fileID: 11400000, guid: 91c6432d13613a3408a4f19468723372, type: 2}
+  heartResourceChannel: {fileID: 11400000, guid: 7b6e7e2e8d682c549a3dca37e88fb795, type: 2}
+  persistentUserPayments: {fileID: 11400000, guid: 90ac2898ad8f6ea44bfac6ce9b3cdfc5, type: 2}
+  lastOffersData: {fileID: 11400000, guid: 236eca6eb8d14e74f987b8739ac3f479, type: 2}
+  triggerPointValue: {fileID: 11400000, guid: 5e13d1cc76e8c9c43871665275f90dda, type: 2}
+  offerRequestTimeout: {fileID: 11400000, guid: 28c015eb04c4fc5409db3aecf5fd6489, type: 2}
+  offerShowStoreWaitTimeout: {fileID: 11400000, guid: ed10a096323eb1448bc364b300dc707a, type: 2}
+  testOfferMetaData: {fileID: 11400000, guid: 61f8a04fc836c9c47881c053c577fa3b, type: 2}

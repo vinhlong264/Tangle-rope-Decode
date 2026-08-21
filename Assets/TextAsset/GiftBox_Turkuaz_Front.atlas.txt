@@ -1,0 +1,17 @@
+GiftBox_Turkuaz_Front.png
+size:1371,1371
+filter:Linear,Linear
+BlackOutline/1_top
+bounds:576,414,570,476
+BlackOutline/Layer 1
+bounds:2,56,410,408
+rotate:90
+Normal/1_top
+bounds:2,880,572,489
+Normal/Layer 1
+bounds:2,468,412,410
+WhiteOutline/1_top
+bounds:576,892,570,477
+WhiteOutline/Layer 1
+bounds:412,2,410,408
+rotate:90

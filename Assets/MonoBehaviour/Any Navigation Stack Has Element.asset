@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f5349e853cd26f57e1a784117e244c, type: 3}
+  m_Name: Any Navigation Stack Has Element
+  m_EditorClassIdentifier:
+  _developerDescription:
+  channels:
+  - {fileID: 11400000, guid: 828f370002d0a2249af318cbc4427f58, type: 2}
+  - {fileID: 11400000, guid: 2f6e0988f166cb6479f0fc4edfb8ec5a, type: 2}
+  - {fileID: 11400000, guid: 1f92b1c8c9106ad4aa36ca94cb7180b2, type: 2}

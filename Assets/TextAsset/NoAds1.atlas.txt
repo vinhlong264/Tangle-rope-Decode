@@ -1,0 +1,13 @@
+NoAds1.png
+size:1210,1210
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:2,588,602,620
+Normal/2
+bounds:564,105,327,164
+Normal/3
+bounds:564,271,348,315
+Normal/Layer 1
+bounds:2,8,560,578
+WhiteOutline/Layer 1
+bounds:606,588,602,620

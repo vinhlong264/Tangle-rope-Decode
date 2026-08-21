@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de5ab40bc7801a5455694bf4219dafa, type: 3}
+  m_Name: IAPRemoteConfigProvider
+  m_EditorClassIdentifier:
+  remoteCompositeConfigVariable: {fileID: 11400000, guid: 0161cba42ecf797408fb27e44cb6dca0, type: 2}
+  configSource: {fileID: 11400000, guid: 3eeef9e222f78bf4dbc0394af691e707, type: 2}
+  defaultSubKeys:
+  - iap_settings_noads
+  - iap_settings_boosters
+  - iap_settings_dynamic_quest
+  - iap_settings_ego_offers
+  - iap_settings_ladder
+  - iap_settings_resources
+  - iap_settings_skins
+  - iap_settings_gold_noniap
+  - iap_settings_gold
+  - iap_settings_casual_bundles
+  - iap_settings_first_anniversary_segmented
+  - iap_settings_4th_of_july_segmented
+  - iap_settings_card_collection
+  - iap_settings_race
+  - iap_settings_race_with_cards
+  - iap_settings_daily_login
+  - iap_settings_summer_offer_segmented
+  - iap_settings_battle_pass_no_cards
+  - iap_settings_labor_day_offer_segmented
+  - iap_settings_halloween_offer_segmented
+  - iap_settings_thanksgiving_offer_segmented
+  - iap_settings_blackfriday_offer_segmented
+  - iap_settings_mothers_day_segmented
+  - iap_settings_mini_shop_special_offers
+  - ap_settings_fourthjuly_segmented

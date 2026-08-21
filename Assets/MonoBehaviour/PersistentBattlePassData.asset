@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af22e7234263acec14967710beb1203, type: 3}
+  m_Name: PersistentBattlePassData
+  m_EditorClassIdentifier:
+  DataGroup: 6
+  ReadableSaveKey: PersistentBattlePassData
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 2858743382
+    m_Value1: 989480132
+    m_Value2: 3092782749
+    m_Value3: 2998716941
+  setSessionStartValue: 0
+  initialValue:
+    Id:
+    Status: 0
+    Step: 0
+    Tokens: 0
+    IsGoldenTicketPurchased: 0
+    PendingTokens: 0
+    PendingMultiplier: 0
+    LastOpenedStep: 0
+    IsBonusCaseClaimed: 0
+    ClaimedFreeSteps:
+    ClaimedGoldenSteps:
+    IsFirstRewardClaimedTutorial: 0
+    IsProgressClickedTutorial: 0
+    IsGoldenTicketClickedTutorial: 0
+    ActivationCount: 0
+    Version: 0
+  value:
+    Id:
+    Status: 0
+    Step: 0
+    Tokens: 0
+    IsGoldenTicketPurchased: 0
+    PendingTokens: 0
+    PendingMultiplier: 0
+    LastOpenedStep: 0
+    IsBonusCaseClaimed: 0
+    ClaimedFreeSteps:
+    ClaimedGoldenSteps:
+    IsFirstRewardClaimedTutorial: 0
+    IsProgressClickedTutorial: 0
+    IsGoldenTicketClickedTutorial: 0
+    ActivationCount: 0
+    Version: 0
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

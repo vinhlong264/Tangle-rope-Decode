@@ -1,0 +1,7 @@
+image (3).png
+size:1451,1451
+filter:Linear,Linear
+Layer 1
+bounds:2,1225,200,198
+image
+bounds:2,1425,1447,24

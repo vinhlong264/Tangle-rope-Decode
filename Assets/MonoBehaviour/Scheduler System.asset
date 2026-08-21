@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9f114bc6485a9fea5720e8f9abc01d, type: 3}
+  m_Name: Scheduler System
+  m_EditorClassIdentifier:
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}
+  dataService: {fileID: 11400000, guid: b78d12992f7f21a4da6ffaf21dba191a, type: 2}
+  saveData: {fileID: 11400000, guid: a76994c39ceeca648991d8789bcb0d54, type: 2}
+  events: {fileID: 11400000, guid: e7d947609eebf8348866ed22983f6e3c, type: 2}

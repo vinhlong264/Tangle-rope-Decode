@@ -1,0 +1,16 @@
+Shop_Icon.png
+size:1580,1580
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:2,831,730,747
+BlackOutline/Shop_Icon2
+bounds:734,580,764,308
+Normal/Layer 1
+bounds:734,890,688,705
+rotate:90
+Normal/Shop_Icon2
+bounds:734,2,722,266
+WhiteOutline/Layer 1
+bounds:2,82,730,747
+WhiteOutline/Shop_Icon2
+bounds:734,270,764,308

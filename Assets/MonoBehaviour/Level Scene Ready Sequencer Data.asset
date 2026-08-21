@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e724f0dc6dc265abc9c573c04643cf4, type: 3}
+  m_Name: Level Scene Ready Sequencer Data
+  m_EditorClassIdentifier:
+  data: {fileID: 0}
+  steps:
+  - {fileID: 11400000, guid: 8490ab5623638ae4fb85d6f930adfa55, type: 2}
+  - {fileID: 11400000, guid: 526600246f625774cb6565d1ffae744c, type: 2}
+  - {fileID: 11400000, guid: 30f52b35c27a0374fa38ea0f2cd36a54, type: 2}
+  - {fileID: 11400000, guid: d9e02735938769642bedac971aeb9670, type: 2}

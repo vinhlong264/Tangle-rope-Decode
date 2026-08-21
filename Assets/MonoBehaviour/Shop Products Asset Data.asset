@@ -1,0 +1,451 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deed9c4e8c6654b1c47abcf222e419ff, type: 3}
+  m_Name: Shop Products Asset Data
+  m_EditorClassIdentifier:
+  productAssetData:
+  - id: twistedtangle_heart_5
+    data:
+      icon: {fileID: 21300000, guid: 2e89d7e7ecfe3a44c95d90a8d47abaac, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_heart_10
+    data:
+      icon: {fileID: 21300000, guid: 4efab8bb42bcfd44ebb12c8f1e69d296, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_heart_30
+    data:
+      icon: {fileID: 21300000, guid: bed9caf54f4b5404da8a3f87d82a1064, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_heart_100
+    data:
+      icon: {fileID: 21300000, guid: c2e64a810fe312742a17d6d4a057731d, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_heart_300
+    data:
+      icon: {fileID: 21300000, guid: 1ff35532c6e7aed49b2cacde950e921b, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_heart_inf
+    data:
+      icon: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconXL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+  - id: twistedtangle_money_1k
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_money_2_5k
+    data:
+      icon: {fileID: 21300000, guid: b0c55a4269c70564a8d04834773fd32f, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_money_7_5k
+    data:
+      icon: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_money_20k
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_money_40k
+    data:
+      icon: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconL: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_money_100k
+    data:
+      icon: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconL: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_skipit_10
+    data:
+      icon: {fileID: 21300000, guid: 2fd38924b074972429c8319528451006, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_skipit_20
+    data:
+      icon: {fileID: 21300000, guid: 347a169123cdb97418369499890c34fa, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_skipit_50
+    data:
+      icon: {fileID: 21300000, guid: d0c4cdd77c666094ca3a3ad5e8de172f, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_skipit_100
+    data:
+      icon: {fileID: 21300000, guid: d56ad43730a615543be6065e941fc91e, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_skipit_400
+    data:
+      icon: {fileID: 21300000, guid: 03741458bd588374ea59a7301632064d, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_skipit_ul
+    data:
+      icon: {fileID: 21300000, guid: a9243c8215173444f8a4331d5ea37771, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: noads_twistedtangle
+    data:
+      icon: {fileID: 21300000, guid: f4c718accf6bf794cae1f17a28d6f38b, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_unlock_challenge_levels
+    data:
+      icon: {fileID: 21300000, guid: fb4cb366f1d79884f89a0e4855f9abb3, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_1k
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_2k
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_5k
+    data:
+      icon: {fileID: 21300000, guid: b0c55a4269c70564a8d04834773fd32f, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_10k
+    data:
+      icon: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_25k
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_50k
+    data:
+      icon: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconL: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_65k
+    data:
+      icon: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconL: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_100k
+    data:
+      icon: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconL: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_250
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_750
+    data:
+      icon: {fileID: 21300000, guid: b0c55a4269c70564a8d04834773fd32f, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_1600
+    data:
+      icon: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_4000
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_6500
+    data:
+      icon: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconL: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_coin_12500
+    data:
+      icon: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconL: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_2000_ego
+    data:
+      icon: {fileID: 21300000, guid: 7ad3976de52c8e6449bb01dd8710a19d, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_100
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_200
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_250
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_300
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_350
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_450
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_500
+    data:
+      icon: {fileID: 21300000, guid: b0c55a4269c70564a8d04834773fd32f, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_750
+    data:
+      icon: {fileID: 21300000, guid: b0c55a4269c70564a8d04834773fd32f, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_1000
+    data:
+      icon: {fileID: 21300000, guid: b0c55a4269c70564a8d04834773fd32f, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_1500
+    data:
+      icon: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_2000
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_2500
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_3000
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_3500
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_4000
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_4500
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_5000
+    data:
+      icon: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconL: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_5500
+    data:
+      icon: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconL: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_6000
+    data:
+      icon: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconL: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_10000
+    data:
+      icon: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconL: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_25000
+    data:
+      icon: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconL: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_bundle_1000
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_bundle_2000
+    data:
+      icon: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconL: {fileID: 21300000, guid: 6ee9d5fa90f2b3a4b9b5eb061458b6ac, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_bundle_5000
+    data:
+      icon: {fileID: 21300000, guid: b0c55a4269c70564a8d04834773fd32f, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_bundle_10000
+    data:
+      icon: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconL: {fileID: 21300000, guid: bb249cab8fc208e4dbd177cd968ca377, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_bundle_25000
+    data:
+      icon: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconL: {fileID: 21300000, guid: 8e8181bacb4659d4e9bcb91017b47660, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_bundle_50000
+    data:
+      icon: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconL: {fileID: 21300000, guid: 8bbe87a556590ff42bae87fea699cc8f, type: 2}
+      iconXL: {fileID: 0}
+  - id: coin_noniap_bundle_65000
+    data:
+      icon: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconL: {fileID: 21300000, guid: 959e304a31acc7d4aa5bcb32e0d5e972, type: 2}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_heartinf_15m
+    data:
+      icon: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconXL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+  - id: twistedtangle_heartinf_30m
+    data:
+      icon: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconXL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+  - id: twistedtangle_heartinf_1h
+    data:
+      icon: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconXL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+  - id: twistedtangle_timefreeze_1
+    data:
+      icon: {fileID: 21300000, guid: 0fd1ea768f533924ea214b3ac443b6ae, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_timefreeze_2
+    data:
+      icon: {fileID: 21300000, guid: 0fd1ea768f533924ea214b3ac443b6ae, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_cut_1
+    data:
+      icon: {fileID: 21300000, guid: 3fac323fe81e5954cb3278e7b37ddcd0, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_cut_2
+    data:
+      icon: {fileID: 21300000, guid: 3fac323fe81e5954cb3278e7b37ddcd0, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_shuffle_1
+    data:
+      icon: {fileID: 21300000, guid: 14ec3703e05122f458314d503921b12e, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_shuffle_2
+    data:
+      icon: {fileID: 21300000, guid: 14ec3703e05122f458314d503921b12e, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_default
+    data:
+      icon: {fileID: 21300000, guid: fb4cb366f1d79884f89a0e4855f9abb3, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_halloween
+    data:
+      icon: {fileID: 21300000, guid: fb4cb366f1d79884f89a0e4855f9abb3, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_battlepass
+    data:
+      icon: {fileID: 21300000, guid: fb4cb366f1d79884f89a0e4855f9abb3, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_free_chest_1
+    data:
+      icon: {fileID: 21300000, guid: 4a592faeedd2c5740a1366f51077e4c9, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_free_chest_2
+    data:
+      icon: {fileID: 21300000, guid: 4bcee1669108e3148a8cb25b8023557c, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_free_chest_3
+    data:
+      icon: {fileID: 21300000, guid: c41bea204d4a4fa4b8f0a8b2e5f107af, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_golden_ticket_chest_1
+    data:
+      icon: {fileID: 21300000, guid: 9cbfe47c9fa9a694db22382cf9714bf8, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_golden_ticket_chest_2
+    data:
+      icon: {fileID: 21300000, guid: c41bea204d4a4fa4b8f0a8b2e5f107af, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: battle_pass_golden_ticket_chest_3
+    data:
+      icon: {fileID: 21300000, guid: cbd6fa64cbfe45b4c959f83b7a5341ae, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_cut_4
+    data:
+      icon: {fileID: 21300000, guid: 3fac323fe81e5954cb3278e7b37ddcd0, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_timefreeze_4
+    data:
+      icon: {fileID: 21300000, guid: 0fd1ea768f533924ea214b3ac443b6ae, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_shuffle_4
+    data:
+      icon: {fileID: 21300000, guid: 14ec3703e05122f458314d503921b12e, type: 2}
+      iconL: {fileID: 0}
+      iconXL: {fileID: 0}
+  - id: twistedtangle_heartinf_2h
+    data:
+      icon: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+      iconXL: {fileID: 21300000, guid: 001dfce6c985eee469146d60a91d1c4a, type: 2}
+  collectionProductAssetData:
+  - id: twistedtangle_pin_lotus
+    itemGameData: {fileID: 11400000, guid: 69a89fa1c6233f940b0aab2203d50f99, type: 2}
+  - id: twistedtangle_pin_sportshoe
+    itemGameData: {fileID: 11400000, guid: d9315e03cb5b3cc44b0080d8aca35910, type: 2}
+  - id: twistedtangle_pin_speaker
+    itemGameData: {fileID: 11400000, guid: 6c0cb5ed9c41d4a4fa13dab8f994c193, type: 2}
+  - id: twistedtangle_rope_disco
+    itemGameData: {fileID: 11400000, guid: 3915312d35a8c3c49a702ff31015b64e, type: 2}
+  - id: twistedtangle_rope_pearls
+    itemGameData: {fileID: 11400000, guid: 7e7ad8325f83410449afcc7dd569ec9d, type: 2}

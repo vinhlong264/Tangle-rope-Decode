@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9e23c9a4a7c85eb8793b0b3f2cf440, type: 3}
+  m_Name: RaceEvents
+  m_EditorClassIdentifier:
+  OnOfferRace:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeclineRace:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAcceptRace:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRaceStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRaceOngoing:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRaceFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRaceFinishConfirmed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRaceUnavailable:
+    m_PersistentCalls:
+      m_Calls: []

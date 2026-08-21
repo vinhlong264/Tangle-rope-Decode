@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29de2ea8faed61409acef8d36768075f, type: 3}
+  m_Name: NearColorListData
+  m_EditorClassIdentifier:
+  <ColorListData>k__BackingField:
+  - Colors:
+    - {r: 0.43164828, g: 0.7045805, b: 0.9433962, a: 1}
+    - {r: 0, g: 0.37800458, b: 0.7075472, a: 1}
+  - Colors:
+    - {r: 0.3925525, g: 0.8490566, b: 0.3003738, a: 1}
+    - {r: 0.054512277, g: 0.46226418, b: 0.08337968, a: 1}
+  - Colors:
+    - {r: 0.99215686, g: 0.5355544, b: 0.2588235, a: 1}
+    - {r: 0.5849056, g: 0.31278375, b: 0.1462264, a: 1}
+  - Colors:
+    - {r: 0.64133364, g: 0.12967247, b: 0.8867924, a: 1}
+    - {r: 0.39245525, g: 0.04988429, b: 0.5566038, a: 1}
+  - Colors:
+    - {r: 0.9811321, g: 0.41189036, b: 0.42951438, a: 1}
+    - {r: 0.6509434, g: 0.12588999, b: 0.14399537, a: 1}
+  - Colors:
+    - {r: 0.6603774, g: 0.5678017, b: 0.18378428, a: 1}
+    - {r: 1, g: 0.8302624, b: 0, a: 1}

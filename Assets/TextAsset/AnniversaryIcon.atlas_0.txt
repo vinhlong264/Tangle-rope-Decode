@@ -1,0 +1,66 @@
+AnniversaryIcon.png
+size:1765,784
+filter:Linear,Linear
+pma:true
+Anniversary_2
+bounds:1276,415,341,367
+Balloon_Blue
+bounds:1227,27,170,227
+offsets:0,0,171,227
+rotate:90
+Balloon_Purple
+bounds:1276,199,214,293
+offsets:246,0,460,293
+rotate:90
+Balloon_Yellow
+bounds:1456,19,148,178
+Button
+bounds:1619,472,310,140
+rotate:90
+Button_Yellow
+bounds:843,329,431,453
+Clip Group
+bounds:2,23,839,759
+offsets:0,19,839,824
+Compound Path + Compound Path
+bounds:1606,21,233,70
+rotate:90
+Layer 10
+bounds:1571,256,104,157
+offsets:1,0,105,157
+Layer 11
+bounds:1162,66,53,35
+Layer 12
+bounds:843,2,99,163
+offsets:1,2,101,166
+rotate:90
+Layer 13
+bounds:1678,215,25,29
+Layer 14
+bounds:1227,290,37,47
+rotate:90
+Layer 2
+bounds:843,103,382,224
+Layer 3
+bounds:1678,246,85,224
+offsets:1,1,88,227
+Layer 4
+bounds:1619,438,28,32
+offsets:1,1,30,34
+Layer 5
+bounds:1162,38,28,26
+offsets:1,1,30,28
+Layer 6
+bounds:1227,214,25,37
+offsets:0,1,25,38
+Layer 7
+bounds:1008,2,99,152
+offsets:0,0,99,153
+rotate:90
+Layer 8
+bounds:1227,253,35,47
+offsets:1,1,37,49
+rotate:90
+Layer 9
+bounds:1571,213,25,41
+offsets:1,1,27,43

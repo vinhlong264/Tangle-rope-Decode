@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Elephant/elephant_scene.unity
+    guid: 1068d0a2f2574df4cbe0bf53c27f3956
+  - enabled: 1
+    path: Assets/Game/Scenes/Boot.unity
+    guid: ed02be36a8655644abc1f03625968aca
+  - enabled: 1
+    path: Assets/Game/Scenes/Home Menu.unity
+    guid: ce051663ba839884cbe616ac7561e952
+  - enabled: 1
+    path: Assets/Game/Scenes/Main.unity
+    guid: 2617d1430561bea4ca22bf43e8bf9f4b
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level Creator.unity
+    guid: b00063c6af8499e42b969384a82bafb0
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Level General.unity
+    guid: 8178a9841e74f114483a99f976966b0c
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/Unique Level General.unity
+    guid: 2d6768f257d0f1e4fbb4037bf5dc4641
+  - enabled: 1
+    path: Assets/Game/Video Assets/Scenes/Mid Creator.unity
+    guid: 8811a3968c6535a43a9cdc1728977531
+  - enabled: 1
+    path: Assets/Game/Video Assets/Scenes/Circle General.unity
+    guid: 5e87694ed7ad8144aa367761d9f6a324
+  - enabled: 1
+    path: Assets/Game/Video Assets/Scenes/Circle Creator.unity
+    guid: 634220fc859cc334b9b22ea89c85dc0e
+  - enabled: 1
+    path: Assets/Game/Video Assets/Scenes/Mid General.unity
+    guid: fae0566782eae8c469d075d2799a805f
+  m_configObjects: {}

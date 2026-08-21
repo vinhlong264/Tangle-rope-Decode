@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f17edbcc62b2c5066bacf17a8cf26c, type: 3}
+  m_Name: Level_20001
+  m_EditorClassIdentifier:
+  levelId: 20001
+  saveData:
+    stagesData:
+    - pinsData:
+      - Position: {x: 0.5, y: 0, z: -1.5}
+        IsLocked: 0
+      - Position: {x: 0.5, y: 0, z: 1.5}
+        IsLocked: 0
+      - Position: {x: -0.5, y: 0, z: -1.5}
+        IsLocked: 0
+      - Position: {x: -0.5, y: 0, z: 1.5}
+        IsLocked: 0
+      - Position: {x: 1.5, y: 0, z: 0.5}
+        IsLocked: 0
+      - Position: {x: -1.5, y: 0, z: 0.5}
+        IsLocked: 0
+      - Position: {x: -1.5, y: 0, z: -0.5}
+        IsLocked: 0
+      - Position: {x: 1.5, y: 0, z: -0.5}
+        IsLocked: 0
+      ropesData:
+      - Position: {x: -1, y: 0, z: 3.35}
+        Particles:
+        - position: {x: 0.5, y: 0.2, z: 1.5000063}
+        - position: {x: 0.5025623, y: 0.36827856, z: 1.3694594}
+        - position: {x: 0.5040548, y: 0.3433313, z: 1.2934122}
+        - position: {x: 0.5069494, y: 0.31495938, z: 1.1459312}
+        - position: {x: 0.5068469, y: 0.2722801, z: 1.0445385}
+        - position: {x: 0.5073906, y: 0.22479945, z: 0.89345264}
+        - position: {x: 0.507321, y: 0.19953583, z: 0.7850933}
+        - position: {x: 0.5088279, y: 0.17575447, z: 0.6276665}
+        - position: {x: 0.51429176, y: 0.16771074, z: 0.5168853}
+        - position: {x: 0.51538515, y: 0.17019889, z: 0.3577447}
+        - position: {x: 0.51564217, y: 0.16663095, z: 0.24651432}
+        - position: {x: 0.51609063, y: 0.17167242, z: 0.087939024}
+        - position: {x: 0.5164013, y: 0.1684667, z: -0.023406029}
+        - position: {x: 0.5168315, y: 0.17183188, z: -0.18245435}
+        - position: {x: 0.5171304, y: 0.16490577, z: -0.29335332}
+        - position: {x: 0.51750135, y: 0.1593827, z: -0.45169878}
+        - position: {x: 0.51619947, y: 0.16986406, z: -0.56308365}
+        - position: {x: 0.51306343, y: 0.19998743, z: -0.7191787}
+        - position: {x: 0.51136255, y: 0.23115633, z: -0.8260679}
+        - position: {x: 0.50819623, y: 0.28767082, z: -0.9764743}
+        - position: {x: 0.50973105, y: 0.3327256, z: -1.0761452}
+        - position: {x: 0.50639486, y: 0.40676892, z: -1.2247057}
+        - position: {x: 0.504668, y: 0.4348309, z: -1.3025727}
+        - position: {x: 0.5008681, y: 0.35856384, z: -1.463284}
+        - position: {x: 0.5, y: 0.2, z: -1.5}
+        - position: {x: -1, y: 0, z: 3.35}
+      - Position: {x: -1, y: 0, z: 3.35}
+        Particles:
+        - position: {x: -0.5, y: 0.2, z: 1.5000064}
+        - position: {x: -0.5016433, y: 0.36902133, z: 1.3705865}
+        - position: {x: -0.502608, y: 0.3446791, z: 1.294658}
+        - position: {x: -0.504474, y: 0.31631008, z: 1.1481433}
+        - position: {x: -0.50575775, y: 0.272863, z: 1.0480347}
+        - position: {x: -0.5078427, y: 0.22363886, z: 0.897593}
+        - position: {x: -0.5095899, y: 0.19808686, z: 0.7894778}
+        - position: {x: -0.5132137, y: 0.17492509, z: 0.6321478}
+        - position: {x: -0.517314, y: 0.16508594, z: 0.520756}
+        - position: {x: -0.52202463, y: 0.16462518, z: 0.3619213}
+        - position: {x: -0.52489775, y: 0.17199789, z: 0.250875}
+        - position: {x: -0.5291099, y: 0.16909118, z: 0.09280419}
+        - position: {x: -0.5319918, y: 0.17264788, z: -0.018489122}
+        - position: {x: -0.53619975, y: 0.17067012, z: -0.17696881}
+        - position: {x: -0.53918564, y: 0.17020524, z: -0.2878964}
+        - position: {x: -0.54351157, y: 0.16277416, z: -0.4463315}
+        - position: {x: -0.54042614, y: 0.1707906, z: -0.5576439}
+        - position: {x: -0.52988017, y: 0.20475551, z: -0.7133646}
+        - position: {x: -0.5260586, y: 0.23806779, z: -0.81985617}
+        - position: {x: -0.5204864, y: 0.29482204, z: -0.9718852}
+        - position: {x: -0.5164309, y: 0.3379239, z: -1.0723457}
+        - position: {x: -0.51057416, y: 0.40821496, z: -1.2238145}
+        - position: {x: -0.50756514, y: 0.4350022, z: -1.3018732}
+        - position: {x: -0.50140834, y: 0.35850197, z: -1.4631186}
+        - position: {x: -0.5, y: 0.2, z: -1.5}
+        - position: {x: -1, y: 0, z: 3.35}
+      - Position: {x: -1, y: 0, z: 3.35}
+        Particles:
+        - position: {x: -1.5, y: 0.2, z: 0.5000057}
+        - position: {x: -1.3852311, y: 0.37969533, z: 0.5004797}
+        - position: {x: -1.3138932, y: 0.36624157, z: 0.50076246}
+        - position: {x: -1.1692071, y: 0.3610915, z: 0.5013375}
+        - position: {x: -1.0610651, y: 0.34062958, z: 0.50140357}
+        - position: {x: -0.90562487, y: 0.32797337, z: 0.5011301}
+        - position: {x: -0.7945547, y: 0.32948804, z: 0.5008006}
+        - position: {x: -0.6386148, y: 0.34515393, z: 0.500298}
+        - position: {x: -0.5282015, y: 0.36638698, z: 0.4999442}
+        - position: {x: -0.3731473, y: 0.34081513, z: 0.49849558}
+        - position: {x: -0.26387984, y: 0.31793416, z: 0.49763632}
+        - position: {x: -0.109096825, y: 0.30249876, z: 0.49650884}
+        - position: {x: 0.0022188425, y: 0.29981577, z: 0.495327}
+        - position: {x: 0.15859926, y: 0.30644783, z: 0.49416304}
+        - position: {x: 0.26835763, y: 0.32242364, z: 0.4934373}
+        - position: {x: 0.42376375, y: 0.35681003, z: 0.49148202}
+        - position: {x: 0.53446066, y: 0.37154984, z: 0.49142718}
+        - position: {x: 0.69527686, y: 0.36038542, z: 0.49423766}
+        - position: {x: 0.8060734, y: 0.36230072, z: 0.49351454}
+        - position: {x: 0.9661801, y: 0.37665743, z: 0.49502087}
+        - position: {x: 1.0742347, y: 0.39395782, z: 0.4962814}
+        - position: {x: 1.2342119, y: 0.4292296, z: 0.4978218}
+        - position: {x: 1.31287, y: 0.44819668, z: 0.4984336}
+        - position: {x: 1.4664567, y: 0.35958695, z: 0.4997213}
+        - position: {x: 1.5, y: 0.2, z: 0.5000007}
+        - position: {x: -1, y: 0, z: 3.35}
+      - Position: {x: -1, y: 0, z: 3.35}
+        Particles:
+        - position: {x: 1.5, y: 0.2, z: -0.49999404}
+        - position: {x: 1.3855379, y: 0.37994248, z: -0.49886036}
+        - position: {x: 1.3143477, y: 0.3667448, z: -0.4981675}
+        - position: {x: 1.1695156, y: 0.3625015, z: -0.49675655}
+        - position: {x: 1.0603106, y: 0.34499317, z: -0.4965546}
+        - position: {x: 0.9054214, y: 0.33283624, z: -0.4959464}
+        - position: {x: 0.79381204, y: 0.33330494, z: -0.49563813}
+        - position: {x: 0.6357684, y: 0.34635675, z: -0.49680305}
+        - position: {x: 0.52471423, y: 0.36671016, z: -0.49657798}
+        - position: {x: 0.36883175, y: 0.33870593, z: -0.49771428}
+        - position: {x: 0.26057196, y: 0.31310248, z: -0.5003252}
+        - position: {x: 0.10471225, y: 0.2937875, z: -0.5010421}
+        - position: {x: -0.0064044, y: 0.28972182, z: -0.50005865}
+        - position: {x: -0.16263413, y: 0.29906857, z: -0.49845338}
+        - position: {x: -0.27250552, y: 0.31516686, z: -0.49750948}
+        - position: {x: -0.42702603, y: 0.347037, z: -0.49552274}
+        - position: {x: -0.53656965, y: 0.36743748, z: -0.4941156}
+        - position: {x: -0.69700074, y: 0.3580627, z: -0.49377465}
+        - position: {x: -0.8084567, y: 0.35840902, z: -0.49353504}
+        - position: {x: -0.96891326, y: 0.37246895, z: -0.49261594}
+        - position: {x: -1.0757747, y: 0.39132342, z: -0.49251604}
+        - position: {x: -1.2350563, y: 0.4287049, z: -0.49439502}
+        - position: {x: -1.3138738, y: 0.44796985, z: -0.49592543}
+        - position: {x: -1.4666891, y: 0.35965556, z: -0.49927068}
+        - position: {x: -1.5, y: 0.2, z: -0.5}
+        - position: {x: -1, y: 0, z: 3.35}
+      columnsData: []
+      clampsData: []
+      keysData: []
+      lockSlotsData: []
+      goldenRopesData: []
+      ropeWidthsData: []
+      liveObstaclesData: []
+      Colors: 020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+      Targets:
+      - ColorIndex: 2
+        TargetCount: 1
+      - ColorIndex: 4
+        TargetCount: 1
+      useNearColors: 0
+      useCustomNearColors: 0
+      customNearColors: []
+      mapId: 1
+    levelData:
+      hasMoveCount: 0
+      moveCount: 60
+      hasTimeLimit: 1
+      timeLimit: 300
+      difficulty: Easy
+      version: 6
+    pinsData_: []
+    ropesData_: []
+    columnsData_: []
+    clampsData_: []
+    keysData_: []
+    lockSlotsData_: []
+    goldenRopesData_: []
+    ropeWidthsData_: []
+    useNearColors_: 0
+    useCustomNearColors_: 0
+    customNearColors_: []
+    MapId_: 1
+    HasMoveCount_: 0
+    MoveCount_: 0
+    HasTimeLimit_: 0
+    TimeLimit_: 0
+    Difficulty_: Easy

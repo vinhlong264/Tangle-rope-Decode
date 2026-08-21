@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8acc152126ee9614869a416b80fee57, type: 3}
+  m_Name: Offer Trigger Point Sequence Steps Data
+  m_EditorClassIdentifier:
+  data:
+  - TriggerPoint: {fileID: 11400000, guid: b39f8c03f5815454783c5de77e9486a3, type: 2}
+    SequenceStep: {fileID: 11400000, guid: 346f9cbacf55bc9489371f01767fd139, type: 2}
+  - TriggerPoint: {fileID: 11400000, guid: 61e0373779274284486f1195331613aa, type: 2}
+    SequenceStep: {fileID: 11400000, guid: aa5424e6849bb90428b07ab554338a03, type: 2}

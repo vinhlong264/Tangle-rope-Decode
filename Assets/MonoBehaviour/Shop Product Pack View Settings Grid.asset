@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e2bb36fef458015fa1aedbf650f689, type: 3}
+  m_Name: Shop Product Pack View Settings Grid
+  m_EditorClassIdentifier:
+  defaultViewPrefab: {fileID: 114875609422105747, guid: edf180b60c2980f429326f699669651a, type: 2}
+  viewPrefabsWithId:
+  - productPackId: money_pack
+    view: {fileID: 114875609422105747, guid: e7896fda54cc95341992242720b23d85, type: 2}
+  - productPackId: coin_pack
+    view: {fileID: 114875609422105747, guid: e7896fda54cc95341992242720b23d85, type: 2}
+  - productPackId: coin_pack_2
+    view: {fileID: 114875609422105747, guid: e7896fda54cc95341992242720b23d85, type: 2}
+  - productPackId: heart_pack
+    view: {fileID: 114875609422105747, guid: 60118aebefe52614fbc35413c25c22f4, type: 2}
+  - productPackId: skip_it_pack
+    view: {fileID: 114875609422105747, guid: fc509bf2b9b36014ca6dba1ad582f2d7, type: 2}
+  - productPackId: rope_pack
+    view: {fileID: 114875609422105747, guid: 92ae2be204663454e99d9213ce32ce28, type: 2}
+  - productPackId: pin_pack
+    view: {fileID: 114875609422105747, guid: 92ae2be204663454e99d9213ce32ce28, type: 2}

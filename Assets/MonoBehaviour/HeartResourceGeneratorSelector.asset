@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f70269adcd3d1ee4b6ea7e919bac1a, type: 3}
+  m_Name: HeartResourceGeneratorSelector
+  m_EditorClassIdentifier:
+  basic: {fileID: 11400000, guid: 00de9323d314fdf44adbd0d58e606b53, type: 2}
+  battlePass: {fileID: 11400000, guid: 2f6197ebbad7fd64e898bba28e1bc4e5, type: 2}
+  battlePassSystem: {fileID: 11400000, guid: 9a9b41402f2b5ee45ba09094822eb335, type: 2}

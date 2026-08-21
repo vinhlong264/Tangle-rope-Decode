@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 243ec25f3821c9335e54173a7e780a4a, type: 3}
+  m_Name: SuperPowerupDataService
+  m_EditorClassIdentifier:
+  initialData:
+    RewardData:
+      CurrentPowerUpIds:
+      - pocket_watch
+      - hammer
+    IsEnabled: 1
+    FirstShowUpLevel: 100
+    WinCountToClaimReward: 10
+  actualData:
+    RewardData:
+      CurrentPowerUpIds:
+      - pocket_watch
+      - hammer
+    IsEnabled: 1
+    FirstShowUpLevel: 100
+    WinCountToClaimReward: 10
+  plainDataProvider: {fileID: 11400000, guid: c1661060ed62b064cace3750b33c5b0e, type: 2}

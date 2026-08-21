@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb70ec5b9b3946ab5903f860d8edca4, type: 3}
+  m_Name: CollectionItemSystemsChannel
+  m_EditorClassIdentifier:
+  collectionItemSystems:
+  - {fileID: 11400000, guid: e4a6087f49800f946a91c1de19055c6b, type: 2}
+  - {fileID: 11400000, guid: d1da0dc1339c194499bcac3dbb038360, type: 2}
+  - {fileID: 11400000, guid: b3314fc727b8aaf409e4f39b1366f766, type: 2}
+  unlockedCollectionItems: {fileID: 11400000, guid: 0c9bc0cb58879f54a885282575c3bcc6, type: 2}
+  OnCollectionItemUnlocked:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d222ac4bf57e5f3459cf4183b1e3a2ae, type: 2}
+        m_TargetAssemblyTypeName: PersistentSO.PersistentListVariable`1[[System.String, mscorlib
+        m_MethodName: AddUnique
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2

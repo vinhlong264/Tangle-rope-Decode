@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5e1c3fb56bc3b6d238f2a6473709ae, type: 3}
+  m_Name: Offer Request Actions
+  m_EditorClassIdentifier:
+  OnPushOfferPopupId:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2e62e62c06cb2cf40950f832603a2022, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.AtomEvent`1[[System.String, mscorlib
+        m_MethodName: Raise
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2
+  canShowCondition: {fileID: 11400000, guid: dc70d0d080d8f604290752e0b9ab6c46, type: 2}
+  offerPopupNavigationChannel: {fileID: 11400000, guid: 2f6e0988f166cb6479f0fc4edfb8ec5a, type: 2}
+  offerTriggerPointSequenceStepsData: {fileID: 11400000, guid: 025bbba2a308cdb4dad940d311b55eb6, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0009d0245c3cbb448a196b98edffa422, type: 3}
+  m_Name: LevelEndRoulette_SpeedometerSettingsDataReadService
+  m_EditorClassIdentifier:
+  initialData:
+    FactorSettings:
+    - Factor: 5
+    - Factor: 4
+    - Factor: 3
+    - Factor: 2
+  actualData:
+    FactorSettings:
+    - Factor: 10
+    - Factor: 4
+    - Factor: 3
+    - Factor: 1.5
+  plainDataProvider: {fileID: 11400000, guid: a3a6b4dd353df93439930cb3b6613bf3, type: 2}

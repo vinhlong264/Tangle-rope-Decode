@@ -1,0 +1,20 @@
+1.png
+size:1821,1821
+filter:Linear,Linear
+2
+bounds:1028,1013,806,584
+offsets:82,321,1024,1024
+rotate:90
+3
+bounds:2,38,739,755
+offsets:160,182,1024,1024
+4
+bounds:2,795,1024,1024
+5
+bounds:1376,291,720,443
+offsets:157,104,1024,1024
+rotate:90
+Layer 1
+bounds:743,44,749,631
+offsets:136,212,1024,1024
+rotate:90

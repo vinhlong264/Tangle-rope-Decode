@@ -1,0 +1,21 @@
+Basic_Gold_Chest2_Jump.png
+size:1799,1799
+filter:Linear,Linear
+BlackOutline/5
+bounds:2,2,808,445
+offsets:103,105,1028,1028
+BlackOutline/Layer 1
+bounds:2,1124,771,673
+offsets:136,213,1028,1028
+Normal/5
+bounds:775,678,807,445
+offsets:103,104,1026,1026
+Normal/Layer 1
+bounds:775,1125,770,672
+offsets:136,213,1026,1026
+WhiteOutline/5
+bounds:812,231,808,445
+offsets:103,105,1028,1028
+WhiteOutline/Layer 1
+bounds:2,449,771,673
+offsets:136,213,1028,1028

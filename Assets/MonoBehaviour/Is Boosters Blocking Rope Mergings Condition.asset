@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b262803cae27e6bd43a3dea3d15551f3, type: 3}
+  m_Name: Is Boosters Blocking Rope Mergings Condition
+  m_EditorClassIdentifier:
+  _developerDescription:
+  boosterSystem: {fileID: 11400000, guid: e9d7845beac8165469512c10e35f123b, type: 2}
+  comparisons:
+  - state: 3
+    isNot: 0
+    compareStrategy: 0
+    compareOperator: 0
+    booster: {fileID: 0}
+    excludedBoosters:
+    - {fileID: 11400000, guid: b220b9ddfb3922b4795c59b21b700345, type: 2}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7776933249b2fc11b64a7aceef46275b, type: 3}
+  m_Name: Coin Channel
+  m_EditorClassIdentifier:
+  DataGroup: 18
+  ReadableSaveKey: CoinChannel
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 3168757000
+    m_Value1: 4270601272
+    m_Value2: 677687415
+    m_Value3: 823075653
+  setSessionStartValue: 1
+  initialValue: 0
+  value: 0
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  <TypeId>k__BackingField:
+    _usage: 1
+    _value:
+    _constant: {fileID: 11400000, guid: ea78e2f9a04aeb1479c1015253583b54, type: 2}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  <ProductType>k__BackingField: 10
+  defaultResourceAnimation: {fileID: 11400000, guid: 604c06e41d7cdff4a87686ac538e5345, type: 2}
+  infiniteVariable: {fileID: 11400000, guid: fe1f73a6bd25c98419a18f958a5465e4, type: 2}
+  Icon: {fileID: 21300000, guid: c11bcaeb3f0f08040809f65b98de6e30, type: 2}
+  InfiniteIcon: {fileID: 0}
+  OnSet:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIncreased:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDecreased:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSpendSuccessful:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSpendFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCoinIncreaseAnimationTriggered:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCoinDecreaseAnimationTriggered:
+    m_PersistentCalls:
+      m_Calls: []

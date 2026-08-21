@@ -1,0 +1,15 @@
+Premium_Gold_Chest1_Jump.png
+size:1327,1327
+filter:Linear,Linear
+BlackOutline /5
+bounds:2,2,622,305
+BlackOutline /Layer 1
+bounds:2,818,623,507
+Normal/5
+bounds:627,511,622,305
+Normal/Layer 1
+bounds:2,309,623,507
+WhiteOutline/5
+bounds:627,204,622,305
+WhiteOutline/Layer 1
+bounds:627,818,623,507

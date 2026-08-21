@@ -1,0 +1,21 @@
+Premium_Bronze_Chest2_Jump.png
+size:1717,1717
+filter:Linear,Linear
+BlackOutline/5
+bounds:2,2,722,445
+offsets:157,104,1026,1026
+BlackOutline/Layer 1
+bounds:2,1083,751,632
+offsets:136,213,1026,1026
+Normal/5
+bounds:755,192,720,443
+offsets:157,104,1024,1024
+Normal/Layer 1
+bounds:755,1084,749,631
+offsets:136,212,1024,1024
+WhiteOutline/5
+bounds:755,637,722,445
+offsets:157,104,1026,1026
+WhiteOutline/Layer 1
+bounds:2,449,751,632
+offsets:136,213,1026,1026

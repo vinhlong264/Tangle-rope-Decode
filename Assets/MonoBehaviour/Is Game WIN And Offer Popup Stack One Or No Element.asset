@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885e9a60b302ddff61e08d26c04bb481, type: 3}
+  m_Name: Is Game WIN And Offer Popup Stack One Or No Element
+  m_EditorClassIdentifier:
+  _developerDescription:
+  Test: 0
+  conditions:
+  - condition: {fileID: 11400000, guid: 27a44267091493342a34e3f9a497272e, type: 2}
+    boolCompareOperator: 0
+  - condition: {fileID: 11400000, guid: 15e786ac559715d4c8a9d8a63fa88d44, type: 2}
+    boolCompareOperator: 0

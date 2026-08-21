@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885e9a60b302ddff61e08d26c04bb481, type: 3}
+  m_Name: ConsecutiveWinAndDynamicQuestFailWarningsCondition
+  m_EditorClassIdentifier:
+  _developerDescription:
+  Test: 0
+  conditions:
+  - condition: {fileID: 11400000, guid: 30e1918021b51e74eb2f9310b650d376, type: 2}
+    boolCompareOperator: 1
+  - condition: {fileID: 11400000, guid: d08dbb8c61f4d404a9fa213e1277552f, type: 2}
+    boolCompareOperator: 1

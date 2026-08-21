@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f605cbdb4fdb782e20850f346b272e82, type: 3}
+  m_Name: LiveLeagueRewardsDataService
+  m_EditorClassIdentifier:
+  initialData:
+    RankingRewards:
+    - Resources:
+      - ResourceId: gold
+        Amount: 6000
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources:
+      - ResourceId: gold
+        Amount: 5000
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources:
+      - ResourceId: gold
+        Amount: 4000
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources: []
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 3
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources: []
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 3
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources: []
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 3
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources: []
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 3
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources: []
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 3
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources: []
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 3
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources: []
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 3
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+  actualData:
+    RankingRewards:
+    - Resources:
+      - ResourceId: gold
+        Amount: 5000
+      - ResourceId: heart
+        Amount: 20
+      - ResourceId: skip_ticket
+        Amount: 10
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 50
+      RandomCollectionItemCount: 1
+      RandomBoosterCount: 10
+    - Resources:
+      - ResourceId: gold
+        Amount: 2500
+      - ResourceId: heart
+        Amount: 15
+      - ResourceId: skip_ticket
+        Amount: 5
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 3
+    - Resources:
+      - ResourceId: gold
+        Amount: 2000
+      - ResourceId: heart
+        Amount: 10
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 2
+    - Resources:
+      - ResourceId: gold
+        Amount: 1750
+      - ResourceId: heart
+        Amount: 9
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 1
+    - Resources:
+      - ResourceId: gold
+        Amount: 1600
+      - ResourceId: heart
+        Amount: 8
+      CollectionItems: []
+      Boosters:
+      - BoosterId: cut
+        Amount: 100
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources:
+      - ResourceId: gold
+        Amount: 1500
+      - ResourceId: heart
+        Amount: 7
+      CollectionItems: []
+      Boosters:
+      - BoosterId: shuffle
+        Amount: 100
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources:
+      - ResourceId: gold
+        Amount: 1400
+      - ResourceId: heart
+        Amount: 6
+      CollectionItems: []
+      Boosters:
+      - BoosterId: time_freeze
+        Amount: 100
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources:
+      - ResourceId: gold
+        Amount: 1300
+      - ResourceId: heart
+        Amount: 5
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources:
+      - ResourceId: gold
+        Amount: 1200
+      - ResourceId: heart
+        Amount: 4
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+    - Resources:
+      - ResourceId: gold
+        Amount: 1000
+      - ResourceId: heart
+        Amount: 3
+      CollectionItems: []
+      Boosters: []
+      RandomCollectionItemCount: 0
+      RandomBoosterCount: 0
+  plainDataProvider: {fileID: 11400000, guid: 10bffd9395689ae4f977b7f92c0d62eb, type: 2}
+  levelNumber:
+    variableReferenceType: 2
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 11400000, guid: bad5342552b5abc4aaeb633ece616f6c, type: 2}
+    conditionalScriptableProperty: {fileID: 0}
+  rewardClaimers:
+  - {fileID: 11400000, guid: 4d680af6b4e79714a818c549b516b9d8, type: 2}
+  - {fileID: 11400000, guid: e3cc49c8383390e41a02075bade26a25, type: 2}
+  - {fileID: 11400000, guid: 1dc500cd1cf829746a60559f8a7268d4, type: 2}
+  collectionItemSystemsChannel: {fileID: 11400000, guid: c30b2b6743cb1284bad2856419fda7db, type: 2}
+  exceptedCollections:
+  - {fileID: 11400000, guid: b3314fc727b8aaf409e4f39b1366f766, type: 2}
+  boosterSystem: {fileID: 11400000, guid: e9d7845beac8165469512c10e35f123b, type: 2}

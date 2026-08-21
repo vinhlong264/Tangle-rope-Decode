@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340398b29d383262e33259ec7522917b, type: 3}
+  m_Name: Pin 2 Heart
+  m_EditorClassIdentifier:
+  <Icon>k__BackingField: {fileID: 21300000, guid: 98c98c203823d284e888839b5103c881, type: 2}
+  <PinModel>k__BackingField: {fileID: 1709254077376921, guid: aed4f1aa0b2f9a94299454b9d7d6e04f, type: 2}

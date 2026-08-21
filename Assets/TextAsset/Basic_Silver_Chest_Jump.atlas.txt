@@ -1,0 +1,15 @@
+Basic_Silver_Chest_Jump.png
+size:1434,1434
+filter:Linear,Linear
+BlackOutline/5
+bounds:2,81,719,339
+BlackOutline/Layer 1
+bounds:2,928,709,504
+Normal/5
+bounds:723,253,703,332
+Normal/Layer 1
+bounds:2,422,709,504
+WhiteOutline/5
+bounds:713,587,719,339
+WhiteOutline/Layer 1
+bounds:713,928,709,504

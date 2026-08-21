@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c5aa6ed5110dceeb23cc944104ddce, type: 3}
+  m_Name: PersistentVariableLevelSaveManager
+  m_EditorClassIdentifier:
+  currentLevelNumber: {fileID: 11400000, guid: cfd859abdd6a9854c81a6f97199dc0b0, type: 2}
+  currentLevelIndex: {fileID: 11400000, guid: f6c0e2e7c3522ff4d8d4b2c94f2cc4d7, type: 2}
+  highestLevelNumber: {fileID: 11400000, guid: edf63307af6284b4680217e530d0922a, type: 2}

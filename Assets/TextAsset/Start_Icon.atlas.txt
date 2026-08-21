@@ -1,0 +1,9 @@
+Start_Icon.png
+size:2000,2000
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:2,971,997,1027
+Normal/Layer 1
+bounds:2,14,925,955
+WhiteOutline/Layer 1
+bounds:1001,971,997,1027

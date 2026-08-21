@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69acd946791b650356993eacd44a9b75, type: 3}
+  m_Name: PersistentOfferTestMetaData
+  m_EditorClassIdentifier:
+  DataGroup: 5
+  ReadableSaveKey: PersistentOfferTestMetaData
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 2151370471
+    m_Value1: 2877084100
+    m_Value2: 3102728087
+    m_Value3: 299344068
+  setSessionStartValue: 0
+  initialValue:
+    TriggerPoint:
+    CurrencyAmount:
+      health: 0
+      coin: 0
+      booster: 0
+    TotalCurrencyTransactionAmount: 0
+    SessionCurrencyTransactionAmount: 0
+    TotalIAPCount: 0
+    SessionIAPCount: 0
+    TotalIAPLTV: 0
+    SessionIAPLTV: 0
+    TotalBossLevelStartedCount: 0
+    SessionBossLevelStartedCount: 0
+    TotalBossLevelCompletedCount: 0
+    SessionBossLevelCompletedCount: 0
+    TotalChallengeLevelStartedCount: 0
+    SessionChallengeLevelStartedCount: 0
+    TotalChallengeLevelCompletedCount: 0
+    SessionChallengeLevelCompletedCount: 0
+  value:
+    TriggerPoint:
+    CurrencyAmount:
+      health: 0
+      coin: 0
+      booster: 0
+    TotalCurrencyTransactionAmount: 0
+    SessionCurrencyTransactionAmount: 0
+    TotalIAPCount: 0
+    SessionIAPCount: 0
+    TotalIAPLTV: 0
+    SessionIAPLTV: 0
+    TotalBossLevelStartedCount: 0
+    SessionBossLevelStartedCount: 0
+    TotalBossLevelCompletedCount: 0
+    SessionBossLevelCompletedCount: 0
+    TotalChallengeLevelStartedCount: 0
+    SessionChallengeLevelStartedCount: 0
+    TotalChallengeLevelCompletedCount: 0
+    SessionChallengeLevelCompletedCount: 0
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

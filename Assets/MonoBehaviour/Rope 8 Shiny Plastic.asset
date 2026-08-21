@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4eed9c031c673bb853e079d056cdd5c, type: 3}
+  m_Name: Rope 8 Shiny Plastic
+  m_EditorClassIdentifier:
+  <Icon>k__BackingField: {fileID: 21300000, guid: 34b65c5a09cd2ff47ae152862a8ccdcb, type: 2}
+  <RopeModelController>k__BackingField: {fileID: 114724804207875695, guid: eec15c51d2b670647a1ba539014c79e0, type: 2}

@@ -1,0 +1,76 @@
+StarterBundle.png
+size:6318,6318
+filter:Linear,Linear
+Group 1 copy 2
+bounds:2,290,2102,1758
+offsets:0,0,2102,1765
+Layer 10
+bounds:2108,2052,2102,2130
+offsets:1,1,2104,2132
+Layer 15
+bounds:4214,4186,2102,2130
+offsets:1,1,2104,2132
+Layer 19
+bounds:2919,399,99,137
+offsets:1062,1499,2104,2132
+Rope_maske
+bounds:5284,637,299,485
+offsets:984,644,2104,2132
+Sepet_Maske
+bounds:2,16,409,272
+offsets:981,1076,2104,2132
+Sepet_Maske2
+bounds:5284,1608,530,442
+offsets:702,702,2104,2132
+basket
+bounds:2,4184,2104,2132
+bot baloon
+bounds:3724,522,1528,1558
+rotate:90
+clock
+bounds:2,2050,2104,2132
+clock tips
+bounds:5284,531,141,104
+offsets:1090,1000,2104,2132
+coin 1
+bounds:2729,381,188,155
+offsets:643,1415,2104,2132
+coin 2
+bounds:2491,299,236,237
+offsets:666,594,2104,2132
+coin 3
+bounds:849,62,226,239
+offsets:1289,697,2104,2132
+rotate:90
+fire 1
+bounds:1216,171,106,117
+offsets:956,1514,2104,2132
+fire 3
+bounds:5585,955,75,167
+offsets:997,1509,2104,2132
+fire 4
+bounds:1090,152,124,136
+offsets:1042,1493,2104,2132
+fire 5
+bounds:5675,1431,104,175
+offsets:1006,1507,2104,2132
+image
+bounds:2106,204,383,332
+offsets:0,6,383,345
+left scissors
+bounds:5284,1124,389,482
+offsets:611,924,2104,2132
+right scissors
+bounds:5816,1645,428,405
+offsets:734,965,2104,2132
+sky
+bounds:4212,2052,2102,2130
+offsets:1,1,2104,2132
+sky2
+bounds:2108,4184,2104,2132
+top baloon
+bounds:413,55,434,233
+offsets:884,1450,2104,2132
+top rope copy
+bounds:2108,538,1614,1512
+offsets:266,620,2104,2132

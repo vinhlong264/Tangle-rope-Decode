@@ -1,0 +1,557 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Ladder
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks: []
+    BundlePacks:
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_1_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_iap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: q5bzcf
+          ElephantEventParam: ladder_offer_1_iap_1
+          Price: 7.99
+        ProductIds:
+        - coin_noniap_5000
+        - twistedtangle_shuffle_5
+        - twistedtangle_heartinf_3h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_iap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 2xx3it
+          ElephantEventParam: ladder_offer_1_iap_2
+          Price: 22.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_6h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_1500
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_2_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: 6dw3k8
+          ElephantEventParam: ladder_offer_2_iap_1
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: mlxyzh
+          ElephantEventParam: ladder_offer_2_iap_2
+          Price: 5.99
+        ProductIds:
+        - coin_noniap_4000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: pra1es
+          ElephantEventParam: ladder_offer_2_iap_3
+          Price: 12.99
+        ProductIds:
+        - coin_noniap_10000
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: s9kox4
+          ElephantEventParam: ladder_offer_2_iap_4
+          Price: 24.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_5
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_6
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_7
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_8
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+        - twistedtangle_cut_1
+        - twistedtangle_shuffle_1
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_3_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_iap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 5r6ixy
+          ElephantEventParam: ladder_offer_3_iap_1
+          Price: 7.99
+        ProductIds:
+        - coin_noniap_5000
+        - twistedtangle_shuffle_5
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_iap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 13t4zp
+          ElephantEventParam: ladder_offer_3_iap_2
+          Price: 22.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+        - twistedtangle_shuffle_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_3h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_5
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_6
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_4_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: ob26tm
+          ElephantEventParam: ladder_offer_4_iap_1
+          Price: 12.99
+        ProductIds:
+        - coin_noniap_10000
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: wlw4up
+          ElephantEventParam: ladder_offer_4_iap_2
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: b17u5d
+          ElephantEventParam: ladder_offer_4_iap_3
+          Price: 5.99
+        ProductIds:
+        - coin_noniap_4000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: l0oe8r
+          ElephantEventParam: ladder_offer_4_iap_4
+          Price: 24.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_5
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_6
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_7
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+        - twistedtangle_cut_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_8
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_6h
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds: []

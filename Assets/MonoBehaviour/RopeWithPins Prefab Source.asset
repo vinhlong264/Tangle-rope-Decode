@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e8dd280c0c6265100305b3c066703e, type: 3}
+  m_Name: RopeWithPins Prefab Source
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1709254077376921, guid: 5b59f01669b5a5a4eb9608ceb477ef44, type: 2}
+  conditionalPrefabs:
+  - condition:
+      variableReferenceType: 100
+      atomReference:
+        _usage: 0
+        _value: 0
+        _constant: {fileID: 0}
+        _variable: {fileID: 0}
+        _variableInstancer: {fileID: 0}
+      persistent: {fileID: 0}
+      scriptableProperty: {fileID: 0}
+      conditionalScriptableProperty: {fileID: 0}
+      customType1: {fileID: 11400000, guid: 22a2ea4823c035f4eb06b7aaf41509e4, type: 2}
+    Prefab: {fileID: 1709254077376921, guid: 3d1b5d21660cc2047b60d990e1e13ed3, type: 2}

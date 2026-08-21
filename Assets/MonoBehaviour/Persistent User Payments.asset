@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccf5e127054ae4f826883c38cd83fb3, type: 3}
+  m_Name: Persistent User Payments
+  m_EditorClassIdentifier:
+  DataGroup: 5
+  ReadableSaveKey: PersistentUserPayments
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 3897485060
+    m_Value1: 855648276
+    m_Value2: 3666662693
+    m_Value3: 2410083814
+  setSessionStartValue: 1
+  initialValue:
+    ProductPayments: []
+  value:
+    ProductPayments: []
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

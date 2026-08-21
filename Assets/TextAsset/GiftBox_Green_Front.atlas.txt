@@ -1,0 +1,17 @@
+GiftBox_Green_Front.png
+size:1395,1395
+filter:Linear,Linear
+BlackOutline/1_top
+bounds:2,414,570,488
+BlackOutline/Layer 1
+bounds:416,2,410,408
+rotate:90
+Normal/1_top
+bounds:2,904,572,489
+Normal/Layer 1
+bounds:2,2,412,410
+WhiteOutline/1_top
+bounds:576,905,570,488
+WhiteOutline/Layer 1
+bounds:574,492,410,408
+rotate:90

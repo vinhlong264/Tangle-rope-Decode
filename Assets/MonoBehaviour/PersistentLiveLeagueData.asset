@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165e7bc3bcae1debdd21b8357d5e54c3, type: 3}
+  m_Name: PersistentLiveLeagueData
+  m_EditorClassIdentifier:
+  DataGroup: 15
+  ReadableSaveKey: PersistentLiveLeagueData
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 2711242446
+    m_Value1: 2953931540
+    m_Value2: 1784098972
+    m_Value3: 1756809303
+  setSessionStartValue: 0
+  initialValue:
+    Settings:
+      LeagueNumber: 0
+      StartDate:
+      FinishDate:
+      PlayerCount: 0
+      MaxScore: 0
+      AvgLevelPerDayToFinish: 0
+      PlayerRandomScoreIncreaseVariationPercent: 0
+      FakePlayersMinScoreVariationPercent: 0
+      FakePlayersMaxScoreVariationPercent: 0
+    IsActive: 0
+    IsEntered: 0
+    EnterDate:
+    CurrentRoundNumber: 0
+    TotalCompletedRoundCount: 0
+  value:
+    Settings:
+      LeagueNumber: 0
+      StartDate:
+      FinishDate:
+      PlayerCount: 0
+      MaxScore: 0
+      AvgLevelPerDayToFinish: 0
+      PlayerRandomScoreIncreaseVariationPercent: 0
+      FakePlayersMinScoreVariationPercent: 0
+      FakePlayersMaxScoreVariationPercent: 0
+    IsActive: 0
+    IsEntered: 0
+    EnterDate:
+    CurrentRoundNumber: 0
+    TotalCompletedRoundCount: 0
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

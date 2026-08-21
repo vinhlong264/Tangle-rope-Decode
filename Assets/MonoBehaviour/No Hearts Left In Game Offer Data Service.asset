@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7411c2d3e55cc7be3629f6ad2e50e88, type: 3}
+  m_Name: No Hearts Left In Game Offer Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    CostByRepeat:
+    - 900
+    ItemAmountByTryAgain:
+    - Count: 0
+      Amount: 5
+  actualData:
+    CostByRepeat:
+    - 900
+    ItemAmountByTryAgain:
+    - Count: 0
+      Amount: 5
+  plainDataProvider: {fileID: 11400000, guid: eff069fc230a5354e9028cb2985e3d98, type: 2}
+  currentRepeatCount: {fileID: 11400000, guid: 9d848fb9df1065f41ac2c357ce785fdb, type: 2}
+  currentTryAgainCount:
+    variableReferenceType: 0
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+  itemId:
+    _usage: 1
+    _value:
+    _constant: {fileID: 11400000, guid: 324e6031f32a85a449ab6c667efaf5ac, type: 2}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  OnGrantItemAmountInt:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGrantItemAmountFloat:
+    m_PersistentCalls:
+      m_Calls: []
+  OnItemGranted:
+    m_PersistentCalls:
+      m_Calls: []

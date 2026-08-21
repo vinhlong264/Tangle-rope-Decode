@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329d9145acb0fbd275cd52704beba57c, type: 3}
+  m_Name: LevelDifficultySetterAction
+  m_EditorClassIdentifier:
+  _developerDescription:
+  difficultyTransformer: {fileID: 11400000, guid: ea772bb1aefad3d4d9470c51448331fb, type: 2}
+  difficulty: {fileID: 11400000, guid: 4fb5125207e59c44186579e8c804a262, type: 2}
+  detailedDifficulty: {fileID: 11400000, guid: 9dc12db6bd22de4448f9dac86a7e887d, type: 2}

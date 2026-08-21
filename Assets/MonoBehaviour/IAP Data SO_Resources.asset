@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Resources
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: heart_pack
+      Name: heart_pack_name
+      Description: heart_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Heart
+        Id: twistedtangle_heart_inf
+        Description: It allows access to challenging levels.
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam: heart_inf
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: skip_it_pack
+      Name: skip_ads_pack_name
+      Description: skip_ads_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Skip Ads
+        Id: twistedtangle_skipit_5
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken: wixr5g
+        ElephantEventParam: skipit_5
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_10
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 10
+        AdjustEventToken: wixr5g
+        ElephantEventParam: skipit_10
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_20
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 20
+        AdjustEventToken: gchjll
+        ElephantEventParam: skipit_20
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_50
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 50
+        AdjustEventToken: 6dcbtt
+        ElephantEventParam: skipit_50
+        Price: 7.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_100
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 100
+        AdjustEventToken: nxn76w
+        ElephantEventParam: skipit_100
+        Price: 13.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_400
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 400
+        AdjustEventToken: q53wwt
+        ElephantEventParam: skipit_400
+        Price: 29.99
+      DisablerIds:
+      - twistedtangle_skipit_ul
+    BundlePacks:
+    - Enabled: 1
+      IsDiscount: 1
+      Id: discounts_skip_it
+      Name: Discount Skip Ads
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 2
+          Id: twistedtangle_skipit_50_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: gs90u3
+          ElephantEventParam: skipit_50_2
+          Price: 4.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 3
+          Id: twistedtangle_skipit_50_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: psf4fn
+          ElephantEventParam: skipit_50_3
+          Price: 3.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 4
+          Id: twistedtangle_skipit_50_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: um5odw
+          ElephantEventParam: skipit_50_4
+          Price: 2.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 5
+          Id: twistedtangle_skipit_50_5
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: v4sj9w
+          ElephantEventParam: skipit_50_5
+          Price: 1.99
+        ProductIds:
+        - twistedtangle_skipit_50
+    - Enabled: 1
+      IsDiscount: 0
+      Id: heart_infinite_pack
+      Name: heart_infinite_pack_name
+      Description: heart_infinite_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_15m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 15
+          AdjustEventToken:
+          ElephantEventParam: heartinf_15m
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_30m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 30
+          AdjustEventToken:
+          ElephantEventParam: heartinf_30m
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_45m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 45
+          AdjustEventToken:
+          ElephantEventParam: heartinf_45m
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_1h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken:
+          ElephantEventParam: heartinf_1h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_3h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 180
+          AdjustEventToken:
+          ElephantEventParam: heartinf_3h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_6h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 360
+          AdjustEventToken:
+          ElephantEventParam: heartinf_6h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_9h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 540
+          AdjustEventToken:
+          ElephantEventParam: heartinf_9h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_12h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 720
+          AdjustEventToken:
+          ElephantEventParam: heartinf_12h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_24h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 1440
+          AdjustEventToken:
+          ElephantEventParam: heartinf_24h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_48h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 2880
+          AdjustEventToken:
+          ElephantEventParam: heartinf_48h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_single_1
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken: vvxbst
+          ElephantEventParam: heartinf_single_1
+          Price: 0.99
+        ProductIds:
+        - twistedtangle_heart_inf
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts:
+    - productPackId: heart_infinite_pack
+      allSettings:
+      - Id: twistedtangle_heartinf_15m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 15
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_30m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 30
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_45m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 45
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_1h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_3h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 3
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_6h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 6
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_9h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 9
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_12h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 12
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_24h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 24
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_48h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 48
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_single_1
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    ConditionalIds:
+    - productPackId: discounts_skip_it
+      allSettings:
+      - Id: discounts_skip_it
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: boosters_enabled
+        DependentValue: 0

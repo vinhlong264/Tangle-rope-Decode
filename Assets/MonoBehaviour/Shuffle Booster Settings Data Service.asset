@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6dda03d633a3377d298a3550ca44f0a, type: 3}
+  m_Name: Shuffle Booster Settings Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    Name: shuffle
+    Description: shuffle_description
+    Price: 3900
+    PurchaseCount: 3
+    MinLevel: 15
+    BoosterData: []
+  actualData:
+    Name: shuffle
+    Description: shuffle_description
+    Price: 3900
+    PurchaseCount: 3
+    MinLevel: 15
+    BoosterData: []
+  plainDataProvider: {fileID: 11400000, guid: 6e54402d8d79e3e47a496aa35169d13c, type: 2}
+  variables: []
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}

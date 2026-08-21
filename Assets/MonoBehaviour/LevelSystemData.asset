@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 669918786, guid: 20eef6d0c3270dad3d94d3f6d89f2078, type: 3}
+  m_Name: LevelSystemData
+  m_EditorClassIdentifier:
+  reloadMainSceneOnLoading: 0
+  overrideMainSceneLighting: 1
+  sceneLoader: {fileID: 11400000, guid: 013f2ae42e5651a48b312760c15dcd83, type: 2}
+  mainScene:
+    m_ScenePath: Assets/Game/Scenes/Main.unity
+  levels:
+  - levelScene:
+      m_ScenePath: Assets/Game/Scenes/Levels/Level General.unity
+  exceptedLevelsOnRecycle: []

@@ -1,0 +1,19 @@
+GiftBox_Purple_Front.png
+size:1396,1396
+filter:Linear,Linear
+BlackOutline/3_top
+bounds:2,346,570,522
+BlackOutline/Layer 1
+bounds:986,460,410,408
+rotate:90
+Normal/3_rope_back
+bounds:2,109,558,235
+Normal/3_top
+bounds:2,870,572,524
+Normal/Layer 1
+bounds:574,456,412,410
+rotate:90
+WhiteOutline/3_top
+bounds:576,872,570,522
+WhiteOutline/Layer 1
+bounds:574,46,410,408

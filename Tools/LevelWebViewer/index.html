@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Twisted Tangle – Level Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">TT</span><div><strong>Level Viewer</strong><small>Unity YAML preview</small></div></div>
+      <button id="pickFolder" class="primary">Chọn thư mục level</button>
+      <label class="file-button">Hoặc chọn các file .asset<input id="pickFiles" type="file" accept=".asset,text/yaml,text/plain" multiple></label>
+      <p id="loadHint" class="hint">Chọn <code>Assets/Resources/levels/so</code> để nạp danh sách level.</p>
+      <input id="search" class="search" type="search" placeholder="Tìm Level…" disabled>
+      <div id="levelList" class="level-list" aria-live="polite"><p class="empty">Chưa có level được nạp.</p></div>
+      <section class="export-panel"><strong>Chuyển đổi LevelProperties</strong><label>Nhóm 50 level <select id="exportGroup" disabled></select></label><button id="exportGroupButton" class="primary" disabled>Xuất JSON nhóm</button><small>JSON tương thích với <code>List&lt;LevelProperties&gt;</code>.</small></section>
+    </aside>
+
+    <section class="workspace">
+      <header class="toolbar">
+        <div><h1 id="levelName">Chưa chọn level</h1><p id="levelMeta">Nạp thư mục asset để bắt đầu</p></div>
+        <div class="toolbar-actions"><label>Stage <select id="stageSelect" disabled></select></label><button id="viewToggle" title="Chuyển góc nhìn 2D/3D">◇ View 3D</button><button id="fitBoard" title="Căn vừa khung">⌗ Căn vừa</button></div>
+      </header>
+      <div class="viewer-area">
+        <div class="phone">
+          <div class="game-top"><div class="level-badge"><span>LEVEL</span><b id="gameLevel">—</b></div><div class="timer"><span id="timerTitle">TIME</span><b id="gameTimer">--:--</b></div><div class="restart">↻</div></div>
+          <div id="gameBoard" class="game-board"><svg id="boardSvg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" aria-label="Level board preview"></svg></div>
+          <div class="game-bottom"><div class="booster">✂<i>2</i></div><div class="booster">👜<i>2</i></div><div class="booster">♟<i>2</i></div><div class="gear">⚙</div></div>
+        </div>
+        <section class="inspector"><h2>Thông tin stage</h2><dl id="stats"><div><dt>Dây</dt><dd>—</dd></div><div><dt>Chốt</dt><dd>—</dd></div><div><dt>Chướng ngại</dt><dd>—</dd></div><div><dt>Độ khó</dt><dd>—</dd></div></dl><p class="note">Preview hiển thị hình học cơ bản từ dữ liệu asset. Màu dây được tạo theo chỉ số vì <code>RopeData</code> không lưu màu.</p></section>
+      </div>
+    </section>
+  </main>
+  <script src="viewer.js"></script>
+</body>
+</html>

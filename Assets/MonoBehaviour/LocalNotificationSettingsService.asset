@@ -1,0 +1,377 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3da886314fe4114ab42d905ab2fae4, type: 3}
+  m_Name: LocalNotificationSettingsService
+  m_EditorClassIdentifier:
+  initialData:
+    NotificationDataList:
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 💯❤️ Your hearts are full! ❤️💯
+        Contents: Twisted Tangle has fresh challenges!
+      - Language: ar
+        Headings: 💯❤️ قلوبك ممتلئة! 💯❤️
+        Contents: توجد تحديات جديدة في Twisted Tangle!
+      - Language: de
+        Headings: 💯❤️ Dein Herz ist voll! 💯❤️
+        Contents: Twisted Tangle hat neue Herausforderungen!
+      - Language: es
+        Headings: 💯❤️ Tu corazón está lleno! 💯❤️
+        Contents: ¡Twisted Tangle tiene desafíos frescos!
+      - Language: fr
+        Headings: 💯❤️ Ton cœur est plein! 💯❤️
+        Contents: Twisted Tangle propose de nouveaux défis !
+      - Language: it
+        Headings: 💯❤️ Il tuo cuore è pieno! 💯❤️
+        Contents: Twisted Tangle presenta nuove sfide!
+      - Language: ja
+        Headings: 💯❤️君の心は満ちている！💯❤️
+        Contents: Twisted Tangleには新しいチャレンジが待っている！
+      - Language: tr
+        Headings: 💯❤️ Kalplerin dolu! 💯❤️
+        Contents: Twisted Tangle, taze zorluklarla dolu!
+      - Language: zh-Hans
+        Headings: 💯❤️ 你的心是满的！💯❤️
+        Contents: 扭曲之网有全新的挑战！
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 👑 Claim your throne! 👑
+        Contents: You can bounce back! Your position has dropped, play more to reclaim your glory.
+      - Language: ar
+        Headings: 👑 ادعي عرشك! 👑
+        Contents: يمكنك الارتداد! لقد انخفض موقعك، العب أكثر لاستعادة مجدك.
+      - Language: de
+        Headings: 👑 Fordere deinen Thron ein! 👑
+        Contents: Du kannst wieder aufholen! Deine Position ist gesunken, spiele mehr, um deine Herrlichkeit zurückzugewinnen.
+      - Language: es
+        Headings: 👑 ¡Reclama tu trono! 👑
+        Contents: ¡Puedes recuperarte! Tu posición ha bajado, juega más para recuperar tu gloria.
+      - Language: fr
+        Headings: 👑 Revendique ton trône ! 👑
+        Contents: Tu peux rebondir ! Ta position a chuté, joue davantage pour retrouver ta gloire.
+      - Language: it
+        Headings: 👑 Reclama il tuo trono! 👑
+        Contents: Puoi rimbalzare indietro! La tua posizione è scesa, gioca di più per riconquistare la tua gloria.
+      - Language: ja
+        Headings: 👑 自分の玉座を要求せよ！👑
+        Contents: 立ち直ることができます！あなたのポジションが下がったので、もっとプレイして栄光を取り戻しましょう。
+      - Language: tr
+        Headings: 👑 Tahtını talep et! 👑
+        Contents: Geri dönebilirsin! Pozisyonun düştü, daha fazla oyna ve zaferini geri kazan.
+      - Language: zh-Hans
+        Headings: 👑 认领你的王座！👑
+        Contents: 你可以弹回来！你的位置已下降，多玩一些以夺回你的荣耀。
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 🏆 Stay on top! 🏆
+        Contents: Defend your position and show them who's boss!
+      - Language: ar
+        Headings: 🏆 ابق على القمة! 🏆
+        Contents: حافظ على موقعك وأظهر لهم من هو الرئيس!
+      - Language: de
+        Headings: 🏆 Bleib an der Spitze! 🏆
+        Contents: Verteidige deine Position und zeig ihnen, wer der Chef ist!
+      - Language: es
+        Headings: 🏆 ¡Mantente en la cima! 🏆
+        Contents: ¡Defiende tu posición y muéstrales quién manda!
+      - Language: fr
+        Headings: 🏆 Reste en haut ! 🏆
+        Contents: Défends ta position et montre-leur qui est le patron !
+      - Language: it
+        Headings: 🏆 Rimanere in cima! 🏆
+        Contents: Difendi la tua posizione e mostra loro chi comanda!
+      - Language: ja
+        Headings: 🏆 トップにとどまれ！🏆
+        Contents: 自分のポジションを守り、誰がボスかを示せ！
+      - Language: tr
+        Headings: 🏆 En tepede kal! 🏆
+        Contents: Pozisyonunu savun ve kimin patron olduğunu göster!
+      - Language: zh-Hans
+        Headings: 👑 认领你的王座！👑
+        Contents: 你可以弹回来！你的位置已下降，多玩一些以夺回你的荣耀。
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 🏁 The league's end is near! 🏁
+        Contents: Don't let the opportunity for rewards slip away!
+      - Language: ar
+        Headings: 🏁 انتهاء الدوري قريب! 🏁
+        Contents: لا تدع الفرصة للمكافآت تفوتك!
+      - Language: de
+        Headings: 🏁 Das Ende der Liga naht! 🏁
+        Contents: Lass die Gelegenheit für Belohnungen nicht entgehen!
+      - Language: es
+        Headings: 🏁 ¡El fin de la liga se acerca! 🏁
+        Contents: ¡No dejes que la oportunidad de recompensas se escape!
+      - Language: fr
+        Headings: 🏁 La fin de la ligue est proche ! 🏁
+        Contents: Ne laisse pas l'opportunité de récompenses t'échapper !
+      - Language: it
+        Headings: 🏁 La fine della lega è vicina! 🏁
+        Contents: Non lasciare che l'opportunità per le ricompense sfugga!
+      - Language: ja
+        Headings: 🏁 リーグの終了が近づいています！🏁
+        Contents: 報酬の機会を逃さないようにしましょう！
+      - Language: tr
+        Headings: 🏁 Ligi sona eriyor! 🏁
+        Contents: Ödüller fırsatını kaçırma!
+      - Language: zh-Hans
+        Headings: 🏁 联赛即将结束！🏁
+        Contents: 不要让奖励的机会溜走！
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 7
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 🐣 Easter Event Kickoff! 🎉
+        Contents: Hop into the Twisted Tangle Easter Extravaganza now! 🐰 Untangle ropes for egg-citing rewards! 🎁
+      - Language: ar
+        Headings: 🐣 بداية الحدث المثير! 🎉
+        Contents: انطلق في مغامرة عيد الفصح الآن! 🐰 حل العقد للفوز بجوائز رائعة! 🎁
+      - Language: zh-Hans
+        Headings: 🐣 事件开始啦！ 🎉
+        Contents: '"立即加入我们的复活节冒险吧！🐰 解开绳索，赢取激动人心的奖励！🎁'
+      - Language: de
+        Headings: 🐣 Oster-Event Start! 🎉
+        Contents: Das Oster-Extravaganza von Twisted Tangle hat begonnen! 🐰 Entwirr die Seile für aufregende Belohnungen! 🎁
+      - Language: fr
+        Headings: 🐣 Lancement de l'événement de Pâques! 🎉
+        Contents: Plongez dans l'extravagance de Pâques de Twisted Tangle maintenant! 🐰 Démêlez les cordes pour des récompenses excitantes! 🎁
+      - Language: es
+        Headings: 🐣 ¡Comienza el Evento de Pascua! 🎉
+        Contents: ¡Únete ahora al extravío de Pascua de Twisted Tangle! 🐰 Desenreda las cuerdas para obtener recompensas emocionantes! 🎁
+      - Language: it
+        Headings: 🐣 Inizio dell'Evento di Pasqua! 🎉
+        Contents: Immergiti ora nell'Extravaganza di Pasqua di Twisted Tangle! 🐰 Sgroviglia le corde per premi entusiasmanti! 🎁
+      - Language: ja
+        Headings: 🐣 イースターイベント開始！ 🎉
+        Contents: 今すぐTwisted Tangleのイースターイベントに参加しよう！🐰 ロープを解いて、エキサイティングな報酬を手に入れよう！🎁
+      - Language: tr
+        Headings: 🐣 Paskalya Etkinliği Başladı! 🎉
+        Contents: Twisted Tangle'ın Paskalya Şöleni'ne hemen katıl! 🐰 İpleri çöz ve heyecan verici ödüller kazan! 🎁
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 7
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 🥚 Keep the Fun Unraveling! 🚀
+        Contents: The fun isn’t over yet! Keep untangling for more egg-straordinary prizes! 🎁
+      - Language: ar
+        Headings: 🥚 متابعة المرح! 🚀
+        Contents: '"لا تفوت المتعة! استمر في حل الألغاز لفوز بجوائز أكثر إثارة! 🎁'
+      - Language: zh-Hans
+        Headings: 🥚 活动进行中！ 🚀
+        Contents: '"活动仍在进行！继续解开绳结，赢取更多奖励！ 🎁'
+      - Language: de
+        Headings: 🥚 Event-Halbzeit! 🚀
+        Contents: Das Event ist in vollem Gange! Löse weiterhin Rätsel für spektakuläre Preise! 🎁
+      - Language: fr
+        Headings: 🥚 Continuons l'amusement ! 🚀
+        Contents: L'aventure n'est pas finie ! Continuez de démêler pour encore plus de récompenses ! 🎁
+      - Language: es
+        Headings: 🥚 ¡La diversión continúa! 🚀
+        Contents: ¡El evento aún no ha terminado! Sigue desenredando para descubrir más premios. 🎁
+      - Language: it
+        Headings: 🥚 L'evento va avanti! 🚀
+        Contents: L'evento è ancora in pieno svolgimento! Continua a districare per scoprire nuove ricompense! 🎁
+      - Language: ja
+        Headings: 🥚 イベントはまだ続いています！ 🚀
+        Contents: イベントはまだ終わっていません！さらなる素敵な報酬を手に入れるために解き続けよう！ 🎁
+      - Language: tr
+        Headings: 🥚 Eğlence Devam Ediyor! 🚀
+        Contents: Henüz bitmedi! Daha fazla harika ödül için ip çözmeye devam et! 🎁
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 7
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 🔔 Last Chance for Prizes! ⏰
+        Contents: Final day of the event! Don't miss out on your chance for egg-stravagant prizes! 🎁
+      - Language: ar
+        Headings: 🔔 آخر فرصة للفوز! ⏰
+        Contents: آخر يوم في الحدث! لا تفوت فرصتك في الحصول على الجوائز الخيالية! 🎁
+      - Language: zh-Hans
+        Headings: 🔔 最后机会！ ⏰
+        Contents: '"活动即将结束！不要错过赢取奖励的最后机会！ 🎁'
+      - Language: de
+        Headings: 🔔 Letzte Chance! ⏰
+        Contents: Letzter Tag des Events! Verpasse nicht deine Chance auf spektakuläre Preise! 🎁
+      - Language: fr
+        Headings: 🔔 Dernière chance pour les prix ! ⏰
+        Contents: Dernier jour de l'événement ! Ne ratez pas votre chance de gagner des récompenses extraordinaires ! 🎁
+      - Language: es
+        Headings: 🔔 Última oportunidad de ganar! ⏰
+        Contents: ¡Último día del evento! No pierdas tu oportunidad de obtener premios extraordinarios. 🎁
+      - Language: it
+        Headings: 🔔 Ultima chiamata per i premi! ⏰
+        Contents: Ultimo giorno dell'evento! Non perdere la tua chance per premi spettacolari! 🎁
+      - Language: ja
+        Headings: 🔔 賞品を得る最後のチャンス！ ⏰
+        Contents: イベントの最終日です！豪華な報酬を逃さないようにしよう！ 🎁
+      - Language: tr
+        Headings: 🔔 Ödüller İçin Son Şans! ⏰
+        Contents: Etkinliğin son günü! Muhteşem ödüller kazanma şansını kaçırma! 🎁
+    MaxTotalNotificationCount: 12
+    HighRankFallThreshold: 4
+    LowRankFallTreshold: 16
+  actualData:
+    NotificationDataList:
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 💯❤️ Your hearts are full! ❤️💯
+        Contents: Twisted Tangle has fresh challenges!
+      - Language: ar
+        Headings: 💯❤️ قلوبك ممتلئة! 💯❤️
+        Contents: توجد تحديات جديدة في Twisted Tangle!
+      - Language: de
+        Headings: 💯❤️ Dein Herz ist voll! 💯❤️
+        Contents: Twisted Tangle hat neue Herausforderungen!
+      - Language: es
+        Headings: 💯❤️ Tu corazón está lleno! 💯❤️
+        Contents: ¡Twisted Tangle tiene desafíos frescos!
+      - Language: fr
+        Headings: 💯❤️ Ton cœur est plein! 💯❤️
+        Contents: Twisted Tangle propose de nouveaux défis !
+      - Language: it
+        Headings: 💯❤️ Il tuo cuore è pieno! 💯❤️
+        Contents: Twisted Tangle presenta nuove sfide!
+      - Language: ja
+        Headings: 💯❤️君の心は満ちている！💯❤️
+        Contents: Twisted Tangleには新しいチャレンジが待っている！
+      - Language: tr
+        Headings: 💯❤️ Kalplerin dolu! 💯❤️
+        Contents: Twisted Tangle, taze zorluklarla dolu!
+      - Language: zh-Hans
+        Headings: 💯❤️ 你的心是满的！💯❤️
+        Contents: 扭曲之网有全新的挑战！
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 👑 Claim your throne! 👑
+        Contents: You can bounce back! Your position has dropped, play more to reclaim your glory.
+      - Language: ar
+        Headings: 👑 ادعي عرشك! 👑
+        Contents: يمكنك الارتداد! لقد انخفض موقعك، العب أكثر لاستعادة مجدك.
+      - Language: de
+        Headings: 👑 Fordere deinen Thron ein! 👑
+        Contents: Du kannst wieder aufholen! Deine Position ist gesunken, spiele mehr, um deine Herrlichkeit zurückzugewinnen.
+      - Language: es
+        Headings: 👑 ¡Reclama tu trono! 👑
+        Contents: ¡Puedes recuperarte! Tu posición ha bajado, juega más para recuperar tu gloria.
+      - Language: fr
+        Headings: 👑 Revendique ton trône ! 👑
+        Contents: Tu peux rebondir ! Ta position a chuté, joue davantage pour retrouver ta gloire.
+      - Language: it
+        Headings: 👑 Reclama il tuo trono! 👑
+        Contents: Puoi rimbalzare indietro! La tua posizione è scesa, gioca di più per riconquistare la tua gloria.
+      - Language: ja
+        Headings: 👑 自分の玉座を要求せよ！👑
+        Contents: 立ち直ることができます！あなたのポジションが下がったので、もっとプレイして栄光を取り戻しましょう。
+      - Language: tr
+        Headings: 👑 Tahtını talep et! 👑
+        Contents: Geri dönebilirsin! Pozisyonun düştü, daha fazla oyna ve zaferini geri kazan.
+      - Language: zh-Hans
+        Headings: 👑 认领你的王座！👑
+        Contents: 你可以弹回来！你的位置已下降，多玩一些以夺回你的荣耀。
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 🏆 Stay on top! 🏆
+        Contents: Defend your position and show them who's boss!
+      - Language: ar
+        Headings: 🏆 ابق على القمة! 🏆
+        Contents: حافظ على موقعك وأظهر لهم من هو الرئيس!
+      - Language: de
+        Headings: 🏆 Bleib an der Spitze! 🏆
+        Contents: Verteidige deine Position und zeig ihnen, wer der Chef ist!
+      - Language: es
+        Headings: 🏆 ¡Mantente en la cima! 🏆
+        Contents: ¡Defiende tu posición y muéstrales quién manda!
+      - Language: fr
+        Headings: 🏆 Reste en haut ! 🏆
+        Contents: Défends ta position et montre-leur qui est le patron !
+      - Language: it
+        Headings: 🏆 Rimanere in cima! 🏆
+        Contents: Difendi la tua posizione e mostra loro chi comanda!
+      - Language: ja
+        Headings: 🏆 トップにとどまれ！🏆
+        Contents: 自分のポジションを守り、誰がボスかを示せ！
+      - Language: tr
+        Headings: 🏆 En tepede kal! 🏆
+        Contents: Pozisyonunu savun ve kimin patron olduğunu göster!
+      - Language: zh-Hans
+        Headings: 👑 认领你的王座！👑
+        Contents: 你可以弹回来！你的位置已下降，多玩一些以夺回你的荣耀。
+    - IsEnabled: 1
+      MaxNotificationLimit: 5
+      StartHour: 9
+      EndHour: 22
+      LanguageTextPairList:
+      - Language: en
+        Headings: 🏁 The league's end is near! 🏁
+        Contents: Don't let the opportunity for rewards slip away!
+      - Language: ar
+        Headings: 🏁 انتهاء الدوري قريب! 🏁
+        Contents: لا تدع الفرصة للمكافآت تفوتك!
+      - Language: de
+        Headings: 🏁 Das Ende der Liga naht! 🏁
+        Contents: Lass die Gelegenheit für Belohnungen nicht entgehen!
+      - Language: es
+        Headings: 🏁 ¡El fin de la liga se acerca! 🏁
+        Contents: ¡No dejes que la oportunidad de recompensas se escape!
+      - Language: fr
+        Headings: 🏁 La fin de la ligue est proche ! 🏁
+        Contents: Ne laisse pas l'opportunité de récompenses t'échapper !
+      - Language: it
+        Headings: 🏁 La fine della lega è vicina! 🏁
+        Contents: Non lasciare che l'opportunità per le ricompense sfugga!
+      - Language: ja
+        Headings: 🏁 リーグの終了が近づいています！🏁
+        Contents: 報酬の機会を逃さないようにしましょう！
+      - Language: tr
+        Headings: 🏁 Ligi sona eriyor! 🏁
+        Contents: Ödüller fırsatını kaçırma!
+      - Language: zh-Hans
+        Headings: 🏁 联赛即将结束！🏁
+        Contents: 不要让奖励的机会溜走！
+    MaxTotalNotificationCount: 12
+    HighRankFallThreshold: 4
+    LowRankFallTreshold: 16
+  plainDataProvider: {fileID: 11400000, guid: 99e81214f32ff6944a6a1610a7725281, type: 2}

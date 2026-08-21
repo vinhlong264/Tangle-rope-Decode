@@ -1,0 +1,770 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34fac98adc8fe6f7072bd409ceb273d, type: 3}
+  m_Name: SegmentedOfferDataService
+  m_EditorClassIdentifier:
+  initialData:
+    SegmentSettings:
+    - Id: Mothers Day
+      isActive: 1
+      showLevelLimit: 35
+      buyLimit: 10
+      segmentProducts:
+      - tier: 0
+        iapId: twistedtangle_mothers_day_offer_1
+        goldAmount: 1500
+        products:
+        - productType: 50
+          productAmount: 1
+        - productType: 40
+          productAmount: 30
+      - tier: 1
+        iapId: twistedtangle_mothers_day_offer_2
+        goldAmount: 3500
+        products:
+        - productType: 50
+          productAmount: 1
+        - productType: 30
+          productAmount: 1
+        - productType: 60
+          productAmount: 1
+        - productType: 40
+          productAmount: 30
+      - tier: 2
+        iapId: twistedtangle_mothers_day_offer_3
+        goldAmount: 8000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 40
+          productAmount: 45
+        - productType: 60
+          productAmount: 2
+        - productType: 30
+          productAmount: 2
+      - tier: 3
+        iapId: twistedtangle_mothers_day_offer_4
+        goldAmount: 20000
+        products:
+        - productType: 50
+          productAmount: 4
+        - productType: 40
+          productAmount: 120
+        - productType: 60
+          productAmount: 4
+        - productType: 30
+          productAmount: 4
+      - tier: 4
+        iapId: twistedtangle_mothers_day_offer_4
+        goldAmount: 20000
+        products:
+        - productType: 50
+          productAmount: 4
+        - productType: 40
+          productAmount: 120
+        - productType: 60
+          productAmount: 4
+        - productType: 30
+          productAmount: 4
+      - tier: 5
+        iapId: twistedtangle_mothers_day_offer_5
+        goldAmount: 47000
+        products:
+        - productType: 50
+          productAmount: 10
+        - productType: 40
+          productAmount: 300
+        - productType: 60
+          productAmount: 10
+        - productType: 30
+          productAmount: 10
+      - tier: 6
+        iapId: twistedtangle_mothers_day_offer_5
+        goldAmount: 47000
+        products:
+        - productType: 50
+          productAmount: 10
+        - productType: 40
+          productAmount: 300
+        - productType: 60
+          productAmount: 10
+        - productType: 30
+          productAmount: 10
+      - tier: 7
+        iapId: twistedtangle_mothers_day_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 40
+          productAmount: 600
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      - tier: 8
+        iapId: twistedtangle_mothers_day_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 40
+          productAmount: 600
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      - tier: 9
+        iapId: twistedtangle_mothers_day_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 40
+          productAmount: 600
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      startDateTimestamp: 1750774087
+      endDateTimestamp: 1750774187
+      eventSkins: []
+    - Id: Anniversary
+      isActive: 1
+      showLevelLimit: 35
+      buyLimit: 10
+      segmentProducts:
+      - tier: 0
+        iapId: twistedtangle_mothers_day_offer_1
+        goldAmount: 1500
+        products:
+        - productType: 50
+          productAmount: 1
+        - productType: 40
+          productAmount: 30
+      - tier: 1
+        iapId: twistedtangle_mothers_day_offer_2
+        goldAmount: 3500
+        products:
+        - productType: 50
+          productAmount: 1
+        - productType: 30
+          productAmount: 1
+        - productType: 60
+          productAmount: 1
+        - productType: 40
+          productAmount: 30
+      - tier: 2
+        iapId: twistedtangle_mothers_day_offer_3
+        goldAmount: 8000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 40
+          productAmount: 45
+        - productType: 60
+          productAmount: 2
+        - productType: 30
+          productAmount: 2
+      - tier: 3
+        iapId: twistedtangle_mothers_day_offer_4
+        goldAmount: 20000
+        products:
+        - productType: 50
+          productAmount: 4
+        - productType: 40
+          productAmount: 120
+        - productType: 60
+          productAmount: 4
+        - productType: 30
+          productAmount: 4
+      - tier: 4
+        iapId: twistedtangle_mothers_day_offer_4
+        goldAmount: 20000
+        products:
+        - productType: 50
+          productAmount: 4
+        - productType: 40
+          productAmount: 120
+        - productType: 60
+          productAmount: 4
+        - productType: 30
+          productAmount: 4
+      - tier: 5
+        iapId: twistedtangle_mothers_day_offer_5
+        goldAmount: 47000
+        products:
+        - productType: 50
+          productAmount: 10
+        - productType: 40
+          productAmount: 300
+        - productType: 60
+          productAmount: 10
+        - productType: 30
+          productAmount: 10
+      - tier: 6
+        iapId: twistedtangle_mothers_day_offer_5
+        goldAmount: 47000
+        products:
+        - productType: 50
+          productAmount: 10
+        - productType: 40
+          productAmount: 300
+        - productType: 60
+          productAmount: 10
+        - productType: 30
+          productAmount: 10
+      - tier: 7
+        iapId: twistedtangle_mothers_day_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 40
+          productAmount: 600
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      - tier: 8
+        iapId: twistedtangle_mothers_day_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 40
+          productAmount: 600
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      - tier: 9
+        iapId: twistedtangle_mothers_day_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 40
+          productAmount: 600
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      startDateTimestamp: 1733651600
+      endDateTimestamp: 1733651600
+      eventSkins:
+      - pin_16
+    - Id: Fourth July
+      isActive: 1
+      showLevelLimit: 2
+      buyLimit: 10
+      segmentProducts:
+      - tier: 0
+        iapId: twistedtangle_4th_ofjuly_1
+        goldAmount: 1000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 40
+          productAmount: 30
+      - tier: 1
+        iapId: twistedtangle_4th_ofjuly_2
+        goldAmount: 4000
+        products:
+        - productType: 50
+          productAmount: 1
+        - productType: 30
+          productAmount: 1
+        - productType: 60
+          productAmount: 1
+      - tier: 2
+        iapId: twistedtangle_4th_ofjuly_3
+        goldAmount: 7500
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 60
+          productAmount: 2
+        - productType: 30
+          productAmount: 2
+      - tier: 3
+        iapId: twistedtangle_4th_ofjuly_4
+        goldAmount: 20000
+        products:
+        - productType: 50
+          productAmount: 5
+        - productType: 60
+          productAmount: 5
+        - productType: 30
+          productAmount: 5
+      - tier: 4
+        iapId: twistedtangle_4th_ofjuly_4
+        goldAmount: 20000
+        products:
+        - productType: 50
+          productAmount: 5
+        - productType: 60
+          productAmount: 5
+        - productType: 30
+          productAmount: 5
+      - tier: 5
+        iapId: twistedtangle_4th_ofjuly_5
+        goldAmount: 47000
+        products:
+        - productType: 50
+          productAmount: 11
+        - productType: 60
+          productAmount: 11
+        - productType: 30
+          productAmount: 11
+      - tier: 6
+        iapId: twistedtangle_4th_ofjuly_5
+        goldAmount: 47000
+        products:
+        - productType: 50
+          productAmount: 11
+        - productType: 60
+          productAmount: 11
+        - productType: 30
+          productAmount: 11
+      - tier: 7
+        iapId: twistedtangle_4th_ofjuly_6
+        goldAmount: 65000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      - tier: 8
+        iapId: twistedtangle_4th_ofjuly_6
+        goldAmount: 65000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      - tier: 9
+        iapId: twistedtangle_4th_ofjuly_6
+        goldAmount: 65000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+      startDateTimestamp: 1750774177
+      endDateTimestamp: 1750794187
+      eventSkins: []
+  actualData:
+    SegmentSettings:
+    - Id: Anniversary
+      isActive: 1
+      showLevelLimit: 35
+      buyLimit: 1
+      segmentProducts:
+      - tier: 0
+        iapId: twistedtangle_second_anniversary_1
+        goldAmount: 1000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 40
+          productAmount: 15
+        - productType: 100
+          productAmount: 1
+      - tier: 1
+        iapId: twistedtangle_second_anniversary_2
+        goldAmount: 2100
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 30
+          productAmount: 2
+        - productType: 60
+          productAmount: 2
+        - productType: 100
+          productAmount: 1
+      - tier: 2
+        iapId: twistedtangle_second_anniversary_3
+        goldAmount: 6500
+        products:
+        - productType: 50
+          productAmount: 3
+        - productType: 60
+          productAmount: 3
+        - productType: 30
+          productAmount: 3
+        - productType: 100
+          productAmount: 1
+      - tier: 3
+        iapId: twistedtangle_second_anniversary_4
+        goldAmount: 18000
+        products:
+        - productType: 50
+          productAmount: 6
+        - productType: 60
+          productAmount: 6
+        - productType: 30
+          productAmount: 6
+        - productType: 100
+          productAmount: 1
+      - tier: 4
+        iapId: twistedtangle_second_anniversary_4
+        goldAmount: 18000
+        products:
+        - productType: 50
+          productAmount: 6
+        - productType: 60
+          productAmount: 6
+        - productType: 30
+          productAmount: 6
+        - productType: 100
+          productAmount: 1
+      - tier: 5
+        iapId: twistedtangle_second_anniiversary_5
+        goldAmount: 40000
+        products:
+        - productType: 50
+          productAmount: 14
+        - productType: 60
+          productAmount: 14
+        - productType: 30
+          productAmount: 14
+        - productType: 100
+          productAmount: 1
+      - tier: 6
+        iapId: twistedtangle_second_anniiversary_5
+        goldAmount: 40000
+        products:
+        - productType: 50
+          productAmount: 14
+        - productType: 60
+          productAmount: 14
+        - productType: 30
+          productAmount: 14
+        - productType: 100
+          productAmount: 1
+      - tier: 7
+        iapId: twistedtangle_second_anniversary_6
+        goldAmount: 62000
+        products:
+        - productType: 50
+          productAmount: 28
+        - productType: 60
+          productAmount: 28
+        - productType: 30
+          productAmount: 28
+        - productType: 100
+          productAmount: 1
+      - tier: 8
+        iapId: twistedtangle_second_anniversary_6
+        goldAmount: 62000
+        products:
+        - productType: 50
+          productAmount: 28
+        - productType: 60
+          productAmount: 28
+        - productType: 30
+          productAmount: 28
+        - productType: 100
+          productAmount: 1
+      - tier: 9
+        iapId: twistedtangle_second_anniversary_6
+        goldAmount: 62000
+        products:
+        - productType: 50
+          productAmount: 28
+        - productType: 60
+          productAmount: 28
+        - productType: 30
+          productAmount: 28
+        - productType: 100
+          productAmount: 1
+      startDateTimestamp: 1749070800
+      endDateTimestamp: 1749762000
+      eventSkins:
+      - pin_16
+    - Id: Summer Offer
+      isActive: 1
+      showLevelLimit: 35
+      buyLimit: 2
+      segmentProducts:
+      - tier: 0
+        iapId: twistedtangle_summer25_offer_1
+        goldAmount: 1000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 40
+          productAmount: 30
+      - tier: 1
+        iapId: twistedtangle_summer25_offer_2
+        goldAmount: 3500
+        products:
+        - productType: 50
+          productAmount: 1
+        - productType: 30
+          productAmount: 1
+        - productType: 60
+          productAmount: 1
+        - productType: 40
+          productAmount: 60
+      - tier: 2
+        iapId: twistedtangle_summer25_offer_3
+        goldAmount: 6000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 30
+          productAmount: 2
+        - productType: 60
+          productAmount: 2
+        - productType: 40
+          productAmount: 180
+      - tier: 3
+        iapId: twistedtangle_summer25_offer_4
+        goldAmount: 14000
+        products:
+        - productType: 50
+          productAmount: 6
+        - productType: 30
+          productAmount: 6
+        - productType: 60
+          productAmount: 6
+        - productType: 40
+          productAmount: 300
+      - tier: 4
+        iapId: twistedtangle_summer25_offer_4
+        goldAmount: 14000
+        products:
+        - productType: 50
+          productAmount: 6
+        - productType: 30
+          productAmount: 6
+        - productType: 60
+          productAmount: 6
+        - productType: 40
+          productAmount: 300
+      - tier: 5
+        iapId: twistedtangle_summer25_offer_5
+        goldAmount: 42000
+        products:
+        - productType: 50
+          productAmount: 12
+        - productType: 60
+          productAmount: 12
+        - productType: 30
+          productAmount: 12
+        - productType: 40
+          productAmount: 360
+      - tier: 6
+        iapId: twistedtangle_summer25_offer_5
+        goldAmount: 42000
+        products:
+        - productType: 50
+          productAmount: 12
+        - productType: 60
+          productAmount: 12
+        - productType: 30
+          productAmount: 12
+        - productType: 40
+          productAmount: 360
+      - tier: 7
+        iapId: twistedtangle_summer25_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+        - productType: 40
+          productAmount: 720
+      - tier: 8
+        iapId: twistedtangle_summer25_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+        - productType: 40
+          productAmount: 720
+      - tier: 9
+        iapId: twistedtangle_summer25_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+        - productType: 40
+          productAmount: 720
+      startDateTimestamp: 1754553600
+      endDateTimestamp: 1755158400
+      eventSkins:
+      - pin_16
+    - Id: Starter Offer
+      isActive: 1
+      showLevelLimit: 35
+      buyLimit: 262
+      segmentProducts:
+      - tier: 0
+        iapId: twistedtangle_laborday25_offer_1
+        goldAmount: 1000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 40
+          productAmount: 30
+      - tier: 1
+        iapId: twistedtangle_laborday25_offer_2
+        goldAmount: 3500
+        products:
+        - productType: 50
+          productAmount: 1
+        - productType: 30
+          productAmount: 1
+        - productType: 60
+          productAmount: 1
+        - productType: 40
+          productAmount: 60
+      - tier: 2
+        iapId: twistedtangle_laborday25_offer_3
+        goldAmount: 6000
+        products:
+        - productType: 50
+          productAmount: 2
+        - productType: 30
+          productAmount: 2
+        - productType: 60
+          productAmount: 2
+        - productType: 40
+          productAmount: 180
+      - tier: 3
+        iapId: twistedtangle_laborday25_offer_4
+        goldAmount: 14000
+        products:
+        - productType: 50
+          productAmount: 6
+        - productType: 30
+          productAmount: 6
+        - productType: 60
+          productAmount: 6
+        - productType: 40
+          productAmount: 300
+      - tier: 4
+        iapId: twistedtangle_laborday25_offer_4
+        goldAmount: 14000
+        products:
+        - productType: 50
+          productAmount: 6
+        - productType: 30
+          productAmount: 6
+        - productType: 60
+          productAmount: 6
+        - productType: 40
+          productAmount: 300
+      - tier: 5
+        iapId: twistedtangle_laborday25_offer_5
+        goldAmount: 42000
+        products:
+        - productType: 50
+          productAmount: 12
+        - productType: 60
+          productAmount: 12
+        - productType: 30
+          productAmount: 12
+        - productType: 40
+          productAmount: 360
+      - tier: 6
+        iapId: twistedtangle_laborday25_offer_5
+        goldAmount: 42000
+        products:
+        - productType: 50
+          productAmount: 12
+        - productType: 60
+          productAmount: 12
+        - productType: 30
+          productAmount: 12
+        - productType: 40
+          productAmount: 360
+      - tier: 7
+        iapId: twistedtangle_laborday25_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+        - productType: 40
+          productAmount: 720
+      - tier: 8
+        iapId: twistedtangle_laborday25_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+        - productType: 40
+          productAmount: 720
+      - tier: 9
+        iapId: twistedtangle_laborday25_offer_6
+        goldAmount: 60000
+        products:
+        - productType: 50
+          productAmount: 25
+        - productType: 60
+          productAmount: 25
+        - productType: 30
+          productAmount: 25
+        - productType: 40
+          productAmount: 720
+      startDateTimestamp: 0
+      endDateTimestamp: 1758868465
+      eventSkins: []
+  plainDataProvider: {fileID: 11400000, guid: eba6710086b911142836d3f75b2b508e, type: 2}
+  segmentedOfferRewardIcons:
+  - type: 20
+    icon: {fileID: 21300000, guid: 91a4c53f27a0de34db66559b9dd760cd, type: 2}
+  - type: 30
+    icon: {fileID: 21300000, guid: cc48e8bd55ffe8841a7c16d9443ae0ab, type: 2}
+  - type: 40
+    icon: {fileID: 21300000, guid: f8623561c5f80a84fba1d48a5dc0e7a9, type: 2}
+  - type: 50
+    icon: {fileID: 21300000, guid: 0c58c59630c4d7e41a93e390c0714b33, type: 2}
+  - type: 60
+    icon: {fileID: 21300000, guid: 4eab1a8ece8363b429eda6820dd6ff28, type: 2}
+  - type: 80
+    icon: {fileID: 21300000, guid: c107c7bb930edc24da6078de42325036, type: 2}
+  - type: 10
+    icon: {fileID: 21300000, guid: db635604c334a6d4cb8bba395b259eda, type: 2}
+  - type: 100
+    icon: {fileID: 21300000, guid: c702607c36cd2b8449f5faca8130931a, type: 2}
+  - type: 0
+    icon: {fileID: 21300000, guid: 9f7b652cf146a6b419cb37e0d9aadb14, type: 2}
+  level: {fileID: 11400000, guid: cfd859abdd6a9854c81a6f97199dc0b0, type: 2}

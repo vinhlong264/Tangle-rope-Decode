@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3932140a3ec9d1b4c0c1e0581af9564, type: 3}
+  m_Name: RaceDataPersistent
+  m_EditorClassIdentifier:
+  DataGroup: 14
+  ReadableSaveKey: RaceDataPersistent
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 3292534342
+    m_Value1: 3783566588
+    m_Value2: 178534355
+    m_Value3: 887799873
+  setSessionStartValue: 0
+  initialValue:
+    RaceStartTime:
+    RaceFinishTime:
+    RaceDeclineLevelNumber: 0
+    RaceCountToday: 0
+    RaceCountUpdateTime:
+  value:
+    RaceStartTime:
+    RaceFinishTime:
+    RaceDeclineLevelNumber: 0
+    RaceCountToday: 0
+    RaceCountUpdateTime:
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

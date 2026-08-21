@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5990bca433cb7935b2557a580f6dfe, type: 3}
+  m_Name: Resources Product Settings
+  m_EditorClassIdentifier:
+  <ResourceProductInfos>k__BackingField:
+  - <ProductPackId>k__BackingField: money_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: 91c6432d13613a3408a4f19468723372, type: 2}
+  - <ProductPackId>k__BackingField: coin_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: 91c6432d13613a3408a4f19468723372, type: 2}
+  - <ProductPackId>k__BackingField: coin_pack_2
+    <Channel>k__BackingField: {fileID: 11400000, guid: 91c6432d13613a3408a4f19468723372, type: 2}
+  - <ProductPackId>k__BackingField: coin_noniap
+    <Channel>k__BackingField: {fileID: 11400000, guid: 91c6432d13613a3408a4f19468723372, type: 2}
+  - <ProductPackId>k__BackingField: heart_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: 7b6e7e2e8d682c549a3dca37e88fb795, type: 2}
+  - <ProductPackId>k__BackingField: heart_infinite_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: 7b6e7e2e8d682c549a3dca37e88fb795, type: 2}
+  - <ProductPackId>k__BackingField: skip_it_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: c0ff72e239c33d944ba2178b05c015f0, type: 2}
+  - <ProductPackId>k__BackingField: cut_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: 40437a102eed7ed48897154c25856a27, type: 2}
+  - <ProductPackId>k__BackingField: shuffle_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: a02f0df694301ca47a4ddd3acf036149, type: 2}
+  - <ProductPackId>k__BackingField: time_freeze_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: eae67c1028cfd4a4981effbb54a42f31, type: 2}
+  - <ProductPackId>k__BackingField: undo_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: f2000bd81781c164d9fa1968928b1285, type: 2}
+  - <ProductPackId>k__BackingField: hammer_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: 40117d800a728d14489b78ee61096d9c, type: 2}
+  - <ProductPackId>k__BackingField: pocket_watch_pack
+    <Channel>k__BackingField: {fileID: 11400000, guid: 93f08a1d05fe3144d88fb7eaf6de32b5, type: 2}

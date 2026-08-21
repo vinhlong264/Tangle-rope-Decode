@@ -1,0 +1,111 @@
+
+Summer_Offer_02.png
+size: 1421, 485
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Layer 10
+  rotate: false
+  xy: 472, 249
+  size: 543, 236
+  orig: 543, 236
+  offset: 0, 0
+  index: -1
+Leaf1
+  rotate: false
+  xy: 965, 0
+  size: 105, 96
+  orig: 105, 96
+  offset: 0, 0
+  index: -1
+Leaf2
+  rotate: false
+  xy: 1332, 4
+  size: 89, 127
+  orig: 89, 127
+  offset: 0, 0
+  index: -1
+Leaf3
+  rotate: false
+  xy: 1348, 133
+  size: 54, 118
+  orig: 54, 118
+  offset: 0, 0
+  index: -1
+Mask
+  rotate: false
+  xy: 1017, 382
+  size: 396, 103
+  orig: 396, 103
+  offset: 0, 0
+  index: -1
+Parasol
+  rotate: false
+  xy: 472, 23
+  size: 315, 224
+  orig: 315, 339
+  offset: 0, 115
+  index: -1
+Pole
+  rotate: true
+  xy: 1017, 269
+  size: 111, 262
+  orig: 111, 262
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 0, 15
+  size: 470, 470
+  orig: 470, 470
+  offset: 0, 0
+  index: -1
+Sun
+  rotate: false
+  xy: 789, 73
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+fan1
+  rotate: false
+  xy: 1074, 2
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+fan2
+  rotate: true
+  xy: 1281, 253
+  size: 127, 137
+  orig: 127, 137
+  offset: 0, 0
+  index: -1
+fan3
+  rotate: false
+  xy: 1074, 135
+  size: 134, 132
+  orig: 134, 132
+  offset: 0, 0
+  index: -1
+fan4
+  rotate: true
+  xy: 1210, 133
+  size: 118, 136
+  orig: 118, 136
+  offset: 0, 0
+  index: -1
+fan5
+  rotate: false
+  xy: 1207, 3
+  size: 123, 128
+  orig: 123, 128
+  offset: 0, 0
+  index: -1
+fan_gövde
+  rotate: false
+  xy: 965, 98
+  size: 107, 149
+  orig: 107, 149
+  offset: 0, 0
+  index: -1

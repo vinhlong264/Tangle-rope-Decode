@@ -1,0 +1,21 @@
+Basic_Bronze_Chest2_Jump.png
+size:1751,1751
+filter:Linear,Linear
+BlackOutline/5
+bounds:2,2,808,445
+offsets:103,105,1028,1028
+BlackOutline/Layer 1
+bounds:2,1100,771,649
+offsets:136,213,1028,1028
+Normal/5
+bounds:775,655,807,445
+offsets:103,104,1026,1026
+Normal/Layer 1
+bounds:775,1102,770,647
+offsets:136,213,1026,1026
+WhiteOutline/5
+bounds:812,208,808,445
+offsets:103,105,1028,1028
+WhiteOutline/Layer 1
+bounds:2,449,771,649
+offsets:136,213,1028,1028

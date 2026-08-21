@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26145e15a2801eba3f7b4270ae60fa67, type: 3}
+  m_Name: Localization Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    Locales:
+    - Code: en
+      Enabled: 1
+    - Code: tr
+      Enabled: 0
+    - Code: ja
+      Enabled: 0
+  actualData:
+    Locales:
+    - Code: en
+      Enabled: 1
+    - Code: tr
+      Enabled: 0
+    - Code: ja
+      Enabled: 0
+  plainDataProvider: {fileID: 11400000, guid: 1df0ef35df396be498c7c098d02799cf, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02581d4dc77f1aa2a30097621e1ac45, type: 3}
+  m_Name: Hammer Power Up Settings Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    Name: hammer
+    Description: hammer_description
+    TutorialText: hammer_tutorial
+    Price: 1900
+    PurchaseCount: 3
+    MinLevel: 8
+    PowerUpData: []
+  actualData:
+    Name: hammer
+    Description: hammer_description
+    TutorialText: hammer_tutorial
+    Price: 1900
+    PurchaseCount: 3
+    MinLevel: 19
+    PowerUpData: []
+  plainDataProvider: {fileID: 11400000, guid: afa74aa247cc9a54eb353e0b60c2b01b, type: 2}
+  variables: []
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}

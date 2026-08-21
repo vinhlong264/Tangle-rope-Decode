@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12f11be85b5b0b12a42b351ab00f6af, type: 3}
+  m_Name: Power Up System
+  m_EditorClassIdentifier:
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}
+  powerUpGroups:
+  - powerUps:
+    - {fileID: 11400000, guid: 6bf5a953bb0519348966d29d2eb1c932, type: 2}
+  - powerUps:
+    - {fileID: 11400000, guid: 55081d8aa38c97a459c9569138bc7e7a, type: 2}
+  powerUpSources:
+  - {fileID: 11400000, guid: c1704151f67ed3245b9165194e86cfe3, type: 2}
+  didClaimFirstTimeThisLevel: {fileID: 11400000, guid: 3d63cd232a3c2b74d825486990888940, type: 2}
+  powerUpsEnabled: {fileID: 11400000, guid: e6487f68d74178c47beca03883031665, type: 2}
+  anyPowerUpClaimPopupConditions:
+  - variableReferenceType: 100
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+    customType1: {fileID: 11400000, guid: 1d339505566bb654ebda3ac2173d0bae, type: 2}
+  currentPowerUps: []
+  OnSelected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnselected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPerformed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCanceledOrFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResourceNotEnough:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResourceIsInfinite:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTutorialActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMustUseOnce:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPowerUpPurchasedWithResource:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCurrentPowerUpsCleared:
+    m_PersistentCalls:
+      m_Calls: []

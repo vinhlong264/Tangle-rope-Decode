@@ -1,0 +1,16 @@
+Basic_Gold1_Jump.png
+size:1418,1418
+filter:Linear,Linear
+BlackOutline/5
+bounds:713,375,703,330
+BlackOutline/Layer 1
+bounds:2,912,709,504
+Normal/5
+bounds:2,72,703,332
+Normal/Layer 1
+bounds:2,406,709,504
+WhiteOutline/5
+bounds:707,43,703,330
+WhiteOutline/Layer 1
+bounds:713,707,709,504
+rotate:90

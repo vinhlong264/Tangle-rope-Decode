@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Segmeneted 3
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: Fourth of July
+      Name: Fourth of July
+      Description: Fourth of July
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: scv1t5
+        ElephantEventParam: twistedtangle_4th_ofjuly_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: b2c9gv
+        ElephantEventParam: twistedtangle_4th_ofjuly_2
+        Price: 6.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly__3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 1izt8s
+        ElephantEventParam: twistedtangle_4th_ofjuly__3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: mf0nm8
+        ElephantEventParam: twistedtangle_4th_ofjuly_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: 66p56b
+        ElephantEventParam: twistedtangle_4th_ofjuly_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: xc8lou
+        ElephantEventParam: twistedtangle_4th_ofjuly_6
+        Price: 49.99
+      DisablerIds: []
+    BundlePacks: []
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds: []

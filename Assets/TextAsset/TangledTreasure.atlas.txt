@@ -1,0 +1,69 @@
+
+TangledTreasure.png
+size: 1475, 1475
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BlackOutline/5
+  rotate: true
+  xy: 227, 626
+  size: 622, 305
+  orig: 622, 305
+  offset: 0, 0
+  index: -1
+BlackOutline/Layer 1 2
+  rotate: true
+  xy: 841, 627
+  size: 621, 491
+  orig: 621, 491
+  offset: 0, 0
+  index: -1
+BlackOutline/rope_2
+  rotate: false
+  xy: 2, 1250
+  size: 682, 223
+  orig: 682, 237
+  offset: 0, 0
+  index: -1
+Normal/5
+  rotate: true
+  xy: 534, 626
+  size: 622, 305
+  orig: 622, 305
+  offset: 0, 0
+  index: -1
+Normal/Layer 1 2
+  rotate: false
+  xy: 2, 57
+  size: 623, 507
+  orig: 623, 507
+  offset: 0, 0
+  index: -1
+Normal/rope_2
+  rotate: false
+  xy: 686, 1250
+  size: 682, 223
+  orig: 682, 237
+  offset: 0, 0
+  index: -1
+WhiteOutline/5
+  rotate: true
+  xy: 627, 2
+  size: 622, 305
+  orig: 622, 305
+  offset: 0, 0
+  index: -1
+WhiteOutline/Layer 1 2
+  rotate: true
+  xy: 934, 13
+  size: 612, 491
+  orig: 612, 491
+  offset: 0, 0
+  index: -1
+WhiteOutline/rope_2
+  rotate: true
+  xy: 2, 566
+  size: 682, 223
+  orig: 682, 237
+  offset: 0, 0
+  index: -1

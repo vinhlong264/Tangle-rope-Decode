@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c87e1626a36e45eb69d13bb4748d83b, type: 3}
+  m_Name: Persistent Ladder Offers Data
+  m_EditorClassIdentifier:
+  DataGroup: 0
+  ReadableSaveKey: PersistentLadderOffersData
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 2479076938
+    m_Value1: 956273721
+    m_Value2: 3383323529
+    m_Value3: 391004603
+  setSessionStartValue: 0
+  initialValue:
+    LadderOffers: []
+  value:
+    LadderOffers: []
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

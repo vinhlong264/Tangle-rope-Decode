@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2799cf1e10ef34b7c0d3c3871338afc6, type: 3}
+  m_Name: Pin_CollectionItemsService
+  m_EditorClassIdentifier:
+  initialData:
+    Items:
+    - Id: pin1
+      Cost: 0
+    - Id: pin2
+      Cost: 500
+    - Id: pin3
+      Cost: 1000
+    - Id: pin4
+      Cost: 1500
+    - Id: pin5
+      Cost: 2000
+    - Id: pin6
+      Cost: 2500
+    - Id: pin7
+      Cost: 3000
+    - Id: pin8
+      Cost: 3500
+    - Id: pin9
+      Cost: 4000
+    - Id: pin10
+      Cost: 1
+    - Id: pin11
+      Cost: 1
+    - Id: pin12
+      Cost: 1
+    - Id: pin13
+      Cost: 4500
+    - Id: pin14
+      Cost: 5000
+    - Id: pin15
+      Cost: 5500
+    - Id: twistedtangle_pin_lotus
+      Cost: 0
+    - Id: twistedtangle_pin_sportshoe
+      Cost: 0
+    - Id: twistedtangle_pin_speaker
+      Cost: 0
+    - Id: pin_16
+      Cost: 1
+  actualData:
+    Items:
+    - Id: pin1
+      Cost: 0
+    - Id: pin2
+      Cost: 500
+    - Id: pin3
+      Cost: 1000
+    - Id: pin4
+      Cost: 1500
+    - Id: pin5
+      Cost: 2000
+    - Id: pin6
+      Cost: 2500
+    - Id: pin7
+      Cost: 3000
+    - Id: pin8
+      Cost: 3500
+    - Id: pin9
+      Cost: 4000
+    - Id: pin10
+      Cost: 1
+    - Id: pin11
+      Cost: 1
+    - Id: pin12
+      Cost: 1
+    - Id: pin13
+      Cost: 4500
+    - Id: pin14
+      Cost: 5000
+    - Id: pin15
+      Cost: 5500
+    - Id: twistedtangle_pin_lotus
+      Cost: 0
+    - Id: twistedtangle_pin_sportshoe
+      Cost: 0
+    - Id: twistedtangle_pin_speaker
+      Cost: 0
+    - Id: pin16
+      Cost: 0
+  plainDataProvider: {fileID: 11400000, guid: 629c87c4dfe205f43a200f6ec592fe39, type: 2}
+  itemsGameData:
+  - {fileID: 11400000, guid: 29f8489975a063e4389e399e5bb71ce6, type: 2}
+  - {fileID: 11400000, guid: e7c874b3f7191af4ebbf4d816f05c157, type: 2}
+  - {fileID: 11400000, guid: 3e02bd8f42b4ea642ac190924bd2cead, type: 2}
+  - {fileID: 11400000, guid: eae63b8540e8e9f4ca29611ab06b1747, type: 2}
+  - {fileID: 11400000, guid: 12689c82e0b97384c9740e641eba0e48, type: 2}
+  - {fileID: 11400000, guid: 46190461f97684f49a995714e90e7679, type: 2}
+  - {fileID: 11400000, guid: f7a667d14580b5c498446d40b9be8c94, type: 2}
+  - {fileID: 11400000, guid: 34d49cd28362b704c98766d9e86fbd39, type: 2}
+  - {fileID: 11400000, guid: b245e5d366527c84783968793a382d9f, type: 2}
+  - {fileID: 11400000, guid: 99a04174f90cfb64f91caae35b5ac7ae, type: 2}
+  - {fileID: 11400000, guid: d348d041ee1603e41a226603bb7f9cd3, type: 2}
+  - {fileID: 11400000, guid: 4767cc8fe7dbc65459d0d7a8360ed2c1, type: 2}
+  - {fileID: 11400000, guid: 23c8e75c3e3537144a718ba9a89df7f2, type: 2}
+  - {fileID: 11400000, guid: 38db73b986d521d4fae7a2682ffec4cf, type: 2}
+  - {fileID: 11400000, guid: 04c836b28a8533d45a65339aaa315e30, type: 2}
+  - {fileID: 11400000, guid: 69a89fa1c6233f940b0aab2203d50f99, type: 2}
+  - {fileID: 11400000, guid: d9315e03cb5b3cc44b0080d8aca35910, type: 2}
+  - {fileID: 11400000, guid: 6c0cb5ed9c41d4a4fa13dab8f994c193, type: 2}
+  - {fileID: 11400000, guid: 952d1ea6e888d4140a296dda07035cf0, type: 2}

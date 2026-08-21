@@ -1,0 +1,18 @@
+Basic_BronzeJump.png
+size:1393,1393
+filter:Linear,Linear
+BlackOutline/5
+bounds:1047,40,665,313
+rotate:90
+BlackOutline/Layer 1
+bounds:713,707,684,486
+rotate:90
+Normal/5
+bounds:2,47,703,332
+Normal/Layer 1
+bounds:2,887,709,504
+WhiteOutline/5
+bounds:713,2,703,332
+rotate:90
+WhiteOutline/Layer 1
+bounds:2,381,709,504

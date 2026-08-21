@@ -1,0 +1,26 @@
+TwistInTime.png
+size:2877,2877
+filter:Linear,Linear
+Group 3
+bounds:2495,1473,337,1402
+offsets:0,0,1652,1402
+Group 3 copy
+bounds:1406,303,327,1402
+offsets:1325,0,1652,1402
+rotate:90
+Layer 43
+bounds:2,2,1652,172
+offsets:0,1230,1652,1402
+Layer 46
+bounds:1406,632,839,1402
+offsets:0,0,1652,1402
+rotate:90
+Layer 46 copy
+bounds:1656,1473,837,1402
+offsets:815,0,1652,1402
+Layer 49
+bounds:2,176,1295,1402
+offsets:357,0,1652,1402
+rotate:90
+Layer 51
+bounds:2,1473,1652,1402

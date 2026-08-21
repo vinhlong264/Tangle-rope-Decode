@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2ef886e3e53b2f634f77e32c55deb3, type: 3}
+  m_Name: Mini Shop Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    Bundles:
+    - twistedtangle_casualstarter_v1_1
+    - twistedtangle_casualpack1_1
+    - twistedtangle_casualpack2_1
+    Products:
+    - twistedtangle_coin_1k
+    - twistedtangle_coin_5k
+    - twistedtangle_coin_10k
+    - twistedtangle_coin_25k
+    - twistedtangle_coin_50k
+    - twistedtangle_coin_100k
+    - twistedtangle_coin_250
+    - twistedtangle_coin_750
+    - twistedtangle_coin_1600
+    - twistedtangle_coin_4000
+    - twistedtangle_coin_6500
+    - twistedtangle_coin_12500
+  actualData:
+    Bundles:
+    - twistedtangle_battlepass
+    - twistedtangle_casualstarter_1
+    - twistedtangle_casualpack1_1
+    - twistedtangle_casualpack2_1
+    Products:
+    - twistedtangle_coin_1k
+    - twistedtangle_coin_5k
+    - twistedtangle_coin_10k
+  plainDataProvider: {fileID: 11400000, guid: 2165deee5d6279740b0738e9202e3dd5, type: 2}
+  iapDataService: {fileID: 11400000, guid: a6768798eb39b7444897e842db82e5f8, type: 2}

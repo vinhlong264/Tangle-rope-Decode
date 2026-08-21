@@ -1,0 +1,15 @@
+SuperPowerUps.png
+size:1697,1697
+filter:Linear,Linear
+Layer 1
+bounds:2,697,880,998
+Layer 1 2
+bounds:884,868,811,827
+SuperPocketWatch2_Handle
+bounds:2,408,317,287
+SuperPocketWatch2_HourHandL
+bounds:321,443,173,252
+SuperPocketWatch2_HourHandR
+bounds:884,705,345,161
+SuperPocketWatch2_Pin
+bounds:2,182,225,224

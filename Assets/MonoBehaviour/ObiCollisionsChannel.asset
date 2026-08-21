@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc939c51e678a8e6bfa0c3fed763b516, type: 3}
+  m_Name: ObiCollisionsChannel
+  m_EditorClassIdentifier:
+  collideableCategories: 0a000000
+  resetPeriod: 0.2
+  minContactNormalAbsDot: 0.4
+  maxContactDistance: 0.01
+  debug: 0

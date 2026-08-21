@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09395bea31f793d8518090da2b5ad7de, type: 3}
+  m_Name: Ladder Offers Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    LadderOffers:
+    - Id: ladder_offer_1
+      Items:
+      - Type: IAP
+        BundleId: ladder_offer_1_iap_1
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_1
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_2
+      - Type: IAP
+        BundleId: ladder_offer_1_iap_2
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_3
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_4
+    - Id: ladder_offer_2
+      Items:
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_1
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_1
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_2
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_3
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_2
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_4
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_5
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_3
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_6
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_7
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_4
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_8
+    - Id: ladder_offer_3
+      Items:
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_1
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_2
+      - Type: IAP
+        BundleId: ladder_offer_3_iap_1
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_3
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_4
+      - Type: IAP
+        BundleId: ladder_offer_3_iap_2
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_5
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_6
+    - Id: ladder_offer_4
+      Items:
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_1
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_1
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_2
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_2
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_3
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_4
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_3
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_5
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_6
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_4
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_7
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_8
+  actualData:
+    LadderOffers:
+    - Id: ladder_offer_1
+      Items:
+      - Type: IAP
+        BundleId: ladder_offer_1_iap_1
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_1
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_2
+      - Type: IAP
+        BundleId: ladder_offer_1_iap_2
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_3
+      - Type: Free
+        BundleId: ladder_offer_1_noniap_4
+    - Id: ladder_offer_2
+      Items:
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_1
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_1
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_2
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_3
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_2
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_4
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_5
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_3
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_6
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_7
+      - Type: IAP
+        BundleId: ladder_offer_2_iap_4
+      - Type: Free
+        BundleId: ladder_offer_2_noniap_8
+    - Id: ladder_offer_3
+      Items:
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_1
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_2
+      - Type: IAP
+        BundleId: ladder_offer_3_iap_1
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_3
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_4
+      - Type: IAP
+        BundleId: ladder_offer_3_iap_2
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_5
+      - Type: Free
+        BundleId: ladder_offer_3_noniap_6
+    - Id: ladder_offer_4
+      Items:
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_1
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_1
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_2
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_2
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_3
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_4
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_3
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_5
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_6
+      - Type: IAP
+        BundleId: ladder_offer_4_iap_4
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_7
+      - Type: Free
+        BundleId: ladder_offer_4_noniap_8
+  plainDataProvider: {fileID: 11400000, guid: 21d41c857a495bb4a971f77805357d2d, type: 2}

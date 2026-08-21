@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f376314db19ce45b78035b4c15ab81, type: 3}
+  m_Name: CollectionOfferItemsService
+  m_EditorClassIdentifier:
+  initialData:
+    ShopOfferItems:
+    - rope10
+    - pin10
+    - rope11
+    - pin11
+    - rope12
+    - pin12
+  actualData:
+    ShopOfferItems:
+    - rope10
+    - pin10
+    - rope11
+    - pin11
+    - rope12
+    - pin12
+  plainDataProvider: {fileID: 11400000, guid: e89faf50aa076aa4f998d8df72cc4c2a, type: 2}

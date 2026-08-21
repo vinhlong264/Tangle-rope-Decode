@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Mini Shop Special Offers
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: Mini Shop Special Offers
+      Name: Mini Shop Special Offers
+      Description: Mini Shop Special Offers
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer A
+        Id: twistedtangle_special_offers_1
+        Description: Special Offer A
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 6wqjgt
+        ElephantEventParam: twistedtangle_special_offers_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer B
+        Id: twistedtangle_special_offers_2
+        Description: Special Offer B
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 3w68cg
+        ElephantEventParam: twistedtangle_special_offers_2
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer C
+        Id: twistedtangle_special_offers_3
+        Description: Special Offer C
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 7ntu3g
+        ElephantEventParam: twistedtangle_special_offers_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer D
+        Id: twistedtangle_special_offers_4
+        Description: Special Offer D
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 3k9fbm
+        ElephantEventParam: twistedtangle_special_offers_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer E
+        Id: twistedtangle_special_offers_5
+        Description: Special Offer E
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 2wbu08
+        ElephantEventParam: twistedtangle_special_offers_5
+        Price: 29.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer F
+        Id: twistedtangle_special_offers_6
+        Description: Special Offer F
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: krm4fn
+        ElephantEventParam: twistedtangle_special_offers_6
+        Price: 34.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer G
+        Id: twistedtangle_special_offers_7
+        Description: Special Offer G
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: bortqn
+        ElephantEventParam: twistedtangle_special_offers_7
+        Price: 39.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer H
+        Id: twistedtangle_special_offers_8
+        Description: Special Offer H
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: ecxfjp
+        ElephantEventParam: twistedtangle_special_offers_8
+        Price: 54.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer I
+        Id: twistedtangle_special_offers_9
+        Description: Special Offer I
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 7l1dei
+        ElephantEventParam: twistedtangle_special_offers_9
+        Price: 79.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer J
+        Id: twistedtangle_special_offers_10
+        Description: Special Offer J
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: qtcfgp
+        ElephantEventParam: twistedtangle_special_offers_10
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer K
+        Id: twistedtangle_special_offers_11
+        Description: Special Offer K
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 1hr8il
+        ElephantEventParam: twistedtangle_special_offers_11
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer L
+        Id: twistedtangle_special_offers_12
+        Description: Special Offer L
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 5fddfp
+        ElephantEventParam: twistedtangle_special_offers_12
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer M
+        Id: twistedtangle_special_offers_13
+        Description: Special Offer M
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 3xeg10
+        ElephantEventParam: twistedtangle_special_offers_13
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer O
+        Id: twistedtangle_special_offers_14
+        Description: Special Offer O
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: kh29xm
+        ElephantEventParam: twistedtangle_special_offers_14
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer P
+        Id: twistedtangle_special_offers_15
+        Description: Special Offer P
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: of97u9
+        ElephantEventParam: twistedtangle_special_offers_15
+        Price: 19.99
+      DisablerIds: []
+    BundlePacks: []
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds: []

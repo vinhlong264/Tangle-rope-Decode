@@ -1,0 +1,21 @@
+4th_July_icon_anim.png
+size:1590,1205
+filter:Linear,Linear
+BG
+bounds:1037,625,551,578
+Hat
+bounds:1037,47,576,545
+rotate:90
+Offer
+bounds:2,2,386,174
+Shine
+bounds:2,178,1033,1025
+Stars
+bounds:590,107,69,90
+rotate:90
+Stars copy
+bounds:390,75,101,105
+rotate:90
+Stars copy 2
+bounds:497,89,87,91
+rotate:90

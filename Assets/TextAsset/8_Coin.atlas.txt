@@ -1,0 +1,111 @@
+
+8_Coin.png
+size: 1194, 1194
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BlackOutline/Layer 1
+  rotate: false
+  xy: 288, 57
+  size: 338, 173
+  orig: 339, 173
+  offset: 1, 0
+  index: -1
+BlackOutline/coin1_1
+  rotate: false
+  xy: 383, 519
+  size: 356, 285
+  orig: 356, 286
+  offset: 0, 1
+  index: -1
+BlackOutline/coin3_1
+  rotate: false
+  xy: 772, 806
+  size: 271, 99
+  orig: 1026, 1026
+  offset: 417, 598
+  index: -1
+BlackOutline/coin3_3
+  rotate: false
+  xy: 2, 812
+  size: 386, 380
+  orig: 1026, 1026
+  offset: 551, 192
+  index: -1
+BlackOutline/coin3_4
+  rotate: false
+  xy: 772, 907
+  size: 285, 285
+  orig: 1026, 1026
+  offset: 222, 362
+  index: -1
+Normal/Layer 1
+  rotate: true
+  xy: 1028, 483
+  size: 321, 164
+  orig: 321, 164
+  offset: 0, 0
+  index: -1
+Normal/coin1_1
+  rotate: false
+  xy: 670, 170
+  size: 344, 276
+  orig: 344, 276
+  offset: 0, 0
+  index: -1
+Normal/coin3_1
+  rotate: true
+  xy: 1059, 922
+  size: 270, 96
+  orig: 1024, 1024
+  offset: 416, 597
+  index: -1
+Normal/coin3_3
+  rotate: true
+  xy: 2, 425
+  size: 385, 379
+  orig: 1024, 1024
+  offset: 550, 192
+  index: -1
+Normal/coin3_4
+  rotate: false
+  xy: 2, 139
+  size: 284, 284
+  orig: 1024, 1024
+  offset: 222, 361
+  index: -1
+WhiteOutline/Layer 1
+  rotate: true
+  xy: 1016, 108
+  size: 338, 173
+  orig: 339, 173
+  offset: 1, 0
+  index: -1
+WhiteOutline/coin1_1
+  rotate: true
+  xy: 741, 448
+  size: 356, 285
+  orig: 356, 286
+  offset: 0, 1
+  index: -1
+WhiteOutline/coin3_1
+  rotate: false
+  xy: 2, 38
+  size: 271, 99
+  orig: 1026, 1026
+  offset: 417, 598
+  index: -1
+WhiteOutline/coin3_3
+  rotate: true
+  xy: 390, 806
+  size: 386, 380
+  orig: 1026, 1026
+  offset: 551, 192
+  index: -1
+WhiteOutline/coin3_4
+  rotate: false
+  xy: 383, 232
+  size: 285, 285
+  orig: 1026, 1026
+  offset: 222, 362
+  index: -1

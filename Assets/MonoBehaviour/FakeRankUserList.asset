@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c25cad1d845b65961923d66b537b2f7, type: 3}
+  m_Name: FakeRankUserList
+  m_EditorClassIdentifier:
+  fakeCountryUsers:
+  - countryCode: US
+    users:
+    - name: kayki
+    - name: steelMan
+    - name: DragonCat
+    - name: trex43
+    - name: CowardMic
+    - name: HatefulSincap
+    - name: bozboz1923
+    - name: BloodPin
+    - name: whiteLynx
+    - name: Shibby
+    - name: Finor
+    - name: Mordoq44
+    - name: dr.Snake
+    - name: MasterOfTangles
+    - name: 12best34
+    - name: optimalPlayer
+    - name: makerfaker
+    - name: __MONSTER__
+    - name: whisperer
+    - name: Mythero
+    - name: sunriseLady
+    - name: twisted_rider
+    - name: hyperTheory
+    - name: zombie_alive
+    - name: invincible_falcon
+    - name: _bestOf
+    - name: OrdinaryPlayer
+    - name: heatnbeat
+    - name: ninjaa
+    - name: barbei
+    - name: __kitty
+    - name: iron-bubble
+    - name: God_Of_Rope
+    - name: progamer34
+    - name: P1Nokyo
+    - name: Unstoppable01
+    - name: Ice_King
+    - name: gentle__
+    - name: Senorita
+    - name: lovelyDino
+    - name: madWoman
+    - name: jon_targaryen

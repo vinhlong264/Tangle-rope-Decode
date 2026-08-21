@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2799cf1e10ef34b7c0d3c3871338afc6, type: 3}
+  m_Name: Rope_CollectionItemsService
+  m_EditorClassIdentifier:
+  initialData:
+    Items:
+    - Id: rope1
+      Cost: 0
+    - Id: rope2
+      Cost: 500
+    - Id: rope3
+      Cost: 1000
+    - Id: rope4
+      Cost: 1500
+    - Id: rope5
+      Cost: 2000
+    - Id: rope6
+      Cost: 2500
+    - Id: rope7
+      Cost: 3000
+    - Id: rope8
+      Cost: 3500
+    - Id: rope9
+      Cost: 4000
+    - Id: rope10
+      Cost: 1
+    - Id: rope11
+      Cost: 1
+    - Id: rope12
+      Cost: 1
+    - Id: rope13
+      Cost: 4500
+    - Id: rope14
+      Cost: 5000
+    - Id: rope15
+      Cost: 5500
+    - Id: twistedtangle_rope_disco
+      Cost: 0
+    - Id: twistedtangle_rope_pearls
+      Cost: 0
+  actualData:
+    Items:
+    - Id: rope1
+      Cost: 0
+    - Id: rope2
+      Cost: 500
+    - Id: rope3
+      Cost: 1000
+    - Id: rope4
+      Cost: 1500
+    - Id: rope5
+      Cost: 2000
+    - Id: rope6
+      Cost: 2500
+    - Id: rope7
+      Cost: 3000
+    - Id: rope8
+      Cost: 3500
+    - Id: rope9
+      Cost: 4000
+    - Id: rope10
+      Cost: 1
+    - Id: rope11
+      Cost: 1
+    - Id: rope12
+      Cost: 1
+    - Id: rope13
+      Cost: 4500
+    - Id: rope14
+      Cost: 5000
+    - Id: rope15
+      Cost: 5500
+  plainDataProvider: {fileID: 11400000, guid: cc9e6ffc21d2c3a4ab8ff51f45074c70, type: 2}
+  itemsGameData:
+  - {fileID: 11400000, guid: e19ddaaa33f47ae46bf06aa506583cc9, type: 2}
+  - {fileID: 11400000, guid: 87c48c27a7c3b7141a9a05092b7ed6a0, type: 2}
+  - {fileID: 11400000, guid: 80e3e21d2295e7742a104d5b4996f2fa, type: 2}
+  - {fileID: 11400000, guid: 81127891d45e0f74882655e7e3ba3459, type: 2}
+  - {fileID: 11400000, guid: 47d1486ea2222454982f32abfe5200a1, type: 2}
+  - {fileID: 11400000, guid: 071352c573615e94ba870c149bb7e258, type: 2}
+  - {fileID: 11400000, guid: 83ee77c9e64502e4faa6dc25202a0f60, type: 2}
+  - {fileID: 11400000, guid: bdd2b78a78b2171489dce054f2501475, type: 2}
+  - {fileID: 11400000, guid: 02aabfcf0e16cbd4d8d3c0d26c389aec, type: 2}
+  - {fileID: 11400000, guid: 78baf20584b593242952f01b96412910, type: 2}
+  - {fileID: 11400000, guid: 3e7290cdfe665e84ab13844176d2122b, type: 2}
+  - {fileID: 11400000, guid: 9ed58041823fb414380ca4dc6f43b827, type: 2}
+  - {fileID: 11400000, guid: b157c975f1b891945a96df19525814e7, type: 2}
+  - {fileID: 11400000, guid: 6e7928b81c63f8a408ce28ca9caf7cba, type: 2}
+  - {fileID: 11400000, guid: 6036e15ad84f6dc4f95695eaaa2f2d81, type: 2}
+  - {fileID: 11400000, guid: 3915312d35a8c3c49a702ff31015b64e, type: 2}
+  - {fileID: 11400000, guid: 7e7ad8325f83410449afcc7dd569ec9d, type: 2}

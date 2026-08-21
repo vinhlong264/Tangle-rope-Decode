@@ -1,0 +1,7 @@
+TanglePass.png
+size:2925,2925
+filter:Linear,Linear
+Background
+bounds:2,1340,2921,1583
+Layer 0
+bounds:2,138,1800,1200

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7891bd504bb91c805a37a415640d6db, type: 3}
+  m_Name: Level Tree Current Level Number Conditional
+  m_EditorClassIdentifier:
+  defaultValue:
+    variableReferenceType: 2
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 11400000, guid: bad5342552b5abc4aaeb633ece616f6c, type: 2}
+    conditionalScriptableProperty: {fileID: 0}
+  conditionalValues:
+  - conditionSource:
+      conditionSourceType: 1
+      persistentBool: {fileID: 0}
+      atomReferenceBool:
+        _usage: 2
+        _value: 0
+        _constant: {fileID: 0}
+        _variable: {fileID: 11400000, guid: 0ac585a235f2b2a47b83ac3bd4124cd3, type: 2}
+        _variableInstancer: {fileID: 0}
+      atomCondition: {fileID: 0}
+    value:
+      variableReferenceType: 2
+      atomReference:
+        _usage: 0
+        _value: 0
+        _constant: {fileID: 0}
+        _variable: {fileID: 0}
+        _variableInstancer: {fileID: 0}
+      persistent: {fileID: 0}
+      scriptableProperty: {fileID: 11400000, guid: e0520bad70b0eac47ad3e2210993a970, type: 2}
+      conditionalScriptableProperty: {fileID: 0}

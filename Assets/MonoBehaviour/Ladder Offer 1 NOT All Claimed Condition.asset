@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1c836267d070cc851effc608ef45f5, type: 3}
+  m_Name: Ladder Offer 1 NOT All Claimed Condition
+  m_EditorClassIdentifier:
+  _developerDescription:
+  ladderOfferSystem: {fileID: 11400000, guid: f59047040a8edfc4f8adbbdc2199580e, type: 2}
+  ladderOfferId: ladder_offer_1
+  reverse: 1

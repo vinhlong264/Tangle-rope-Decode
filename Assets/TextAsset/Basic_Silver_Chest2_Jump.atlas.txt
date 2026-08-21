@@ -1,0 +1,21 @@
+Basic_Silver_Chest2_Jump.png
+size:1797,1797
+filter:Linear,Linear
+BlackOutline/5
+bounds:2,2,807,445
+offsets:103,104,1026,1026
+BlackOutline/Layer 1
+bounds:2,1123,770,672
+offsets:136,213,1026,1026
+Normal/5
+bounds:811,232,805,443
+offsets:103,104,1024,1024
+Normal/Layer 1
+bounds:774,1124,768,671
+offsets:136,212,1024,1024
+WhiteOutline/5
+bounds:774,677,807,445
+offsets:103,104,1026,1026
+WhiteOutline/Layer 1
+bounds:2,449,770,672
+offsets:136,213,1026,1026

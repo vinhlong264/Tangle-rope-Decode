@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac711d52c5849b944bf33417591e697b, type: 3}
+  m_Name: LevelsDataService
+  m_EditorClassIdentifier:
+  initialData:
+    levelsOrder: 01000000feffff/faa050000
+    levelsData:
+    - levelId: 30
+      timeInSeconds: 192
+      levelDifficulty: Medium
+    loopLevelsOrder: 7e040000feffff/faa050000
+    loopLevelsWithTimes:
+    - levelId: 1151
+      timeInSeconds: 13
+      levelDifficulty: Hard
+    fillerLevels:
+    - levelDifficulty: Easy
+      fillerLevels: 63000000c7000000
+    - levelDifficulty: Hard
+      fillerLevels: 63000000c7000000
+    - levelDifficulty: Medium
+      fillerLevels: 63000000c7000000
+    - levelDifficulty: Very Hard
+      fillerLevels: 63000000
+    overrideLevel:
+    - stagesData:
+      - pinsData:
+        - Position: {x: 0, y: 0, z: 0}
+          IsLocked: 0
+        ropesData:
+        - Position: {x: 0, y: 0, z: 0}
+          Particles: []
+        columnsData:
+        - Position: {x: 0, y: 0, z: 0}
+        clampsData:
+        - Position: {x: 0, y: 0, z: 0}
+          Rotation: {x: 0, y: 0, z: 0, w: 0}
+        keysData: []
+        lockSlotsData: []
+        goldenRopesData:
+        - RopeIndex: 0
+        ropeWidthsData: []
+        liveObstaclesData: []
+        Colors:
+        Targets: []
+        useNearColors: 0
+        useCustomNearColors: 0
+        customNearColors: []
+        mapId: 1
+      levelData:
+        hasMoveCount: 0
+        moveCount: 0
+        hasTimeLimit: 0
+        timeLimit: 0
+        difficulty: Easy
+        version: 0
+      pinsData_: []
+      ropesData_: []
+      columnsData_: []
+      clampsData_: []
+      keysData_: []
+      lockSlotsData_: []
+      goldenRopesData_: []
+      ropeWidthsData_: []
+      useNearColors_: 0
+      useCustomNearColors_: 0
+      customNearColors_: []
+      MapId_: 1
+      HasMoveCount_: 0
+      MoveCount_: 0
+      HasTimeLimit_: 0
+      TimeLimit_: 0
+      Difficulty_: Easy
+      levelId: 1213
+    levelDifficultPatterns:
+    - Easy
+    - Easy
+    - Easy
+    - Medium
+    - Medium
+    - Hard
+    - Easy
+    - Medium
+    - Medium
+    - Very Hard
+  actualData:
+    levelsOrder: 010000000200000003000000040000000500000006000000214e0000224e000007000000080000001127000012270000090000000b0000000f0000000e00000013270000234e0000130000001200000014270000344e00001400000017000000190000001800000015270000244e00001d0000001a00000016270000264e00001e00000022000000230000002400000017270000274e0000270000002800000018270000284e00002a0000002c0000002d0000002e00000019270000294e000030000000320000001a2700002a4e0000340000003600000037000000380000001b2700002b4e00003b0000003f0000001c270000254e00003c0000004000000041000000430000001d2700002c4e000045000000440000001e2700002d4e000046000000490000004b0000004c0000001f2700002e4e00004f00000053000000202700002f4e00005000000054000000550000004e00000021270000304e0000590000005700000022270000314e00005b0000005e0000005f0000006000000023270000324e0000630000006200000024270000334e00005c0000005d000000690000006f00000025270000354e00006d0000007100000026270000364e00007000000072000000730000006b00000027270000374e0000770000007600000028270000384e0000780000007b0000007d0000007e00000029270000394e000081000000830000002a2700003a4e0000820000008500000087000000880000002b2700003b4e00008b000000890000002c2700003c4e00008d0000009000000091000000920000002d2700003d4e0000950000009c0000002e2700003e4e0000980000009a0000009b000000a20000002f2700003f4e00009f000000a300000030270000404e0000a0000000a8000000a5000000ac00000031270000414e0000a9000000ad00000032270000424e0000a6000000b1000000af000000b600000033270000434e0000b3000000b200000034270000444e0000ba000000b7000000b9000000bf00000035270000454e0000bd000000c100000036270000464e0000c4000000b8000000c3000000c800000037270000474e0000c7000000bb000000
+    levelsData:
+    - levelId: 20001
+      timeInSeconds: 0
+      levelDifficulty: Easy
+    - levelId: 7
+      timeInSeconds: 300
+      levelDifficulty: Easy
+    - levelId: 19
+      timeInSeconds: 120
+      levelDifficulty: Hard
+    - levelId: 10035
+      timeInSeconds: 90
+      levelDifficulty: Easy
+    loopLevelsOrder: 2e2700003e4e0000980000009a0000009b000000a20000002f2700003f4e00009f000000a300000030270000404e0000a0000000a8000000a5000000ac00000031270000414e0000a9000000ad00000032270000424e0000a6000000b1000000af000000b600000033270000434e0000b3000000b200000034270000444e0000ba000000b7000000b9000000bf00000035270000454e0000bd000000c100000036270000464e0000c4000000b8000000c3000000c800000037270000474e0000c7000000bb000000
+    loopLevelsWithTimes: []
+    fillerLevels:
+    - levelDifficulty: Easy
+      fillerLevels: 580300005c03000020030000220300005f030000670300007003000076030000340300003c030000
+    - levelDifficulty: Medium
+      fillerLevels: 32030000350300003a030000420300003f0300004c03000056030000630300002b03000049030000
+    - levelDifficulty: Hard
+      fillerLevels: 6103000043030000570300006b03000075030000110300001b0300004d0300007f030000
+    - levelDifficulty: Very Hard
+      fillerLevels: 47030000650300003403000052030000830300003303000051030000150300001f030000
+    overrideLevel: []
+    levelDifficultPatterns:
+    - Easy
+    - Easy
+    - Easy
+    - Medium
+    - Medium
+    - Hard
+    - Easy
+    - Medium
+    - Medium
+    - Very Hard
+  plainDataProvider: {fileID: 11400000, guid: 480c18020b5f5954b9129e97d585e186, type: 2}
+  levelDataBase: {fileID: 11400000, guid: 9bd7462e23b1e2343b521afe9b84cd2a, type: 2}
+  playerLevelVersion: {fileID: 11400000, guid: a5aae277c4ba693498ec7010b4fadd19, type: 2}
+  loopBreakPoint: {fileID: 11400000, guid: 51722e8dc6158f1458fa9d8585017b4f, type: 2}
+  pendingNewLevels: {fileID: 11400000, guid: 8fc928bbe5bd9ce498082e57d6cffe43, type: 2}
+  cachedLoopeLevel: {fileID: 11400000, guid: ca514550e4b74ef4baa0b9c1f534a41c, type: 2}
+  levelSystem: {fileID: 11400000, guid: e21acd033a3e0534a9101dafce37c720, type: 2}

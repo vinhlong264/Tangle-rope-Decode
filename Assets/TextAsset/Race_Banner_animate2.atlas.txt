@@ -1,0 +1,21 @@
+Race_Banner_animate2.png
+size:2052,2052
+filter:Linear,Linear
+BG
+bounds:2,1204,2048,846
+offsets:1,1,2050,848
+Banner
+bounds:1254,1094,449,108
+offsets:800,325,2050,848
+Clouds
+bounds:2,183,820,563
+offsets:615,92,2050,848
+Flag_Left
+bounds:2,147,77,34
+offsets:714,362,2050,848
+Flag_right
+bounds:824,716,63,30
+offsets:1325,407,2050,848
+Layer 2
+bounds:2,748,1250,454
+offsets:440,1,2050,848

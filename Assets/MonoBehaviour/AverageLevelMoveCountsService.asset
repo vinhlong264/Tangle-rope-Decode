@@ -1,0 +1,2055 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fc1fdde98b5a2e11395a42db12ab2a, type: 3}
+  m_Name: AverageLevelMoveCountsService
+  m_EditorClassIdentifier:
+  initialData:
+    levels:
+    - Level: 1
+      MoveCount: 1
+    - Level: 2
+      MoveCount: 1
+    - Level: 3
+      MoveCount: 2
+    - Level: 4
+      MoveCount: 3
+    - Level: 5
+      MoveCount: 2
+    - Level: 6
+      MoveCount: 2
+    - Level: 7
+      MoveCount: 4
+    - Level: 8
+      MoveCount: 2
+    - Level: 9
+      MoveCount: 4
+    - Level: 10
+      MoveCount: 4
+    - Level: 11
+      MoveCount: 6
+    - Level: 12
+      MoveCount: 4
+    - Level: 13
+      MoveCount: 5
+    - Level: 14
+      MoveCount: 6
+    - Level: 15
+      MoveCount: 2
+    - Level: 16
+      MoveCount: 3
+    - Level: 17
+      MoveCount: 5
+    - Level: 18
+      MoveCount: 5
+    - Level: 19
+      MoveCount: 6
+    - Level: 20
+      MoveCount: 2
+    - Level: 21
+      MoveCount: 4
+    - Level: 22
+      MoveCount: 5
+    - Level: 23
+      MoveCount: 6
+    - Level: 24
+      MoveCount: 6
+    - Level: 25
+      MoveCount: 6
+    - Level: 26
+      MoveCount: 5
+    - Level: 27
+      MoveCount: 5
+    - Level: 28
+      MoveCount: 6
+    - Level: 29
+      MoveCount: 6
+    - Level: 30
+      MoveCount: 7
+    - Level: 31
+      MoveCount: 2
+    - Level: 32
+      MoveCount: 2
+    - Level: 33
+      MoveCount: 2
+    - Level: 34
+      MoveCount: 3
+    - Level: 35
+      MoveCount: 7
+    - Level: 36
+      MoveCount: 4
+    - Level: 37
+      MoveCount: 7
+    - Level: 38
+      MoveCount: 4
+    - Level: 39
+      MoveCount: 7
+    - Level: 40
+      MoveCount: 2
+    - Level: 41
+      MoveCount: 4
+    - Level: 42
+      MoveCount: 4
+    - Level: 43
+      MoveCount: 3
+    - Level: 44
+      MoveCount: 3
+    - Level: 45
+      MoveCount: 7
+    - Level: 46
+      MoveCount: 8
+    - Level: 47
+      MoveCount: 7
+    - Level: 48
+      MoveCount: 5
+    - Level: 49
+      MoveCount: 6
+    - Level: 50
+      MoveCount: 8
+    - Level: 51
+      MoveCount: 4
+    - Level: 52
+      MoveCount: 7
+    - Level: 53
+      MoveCount: 4
+    - Level: 54
+      MoveCount: 5
+    - Level: 55
+      MoveCount: 4
+    - Level: 56
+      MoveCount: 3
+    - Level: 57
+      MoveCount: 7
+    - Level: 58
+      MoveCount: 4
+    - Level: 59
+      MoveCount: 4
+    - Level: 60
+      MoveCount: 9
+    - Level: 61
+      MoveCount: 4
+    - Level: 62
+      MoveCount: 5
+    - Level: 63
+      MoveCount: 6
+    - Level: 64
+      MoveCount: 4
+    - Level: 65
+      MoveCount: 4
+    - Level: 66
+      MoveCount: 4
+    - Level: 67
+      MoveCount: 4
+    - Level: 68
+      MoveCount: 3
+    - Level: 69
+      MoveCount: 2
+    - Level: 70
+      MoveCount: 3
+    - Level: 71
+      MoveCount: 3
+    - Level: 72
+      MoveCount: 9
+    - Level: 73
+      MoveCount: 6
+    - Level: 74
+      MoveCount: 4
+    - Level: 75
+      MoveCount: 2
+    - Level: 76
+      MoveCount: 4
+    - Level: 77
+      MoveCount: 10
+    - Level: 78
+      MoveCount: 6
+    - Level: 79
+      MoveCount: 3
+    - Level: 80
+      MoveCount: 4
+    - Level: 81
+      MoveCount: 3
+    - Level: 82
+      MoveCount: 7
+    - Level: 83
+      MoveCount: 8
+    - Level: 84
+      MoveCount: 5
+    - Level: 85
+      MoveCount: 7
+    - Level: 86
+      MoveCount: 6
+    - Level: 87
+      MoveCount: 2
+    - Level: 88
+      MoveCount: 11
+    - Level: 89
+      MoveCount: 1
+    - Level: 90
+      MoveCount: 7
+    - Level: 91
+      MoveCount: 4
+    - Level: 92
+      MoveCount: 5
+    - Level: 93
+      MoveCount: 4
+    - Level: 94
+      MoveCount: 4
+    - Level: 95
+      MoveCount: 7
+    - Level: 96
+      MoveCount: 6
+    - Level: 97
+      MoveCount: 4
+    - Level: 98
+      MoveCount: 5
+    - Level: 99
+      MoveCount: 4
+    - Level: 100
+      MoveCount: 9
+    - Level: 101
+      MoveCount: 16
+    - Level: 102
+      MoveCount: 12
+    - Level: 103
+      MoveCount: 7
+    - Level: 104
+      MoveCount: 4
+    - Level: 105
+      MoveCount: 8
+    - Level: 106
+      MoveCount: 6
+    - Level: 107
+      MoveCount: 13
+    - Level: 108
+      MoveCount: 12
+    - Level: 109
+      MoveCount: 4
+    - Level: 110
+      MoveCount: 8
+    - Level: 111
+      MoveCount: 10
+    - Level: 112
+      MoveCount: 6
+    - Level: 113
+      MoveCount: 9
+    - Level: 114
+      MoveCount: 9
+    - Level: 115
+      MoveCount: 9
+    - Level: 116
+      MoveCount: 6
+    - Level: 117
+      MoveCount: 8
+    - Level: 118
+      MoveCount: 7
+    - Level: 119
+      MoveCount: 4
+    - Level: 120
+      MoveCount: 7
+    - Level: 121
+      MoveCount: 11
+    - Level: 122
+      MoveCount: 4
+    - Level: 123
+      MoveCount: 12
+    - Level: 124
+      MoveCount: 5
+    - Level: 125
+      MoveCount: 11
+    - Level: 126
+      MoveCount: 7
+    - Level: 127
+      MoveCount: 11
+    - Level: 128
+      MoveCount: 11
+    - Level: 129
+      MoveCount: 6
+    - Level: 130
+      MoveCount: 10
+    - Level: 131
+      MoveCount: 11
+    - Level: 132
+      MoveCount: 14
+    - Level: 133
+      MoveCount: 16
+    - Level: 134
+      MoveCount: 7
+    - Level: 135
+      MoveCount: 8
+    - Level: 136
+      MoveCount: 10
+    - Level: 137
+      MoveCount: 13
+    - Level: 138
+      MoveCount: 10
+    - Level: 139
+      MoveCount: 8
+    - Level: 140
+      MoveCount: 7
+    - Level: 141
+      MoveCount: 9
+    - Level: 142
+      MoveCount: 11
+    - Level: 143
+      MoveCount: 10
+    - Level: 144
+      MoveCount: 8
+    - Level: 145
+      MoveCount: 10
+    - Level: 146
+      MoveCount: 9
+    - Level: 147
+      MoveCount: 9
+    - Level: 148
+      MoveCount: 7
+    - Level: 149
+      MoveCount: 11
+    - Level: 150
+      MoveCount: 11
+    - Level: 151
+      MoveCount: 8
+    - Level: 152
+      MoveCount: 9
+    - Level: 153
+      MoveCount: 25
+    - Level: 154
+      MoveCount: 9
+    - Level: 155
+      MoveCount: 6
+    - Level: 156
+      MoveCount: 6
+    - Level: 157
+      MoveCount: 5
+    - Level: 158
+      MoveCount: 11
+    - Level: 159
+      MoveCount: 13
+    - Level: 160
+      MoveCount: 4
+    - Level: 161
+      MoveCount: 7
+    - Level: 162
+      MoveCount: 9
+    - Level: 163
+      MoveCount: 7
+    - Level: 164
+      MoveCount: 10
+    - Level: 165
+      MoveCount: 7
+    - Level: 166
+      MoveCount: 7
+    - Level: 167
+      MoveCount: 7
+    - Level: 168
+      MoveCount: 8
+    - Level: 169
+      MoveCount: 8
+    - Level: 170
+      MoveCount: 8
+    - Level: 171
+      MoveCount: 10
+    - Level: 172
+      MoveCount: 6
+    - Level: 173
+      MoveCount: 6
+    - Level: 174
+      MoveCount: 16
+    - Level: 175
+      MoveCount: 7
+    - Level: 176
+      MoveCount: 7
+    - Level: 177
+      MoveCount: 16
+    - Level: 178
+      MoveCount: 14
+    - Level: 179
+      MoveCount: 12
+    - Level: 180
+      MoveCount: 10
+    - Level: 181
+      MoveCount: 14
+    - Level: 182
+      MoveCount: 17
+    - Level: 183
+      MoveCount: 19
+    - Level: 184
+      MoveCount: 7
+    - Level: 185
+      MoveCount: 9
+    - Level: 186
+      MoveCount: 10
+    - Level: 187
+      MoveCount: 11
+    - Level: 188
+      MoveCount: 7
+    - Level: 189
+      MoveCount: 8
+    - Level: 190
+      MoveCount: 2
+    - Level: 191
+      MoveCount: 5
+    - Level: 192
+      MoveCount: 7
+    - Level: 193
+      MoveCount: 12
+    - Level: 194
+      MoveCount: 17
+    - Level: 195
+      MoveCount: 15
+    - Level: 196
+      MoveCount: 14
+    - Level: 197
+      MoveCount: 8
+    - Level: 198
+      MoveCount: 10
+    - Level: 199
+      MoveCount: 11
+    - Level: 200
+      MoveCount: 12
+    - Level: 201
+      MoveCount: 2
+    - Level: 202
+      MoveCount: 2
+    - Level: 203
+      MoveCount: 4
+    - Level: 204
+      MoveCount: 3
+    - Level: 205
+      MoveCount: 6
+    - Level: 206
+      MoveCount: 5
+    - Level: 207
+      MoveCount: 14
+    - Level: 208
+      MoveCount: 10
+    - Level: 209
+      MoveCount: 8
+    - Level: 210
+      MoveCount: 10
+    - Level: 211
+      MoveCount: 11
+    - Level: 212
+      MoveCount: 11
+    - Level: 213
+      MoveCount: 8
+    - Level: 214
+      MoveCount: 16
+    - Level: 215
+      MoveCount: 14
+    - Level: 216
+      MoveCount: 18
+    - Level: 217
+      MoveCount: 10
+    - Level: 218
+      MoveCount: 20
+    - Level: 219
+      MoveCount: 10
+    - Level: 220
+      MoveCount: 10
+    - Level: 221
+      MoveCount: 17
+    - Level: 222
+      MoveCount: 14
+    - Level: 223
+      MoveCount: 4
+    - Level: 224
+      MoveCount: 7
+    - Level: 225
+      MoveCount: 2
+    - Level: 226
+      MoveCount: 4
+    - Level: 227
+      MoveCount: 10
+    - Level: 228
+      MoveCount: 15
+    - Level: 229
+      MoveCount: 20
+    - Level: 230
+      MoveCount: 28
+    - Level: 231
+      MoveCount: 14
+    - Level: 232
+      MoveCount: 20
+    - Level: 233
+      MoveCount: 17
+    - Level: 234
+      MoveCount: 6
+    - Level: 235
+      MoveCount: 25
+    - Level: 236
+      MoveCount: 6
+    - Level: 237
+      MoveCount: 17
+    - Level: 238
+      MoveCount: 23
+    - Level: 239
+      MoveCount: 16
+    - Level: 240
+      MoveCount: 12
+    - Level: 241
+      MoveCount: 6
+    - Level: 242
+      MoveCount: 20
+    - Level: 243
+      MoveCount: 15
+    - Level: 244
+      MoveCount: 13
+    - Level: 245
+      MoveCount: 11
+    - Level: 246
+      MoveCount: 10
+    - Level: 247
+      MoveCount: 11
+    - Level: 248
+      MoveCount: 11
+    - Level: 249
+      MoveCount: 12
+    - Level: 250
+      MoveCount: 11
+    - Level: 251
+      MoveCount: 12
+    - Level: 252
+      MoveCount: 12
+    - Level: 253
+      MoveCount: 5
+    - Level: 254
+      MoveCount: 16
+    - Level: 255
+      MoveCount: 20
+    - Level: 256
+      MoveCount: 11
+    - Level: 257
+      MoveCount: 15
+    - Level: 258
+      MoveCount: 14
+    - Level: 259
+      MoveCount: 23
+    - Level: 260
+      MoveCount: 15
+    - Level: 261
+      MoveCount: 10
+    - Level: 262
+      MoveCount: 11
+    - Level: 263
+      MoveCount: 13
+    - Level: 264
+      MoveCount: 18
+    - Level: 265
+      MoveCount: 18
+    - Level: 266
+      MoveCount: 8
+    - Level: 267
+      MoveCount: 14
+    - Level: 268
+      MoveCount: 14
+    - Level: 269
+      MoveCount: 26
+    - Level: 270
+      MoveCount: 29
+    - Level: 271
+      MoveCount: 16
+    - Level: 272
+      MoveCount: 17
+    - Level: 273
+      MoveCount: 24
+    - Level: 274
+      MoveCount: 18
+    - Level: 275
+      MoveCount: 20
+    - Level: 276
+      MoveCount: 16
+    - Level: 277
+      MoveCount: 22
+    - Level: 278
+      MoveCount: 28
+    - Level: 279
+      MoveCount: 27
+    - Level: 280
+      MoveCount: 17
+    - Level: 281
+      MoveCount: 24
+    - Level: 282
+      MoveCount: 16
+    - Level: 283
+      MoveCount: 20
+    - Level: 284
+      MoveCount: 17
+    - Level: 285
+      MoveCount: 28
+    - Level: 286
+      MoveCount: 23
+    - Level: 287
+      MoveCount: 16
+    - Level: 288
+      MoveCount: 17
+    - Level: 289
+      MoveCount: 24
+    - Level: 290
+      MoveCount: 18
+    - Level: 291
+      MoveCount: 26
+    - Level: 292
+      MoveCount: 25
+    - Level: 293
+      MoveCount: 18
+    - Level: 294
+      MoveCount: 18
+    - Level: 295
+      MoveCount: 15
+    - Level: 296
+      MoveCount: 11
+    - Level: 297
+      MoveCount: 19
+    - Level: 298
+      MoveCount: 23
+    - Level: 299
+      MoveCount: 22
+    - Level: 300
+      MoveCount: 18
+    - Level: 301
+      MoveCount: 24
+    - Level: 302
+      MoveCount: 15
+    - Level: 303
+      MoveCount: 17
+    - Level: 304
+      MoveCount: 19
+    - Level: 305
+      MoveCount: 10
+    - Level: 306
+      MoveCount: 15
+    - Level: 307
+      MoveCount: 23
+    - Level: 308
+      MoveCount: 15
+    - Level: 309
+      MoveCount: 7
+    - Level: 310
+      MoveCount: 34
+    - Level: 311
+      MoveCount: 29
+    - Level: 312
+      MoveCount: 24
+    - Level: 313
+      MoveCount: 15
+    - Level: 314
+      MoveCount: 9
+    - Level: 315
+      MoveCount: 25
+    - Level: 316
+      MoveCount: 25
+    - Level: 317
+      MoveCount: 14
+    - Level: 318
+      MoveCount: 11
+    - Level: 319
+      MoveCount: 11
+    - Level: 320
+      MoveCount: 18
+    - Level: 321
+      MoveCount: 17
+    - Level: 322
+      MoveCount: 13
+    - Level: 323
+      MoveCount: 11
+    - Level: 324
+      MoveCount: 15
+    - Level: 325
+      MoveCount: 26
+    - Level: 326
+      MoveCount: 20
+    - Level: 327
+      MoveCount: 33
+    - Level: 328
+      MoveCount: 22
+    - Level: 329
+      MoveCount: 14
+    - Level: 330
+      MoveCount: 7
+    - Level: 331
+      MoveCount: 7
+    - Level: 332
+      MoveCount: 17
+    - Level: 333
+      MoveCount: 16
+    - Level: 334
+      MoveCount: 15
+    - Level: 335
+      MoveCount: 11
+    - Level: 336
+      MoveCount: 8
+    - Level: 337
+      MoveCount: 17
+    - Level: 338
+      MoveCount: 10
+    - Level: 339
+      MoveCount: 13
+    - Level: 340
+      MoveCount: 7
+    - Level: 341
+      MoveCount: 13
+    - Level: 342
+      MoveCount: 15
+    - Level: 343
+      MoveCount: 9
+    - Level: 344
+      MoveCount: 7
+    - Level: 345
+      MoveCount: 8
+    - Level: 346
+      MoveCount: 24
+    - Level: 347
+      MoveCount: 11
+    - Level: 348
+      MoveCount: 18
+    - Level: 349
+      MoveCount: 15
+    - Level: 350
+      MoveCount: 23
+    - Level: 351
+      MoveCount: 18
+    - Level: 352
+      MoveCount: 24
+    - Level: 353
+      MoveCount: 15
+    - Level: 354
+      MoveCount: 26
+    - Level: 355
+      MoveCount: 10
+    - Level: 356
+      MoveCount: 9
+    - Level: 357
+      MoveCount: 8
+    - Level: 358
+      MoveCount: 7
+    - Level: 359
+      MoveCount: 17
+    - Level: 360
+      MoveCount: 35
+    - Level: 361
+      MoveCount: 30
+    - Level: 362
+      MoveCount: 43
+    - Level: 363
+      MoveCount: 22
+    - Level: 364
+      MoveCount: 22
+    - Level: 365
+      MoveCount: 21
+    - Level: 366
+      MoveCount: 18
+    - Level: 367
+      MoveCount: 20
+    - Level: 368
+      MoveCount: 25
+    - Level: 369
+      MoveCount: 23
+    - Level: 370
+      MoveCount: 16
+    - Level: 371
+      MoveCount: 16
+    - Level: 372
+      MoveCount: 11
+    - Level: 373
+      MoveCount: 21
+    - Level: 374
+      MoveCount: 37
+    - Level: 375
+      MoveCount: 23
+    - Level: 376
+      MoveCount: 18
+    - Level: 377
+      MoveCount: 9
+    - Level: 378
+      MoveCount: 15
+    - Level: 379
+      MoveCount: 25
+    - Level: 380
+      MoveCount: 37
+    - Level: 381
+      MoveCount: 9
+    - Level: 382
+      MoveCount: 13
+    - Level: 383
+      MoveCount: 26
+    - Level: 384
+      MoveCount: 11
+    - Level: 385
+      MoveCount: 16
+    - Level: 386
+      MoveCount: 23
+    - Level: 387
+      MoveCount: 12
+    - Level: 388
+      MoveCount: 17
+    - Level: 389
+      MoveCount: 22
+    - Level: 390
+      MoveCount: 26
+    - Level: 391
+      MoveCount: 26
+    - Level: 392
+      MoveCount: 27
+    - Level: 393
+      MoveCount: 20
+    - Level: 394
+      MoveCount: 14
+    - Level: 395
+      MoveCount: 39
+    - Level: 396
+      MoveCount: 25
+    - Level: 397
+      MoveCount: 10
+    - Level: 398
+      MoveCount: 24
+    - Level: 399
+      MoveCount: 15
+    - Level: 400
+      MoveCount: 40
+    - Level: 401
+      MoveCount: 17
+    - Level: 402
+      MoveCount: 23
+    - Level: 403
+      MoveCount: 17
+    - Level: 404
+      MoveCount: 14
+    - Level: 405
+      MoveCount: 29
+    - Level: 406
+      MoveCount: 19
+    - Level: 407
+      MoveCount: 17
+    - Level: 408
+      MoveCount: 15
+    - Level: 409
+      MoveCount: 18
+    - Level: 410
+      MoveCount: 15
+    - Level: 411
+      MoveCount: 22
+    - Level: 412
+      MoveCount: 26
+    - Level: 413
+      MoveCount: 15
+    - Level: 414
+      MoveCount: 16
+    - Level: 415
+      MoveCount: 19
+    - Level: 416
+      MoveCount: 11
+    - Level: 417
+      MoveCount: 47
+    - Level: 418
+      MoveCount: 12
+    - Level: 419
+      MoveCount: 24
+    - Level: 420
+      MoveCount: 34
+    - Level: 421
+      MoveCount: 29
+    - Level: 422
+      MoveCount: 24
+    - Level: 423
+      MoveCount: 41
+    - Level: 424
+      MoveCount: 27
+    - Level: 425
+      MoveCount: 22
+    - Level: 426
+      MoveCount: 38
+    - Level: 427
+      MoveCount: 15
+    - Level: 428
+      MoveCount: 19
+    - Level: 429
+      MoveCount: 33
+    - Level: 430
+      MoveCount: 28
+    - Level: 431
+      MoveCount: 44
+    - Level: 432
+      MoveCount: 3
+    - Level: 433
+      MoveCount: 3
+    - Level: 434
+      MoveCount: 5
+    - Level: 435
+      MoveCount: 5
+    - Level: 436
+      MoveCount: 7
+    - Level: 437
+      MoveCount: 17
+    - Level: 438
+      MoveCount: 7
+    - Level: 439
+      MoveCount: 9
+    - Level: 440
+      MoveCount: 6
+    - Level: 441
+      MoveCount: 13
+    - Level: 442
+      MoveCount: 19
+    - Level: 443
+      MoveCount: 13
+    - Level: 444
+      MoveCount: 12
+    - Level: 445
+      MoveCount: 12
+    - Level: 446
+      MoveCount: 20
+    - Level: 447
+      MoveCount: 4
+    - Level: 448
+      MoveCount: 18
+    - Level: 449
+      MoveCount: 23
+    - Level: 450
+      MoveCount: 17
+    - Level: 451
+      MoveCount: 27
+    - Level: 452
+      MoveCount: 25
+    - Level: 453
+      MoveCount: 29
+    - Level: 454
+      MoveCount: 24
+    - Level: 455
+      MoveCount: 45
+    - Level: 456
+      MoveCount: 31
+    - Level: 457
+      MoveCount: 26
+    - Level: 458
+      MoveCount: 35
+    - Level: 459
+      MoveCount: 19
+    - Level: 460
+      MoveCount: 27
+    - Level: 461
+      MoveCount: 20
+    - Level: 462
+      MoveCount: 19
+    - Level: 463
+      MoveCount: 22
+    - Level: 464
+      MoveCount: 28
+    - Level: 465
+      MoveCount: 28
+    - Level: 466
+      MoveCount: 33
+    - Level: 467
+      MoveCount: 43
+    - Level: 468
+      MoveCount: 22
+    - Level: 469
+      MoveCount: 41
+    - Level: 470
+      MoveCount: 26
+    - Level: 471
+      MoveCount: 21
+    - Level: 472
+      MoveCount: 29
+    - Level: 473
+      MoveCount: 10
+    - Level: 474
+      MoveCount: 27
+    - Level: 475
+      MoveCount: 38
+    - Level: 476
+      MoveCount: 30
+    - Level: 477
+      MoveCount: 23
+    - Level: 478
+      MoveCount: 30
+    - Level: 479
+      MoveCount: 19
+    - Level: 480
+      MoveCount: 16
+    - Level: 481
+      MoveCount: 24
+    - Level: 482
+      MoveCount: 11
+    - Level: 483
+      MoveCount: 15
+    - Level: 484
+      MoveCount: 26
+    - Level: 485
+      MoveCount: 36
+    - Level: 486
+      MoveCount: 20
+    - Level: 487
+      MoveCount: 14
+    - Level: 488
+      MoveCount: 16
+    - Level: 489
+      MoveCount: 15
+    - Level: 490
+      MoveCount: 28
+    - Level: 491
+      MoveCount: 21
+    - Level: 492
+      MoveCount: 30
+    - Level: 493
+      MoveCount: 17
+    - Level: 494
+      MoveCount: 20
+    - Level: 495
+      MoveCount: 22
+    - Level: 496
+      MoveCount: 13
+    - Level: 497
+      MoveCount: 34
+    - Level: 498
+      MoveCount: 25
+    - Level: 499
+      MoveCount: 21
+    - Level: 500
+      MoveCount: 20
+    - Level: 501
+      MoveCount: 27
+    - Level: 502
+      MoveCount: 10
+    - Level: 503
+      MoveCount: 35
+    - Level: 504
+      MoveCount: 28
+    - Level: 505
+      MoveCount: 31
+    - Level: 506
+      MoveCount: 20
+    - Level: 507
+      MoveCount: 27
+    - Level: 508
+      MoveCount: 31
+    - Level: 509
+      MoveCount: 31
+  actualData:
+    levels:
+    - Level: 1
+      MoveCount: 1
+    - Level: 2
+      MoveCount: 1
+    - Level: 3
+      MoveCount: 2
+    - Level: 4
+      MoveCount: 3
+    - Level: 5
+      MoveCount: 2
+    - Level: 6
+      MoveCount: 2
+    - Level: 7
+      MoveCount: 4
+    - Level: 8
+      MoveCount: 2
+    - Level: 9
+      MoveCount: 4
+    - Level: 10
+      MoveCount: 4
+    - Level: 11
+      MoveCount: 6
+    - Level: 12
+      MoveCount: 4
+    - Level: 13
+      MoveCount: 5
+    - Level: 14
+      MoveCount: 6
+    - Level: 15
+      MoveCount: 2
+    - Level: 16
+      MoveCount: 3
+    - Level: 17
+      MoveCount: 5
+    - Level: 18
+      MoveCount: 5
+    - Level: 19
+      MoveCount: 6
+    - Level: 20
+      MoveCount: 2
+    - Level: 21
+      MoveCount: 4
+    - Level: 22
+      MoveCount: 5
+    - Level: 23
+      MoveCount: 6
+    - Level: 24
+      MoveCount: 6
+    - Level: 25
+      MoveCount: 6
+    - Level: 26
+      MoveCount: 5
+    - Level: 27
+      MoveCount: 5
+    - Level: 28
+      MoveCount: 6
+    - Level: 29
+      MoveCount: 6
+    - Level: 30
+      MoveCount: 7
+    - Level: 31
+      MoveCount: 2
+    - Level: 32
+      MoveCount: 2
+    - Level: 33
+      MoveCount: 2
+    - Level: 34
+      MoveCount: 3
+    - Level: 35
+      MoveCount: 7
+    - Level: 36
+      MoveCount: 4
+    - Level: 37
+      MoveCount: 7
+    - Level: 38
+      MoveCount: 4
+    - Level: 39
+      MoveCount: 7
+    - Level: 40
+      MoveCount: 2
+    - Level: 41
+      MoveCount: 4
+    - Level: 42
+      MoveCount: 4
+    - Level: 43
+      MoveCount: 3
+    - Level: 44
+      MoveCount: 3
+    - Level: 45
+      MoveCount: 7
+    - Level: 46
+      MoveCount: 8
+    - Level: 47
+      MoveCount: 7
+    - Level: 48
+      MoveCount: 5
+    - Level: 49
+      MoveCount: 6
+    - Level: 50
+      MoveCount: 8
+    - Level: 51
+      MoveCount: 4
+    - Level: 52
+      MoveCount: 7
+    - Level: 53
+      MoveCount: 4
+    - Level: 54
+      MoveCount: 5
+    - Level: 55
+      MoveCount: 4
+    - Level: 56
+      MoveCount: 3
+    - Level: 57
+      MoveCount: 7
+    - Level: 58
+      MoveCount: 4
+    - Level: 59
+      MoveCount: 4
+    - Level: 60
+      MoveCount: 9
+    - Level: 61
+      MoveCount: 4
+    - Level: 62
+      MoveCount: 5
+    - Level: 63
+      MoveCount: 6
+    - Level: 64
+      MoveCount: 4
+    - Level: 65
+      MoveCount: 4
+    - Level: 66
+      MoveCount: 4
+    - Level: 67
+      MoveCount: 4
+    - Level: 68
+      MoveCount: 3
+    - Level: 69
+      MoveCount: 2
+    - Level: 70
+      MoveCount: 3
+    - Level: 71
+      MoveCount: 3
+    - Level: 72
+      MoveCount: 9
+    - Level: 73
+      MoveCount: 6
+    - Level: 74
+      MoveCount: 4
+    - Level: 75
+      MoveCount: 2
+    - Level: 76
+      MoveCount: 4
+    - Level: 77
+      MoveCount: 10
+    - Level: 78
+      MoveCount: 6
+    - Level: 79
+      MoveCount: 3
+    - Level: 80
+      MoveCount: 4
+    - Level: 81
+      MoveCount: 3
+    - Level: 82
+      MoveCount: 7
+    - Level: 83
+      MoveCount: 8
+    - Level: 84
+      MoveCount: 5
+    - Level: 85
+      MoveCount: 7
+    - Level: 86
+      MoveCount: 6
+    - Level: 87
+      MoveCount: 2
+    - Level: 88
+      MoveCount: 11
+    - Level: 89
+      MoveCount: 1
+    - Level: 90
+      MoveCount: 7
+    - Level: 91
+      MoveCount: 4
+    - Level: 92
+      MoveCount: 5
+    - Level: 93
+      MoveCount: 4
+    - Level: 94
+      MoveCount: 4
+    - Level: 95
+      MoveCount: 7
+    - Level: 96
+      MoveCount: 6
+    - Level: 97
+      MoveCount: 4
+    - Level: 98
+      MoveCount: 5
+    - Level: 99
+      MoveCount: 4
+    - Level: 100
+      MoveCount: 9
+    - Level: 101
+      MoveCount: 16
+    - Level: 102
+      MoveCount: 12
+    - Level: 103
+      MoveCount: 7
+    - Level: 104
+      MoveCount: 4
+    - Level: 105
+      MoveCount: 8
+    - Level: 106
+      MoveCount: 6
+    - Level: 107
+      MoveCount: 13
+    - Level: 108
+      MoveCount: 12
+    - Level: 109
+      MoveCount: 4
+    - Level: 110
+      MoveCount: 8
+    - Level: 111
+      MoveCount: 10
+    - Level: 112
+      MoveCount: 6
+    - Level: 113
+      MoveCount: 9
+    - Level: 114
+      MoveCount: 9
+    - Level: 115
+      MoveCount: 9
+    - Level: 116
+      MoveCount: 6
+    - Level: 117
+      MoveCount: 8
+    - Level: 118
+      MoveCount: 7
+    - Level: 119
+      MoveCount: 4
+    - Level: 120
+      MoveCount: 7
+    - Level: 121
+      MoveCount: 11
+    - Level: 122
+      MoveCount: 4
+    - Level: 123
+      MoveCount: 12
+    - Level: 124
+      MoveCount: 5
+    - Level: 125
+      MoveCount: 11
+    - Level: 126
+      MoveCount: 7
+    - Level: 127
+      MoveCount: 11
+    - Level: 128
+      MoveCount: 11
+    - Level: 129
+      MoveCount: 6
+    - Level: 130
+      MoveCount: 10
+    - Level: 131
+      MoveCount: 11
+    - Level: 132
+      MoveCount: 14
+    - Level: 133
+      MoveCount: 16
+    - Level: 134
+      MoveCount: 7
+    - Level: 135
+      MoveCount: 8
+    - Level: 136
+      MoveCount: 10
+    - Level: 137
+      MoveCount: 13
+    - Level: 138
+      MoveCount: 10
+    - Level: 139
+      MoveCount: 8
+    - Level: 140
+      MoveCount: 7
+    - Level: 141
+      MoveCount: 9
+    - Level: 142
+      MoveCount: 11
+    - Level: 143
+      MoveCount: 10
+    - Level: 144
+      MoveCount: 8
+    - Level: 145
+      MoveCount: 10
+    - Level: 146
+      MoveCount: 9
+    - Level: 147
+      MoveCount: 9
+    - Level: 148
+      MoveCount: 7
+    - Level: 149
+      MoveCount: 11
+    - Level: 150
+      MoveCount: 11
+    - Level: 151
+      MoveCount: 8
+    - Level: 152
+      MoveCount: 9
+    - Level: 153
+      MoveCount: 25
+    - Level: 154
+      MoveCount: 9
+    - Level: 155
+      MoveCount: 6
+    - Level: 156
+      MoveCount: 6
+    - Level: 157
+      MoveCount: 5
+    - Level: 158
+      MoveCount: 11
+    - Level: 159
+      MoveCount: 13
+    - Level: 160
+      MoveCount: 4
+    - Level: 161
+      MoveCount: 7
+    - Level: 162
+      MoveCount: 9
+    - Level: 163
+      MoveCount: 7
+    - Level: 164
+      MoveCount: 10
+    - Level: 165
+      MoveCount: 7
+    - Level: 166
+      MoveCount: 7
+    - Level: 167
+      MoveCount: 7
+    - Level: 168
+      MoveCount: 8
+    - Level: 169
+      MoveCount: 8
+    - Level: 170
+      MoveCount: 8
+    - Level: 171
+      MoveCount: 10
+    - Level: 172
+      MoveCount: 6
+    - Level: 173
+      MoveCount: 6
+    - Level: 174
+      MoveCount: 16
+    - Level: 175
+      MoveCount: 7
+    - Level: 176
+      MoveCount: 7
+    - Level: 177
+      MoveCount: 16
+    - Level: 178
+      MoveCount: 14
+    - Level: 179
+      MoveCount: 12
+    - Level: 180
+      MoveCount: 10
+    - Level: 181
+      MoveCount: 14
+    - Level: 182
+      MoveCount: 17
+    - Level: 183
+      MoveCount: 19
+    - Level: 184
+      MoveCount: 7
+    - Level: 185
+      MoveCount: 9
+    - Level: 186
+      MoveCount: 10
+    - Level: 187
+      MoveCount: 11
+    - Level: 188
+      MoveCount: 7
+    - Level: 189
+      MoveCount: 8
+    - Level: 190
+      MoveCount: 2
+    - Level: 191
+      MoveCount: 5
+    - Level: 192
+      MoveCount: 7
+    - Level: 193
+      MoveCount: 12
+    - Level: 194
+      MoveCount: 17
+    - Level: 195
+      MoveCount: 15
+    - Level: 196
+      MoveCount: 14
+    - Level: 197
+      MoveCount: 8
+    - Level: 198
+      MoveCount: 10
+    - Level: 199
+      MoveCount: 11
+    - Level: 200
+      MoveCount: 12
+    - Level: 201
+      MoveCount: 2
+    - Level: 202
+      MoveCount: 2
+    - Level: 203
+      MoveCount: 4
+    - Level: 204
+      MoveCount: 3
+    - Level: 205
+      MoveCount: 6
+    - Level: 206
+      MoveCount: 5
+    - Level: 207
+      MoveCount: 14
+    - Level: 208
+      MoveCount: 10
+    - Level: 209
+      MoveCount: 8
+    - Level: 210
+      MoveCount: 10
+    - Level: 211
+      MoveCount: 11
+    - Level: 212
+      MoveCount: 11
+    - Level: 213
+      MoveCount: 8
+    - Level: 214
+      MoveCount: 16
+    - Level: 215
+      MoveCount: 14
+    - Level: 216
+      MoveCount: 18
+    - Level: 217
+      MoveCount: 10
+    - Level: 218
+      MoveCount: 20
+    - Level: 219
+      MoveCount: 10
+    - Level: 220
+      MoveCount: 10
+    - Level: 221
+      MoveCount: 17
+    - Level: 222
+      MoveCount: 14
+    - Level: 223
+      MoveCount: 4
+    - Level: 224
+      MoveCount: 7
+    - Level: 225
+      MoveCount: 2
+    - Level: 226
+      MoveCount: 4
+    - Level: 227
+      MoveCount: 10
+    - Level: 228
+      MoveCount: 15
+    - Level: 229
+      MoveCount: 20
+    - Level: 230
+      MoveCount: 28
+    - Level: 231
+      MoveCount: 14
+    - Level: 232
+      MoveCount: 20
+    - Level: 233
+      MoveCount: 17
+    - Level: 234
+      MoveCount: 6
+    - Level: 235
+      MoveCount: 25
+    - Level: 236
+      MoveCount: 6
+    - Level: 237
+      MoveCount: 17
+    - Level: 238
+      MoveCount: 23
+    - Level: 239
+      MoveCount: 16
+    - Level: 240
+      MoveCount: 12
+    - Level: 241
+      MoveCount: 6
+    - Level: 242
+      MoveCount: 20
+    - Level: 243
+      MoveCount: 15
+    - Level: 244
+      MoveCount: 13
+    - Level: 245
+      MoveCount: 11
+    - Level: 246
+      MoveCount: 10
+    - Level: 247
+      MoveCount: 11
+    - Level: 248
+      MoveCount: 11
+    - Level: 249
+      MoveCount: 12
+    - Level: 250
+      MoveCount: 11
+    - Level: 251
+      MoveCount: 12
+    - Level: 252
+      MoveCount: 12
+    - Level: 253
+      MoveCount: 5
+    - Level: 254
+      MoveCount: 16
+    - Level: 255
+      MoveCount: 20
+    - Level: 256
+      MoveCount: 11
+    - Level: 257
+      MoveCount: 15
+    - Level: 258
+      MoveCount: 14
+    - Level: 259
+      MoveCount: 23
+    - Level: 260
+      MoveCount: 15
+    - Level: 261
+      MoveCount: 10
+    - Level: 262
+      MoveCount: 11
+    - Level: 263
+      MoveCount: 13
+    - Level: 264
+      MoveCount: 18
+    - Level: 265
+      MoveCount: 18
+    - Level: 266
+      MoveCount: 8
+    - Level: 267
+      MoveCount: 14
+    - Level: 268
+      MoveCount: 14
+    - Level: 269
+      MoveCount: 26
+    - Level: 270
+      MoveCount: 29
+    - Level: 271
+      MoveCount: 16
+    - Level: 272
+      MoveCount: 17
+    - Level: 273
+      MoveCount: 24
+    - Level: 274
+      MoveCount: 18
+    - Level: 275
+      MoveCount: 20
+    - Level: 276
+      MoveCount: 16
+    - Level: 277
+      MoveCount: 22
+    - Level: 278
+      MoveCount: 28
+    - Level: 279
+      MoveCount: 27
+    - Level: 280
+      MoveCount: 17
+    - Level: 281
+      MoveCount: 24
+    - Level: 282
+      MoveCount: 16
+    - Level: 283
+      MoveCount: 20
+    - Level: 284
+      MoveCount: 17
+    - Level: 285
+      MoveCount: 28
+    - Level: 286
+      MoveCount: 23
+    - Level: 287
+      MoveCount: 16
+    - Level: 288
+      MoveCount: 17
+    - Level: 289
+      MoveCount: 24
+    - Level: 290
+      MoveCount: 18
+    - Level: 291
+      MoveCount: 26
+    - Level: 292
+      MoveCount: 25
+    - Level: 293
+      MoveCount: 18
+    - Level: 294
+      MoveCount: 18
+    - Level: 295
+      MoveCount: 15
+    - Level: 296
+      MoveCount: 11
+    - Level: 297
+      MoveCount: 19
+    - Level: 298
+      MoveCount: 23
+    - Level: 299
+      MoveCount: 22
+    - Level: 300
+      MoveCount: 18
+    - Level: 301
+      MoveCount: 24
+    - Level: 302
+      MoveCount: 15
+    - Level: 303
+      MoveCount: 17
+    - Level: 304
+      MoveCount: 19
+    - Level: 305
+      MoveCount: 10
+    - Level: 306
+      MoveCount: 15
+    - Level: 307
+      MoveCount: 23
+    - Level: 308
+      MoveCount: 15
+    - Level: 309
+      MoveCount: 7
+    - Level: 310
+      MoveCount: 34
+    - Level: 311
+      MoveCount: 29
+    - Level: 312
+      MoveCount: 24
+    - Level: 313
+      MoveCount: 15
+    - Level: 314
+      MoveCount: 9
+    - Level: 315
+      MoveCount: 25
+    - Level: 316
+      MoveCount: 25
+    - Level: 317
+      MoveCount: 14
+    - Level: 318
+      MoveCount: 11
+    - Level: 319
+      MoveCount: 11
+    - Level: 320
+      MoveCount: 18
+    - Level: 321
+      MoveCount: 17
+    - Level: 322
+      MoveCount: 13
+    - Level: 323
+      MoveCount: 11
+    - Level: 324
+      MoveCount: 15
+    - Level: 325
+      MoveCount: 26
+    - Level: 326
+      MoveCount: 20
+    - Level: 327
+      MoveCount: 33
+    - Level: 328
+      MoveCount: 22
+    - Level: 329
+      MoveCount: 14
+    - Level: 330
+      MoveCount: 7
+    - Level: 331
+      MoveCount: 7
+    - Level: 332
+      MoveCount: 17
+    - Level: 333
+      MoveCount: 16
+    - Level: 334
+      MoveCount: 15
+    - Level: 335
+      MoveCount: 11
+    - Level: 336
+      MoveCount: 8
+    - Level: 337
+      MoveCount: 17
+    - Level: 338
+      MoveCount: 10
+    - Level: 339
+      MoveCount: 13
+    - Level: 340
+      MoveCount: 7
+    - Level: 341
+      MoveCount: 13
+    - Level: 342
+      MoveCount: 15
+    - Level: 343
+      MoveCount: 9
+    - Level: 344
+      MoveCount: 7
+    - Level: 345
+      MoveCount: 8
+    - Level: 346
+      MoveCount: 24
+    - Level: 347
+      MoveCount: 11
+    - Level: 348
+      MoveCount: 18
+    - Level: 349
+      MoveCount: 15
+    - Level: 350
+      MoveCount: 23
+    - Level: 351
+      MoveCount: 18
+    - Level: 352
+      MoveCount: 24
+    - Level: 353
+      MoveCount: 15
+    - Level: 354
+      MoveCount: 26
+    - Level: 355
+      MoveCount: 10
+    - Level: 356
+      MoveCount: 9
+    - Level: 357
+      MoveCount: 8
+    - Level: 358
+      MoveCount: 7
+    - Level: 359
+      MoveCount: 17
+    - Level: 360
+      MoveCount: 35
+    - Level: 361
+      MoveCount: 30
+    - Level: 362
+      MoveCount: 43
+    - Level: 363
+      MoveCount: 22
+    - Level: 364
+      MoveCount: 22
+    - Level: 365
+      MoveCount: 21
+    - Level: 366
+      MoveCount: 18
+    - Level: 367
+      MoveCount: 20
+    - Level: 368
+      MoveCount: 25
+    - Level: 369
+      MoveCount: 23
+    - Level: 370
+      MoveCount: 16
+    - Level: 371
+      MoveCount: 16
+    - Level: 372
+      MoveCount: 11
+    - Level: 373
+      MoveCount: 21
+    - Level: 374
+      MoveCount: 37
+    - Level: 375
+      MoveCount: 23
+    - Level: 376
+      MoveCount: 18
+    - Level: 377
+      MoveCount: 9
+    - Level: 378
+      MoveCount: 15
+    - Level: 379
+      MoveCount: 25
+    - Level: 380
+      MoveCount: 37
+    - Level: 381
+      MoveCount: 9
+    - Level: 382
+      MoveCount: 13
+    - Level: 383
+      MoveCount: 26
+    - Level: 384
+      MoveCount: 11
+    - Level: 385
+      MoveCount: 16
+    - Level: 386
+      MoveCount: 23
+    - Level: 387
+      MoveCount: 12
+    - Level: 388
+      MoveCount: 17
+    - Level: 389
+      MoveCount: 22
+    - Level: 390
+      MoveCount: 26
+    - Level: 391
+      MoveCount: 26
+    - Level: 392
+      MoveCount: 27
+    - Level: 393
+      MoveCount: 20
+    - Level: 394
+      MoveCount: 14
+    - Level: 395
+      MoveCount: 39
+    - Level: 396
+      MoveCount: 25
+    - Level: 397
+      MoveCount: 10
+    - Level: 398
+      MoveCount: 24
+    - Level: 399
+      MoveCount: 15
+    - Level: 400
+      MoveCount: 40
+    - Level: 401
+      MoveCount: 17
+    - Level: 402
+      MoveCount: 23
+    - Level: 403
+      MoveCount: 17
+    - Level: 404
+      MoveCount: 14
+    - Level: 405
+      MoveCount: 29
+    - Level: 406
+      MoveCount: 19
+    - Level: 407
+      MoveCount: 17
+    - Level: 408
+      MoveCount: 15
+    - Level: 409
+      MoveCount: 18
+    - Level: 410
+      MoveCount: 15
+    - Level: 411
+      MoveCount: 22
+    - Level: 412
+      MoveCount: 26
+    - Level: 413
+      MoveCount: 15
+    - Level: 414
+      MoveCount: 16
+    - Level: 415
+      MoveCount: 19
+    - Level: 416
+      MoveCount: 11
+    - Level: 417
+      MoveCount: 47
+    - Level: 418
+      MoveCount: 12
+    - Level: 419
+      MoveCount: 24
+    - Level: 420
+      MoveCount: 34
+    - Level: 421
+      MoveCount: 29
+    - Level: 422
+      MoveCount: 24
+    - Level: 423
+      MoveCount: 41
+    - Level: 424
+      MoveCount: 27
+    - Level: 425
+      MoveCount: 22
+    - Level: 426
+      MoveCount: 38
+    - Level: 427
+      MoveCount: 15
+    - Level: 428
+      MoveCount: 19
+    - Level: 429
+      MoveCount: 33
+    - Level: 430
+      MoveCount: 28
+    - Level: 431
+      MoveCount: 44
+    - Level: 432
+      MoveCount: 3
+    - Level: 433
+      MoveCount: 3
+    - Level: 434
+      MoveCount: 5
+    - Level: 435
+      MoveCount: 5
+    - Level: 436
+      MoveCount: 7
+    - Level: 437
+      MoveCount: 17
+    - Level: 438
+      MoveCount: 7
+    - Level: 439
+      MoveCount: 9
+    - Level: 440
+      MoveCount: 6
+    - Level: 441
+      MoveCount: 13
+    - Level: 442
+      MoveCount: 19
+    - Level: 443
+      MoveCount: 13
+    - Level: 444
+      MoveCount: 12
+    - Level: 445
+      MoveCount: 12
+    - Level: 446
+      MoveCount: 20
+    - Level: 447
+      MoveCount: 4
+    - Level: 448
+      MoveCount: 18
+    - Level: 449
+      MoveCount: 23
+    - Level: 450
+      MoveCount: 17
+    - Level: 451
+      MoveCount: 27
+    - Level: 452
+      MoveCount: 25
+    - Level: 453
+      MoveCount: 29
+    - Level: 454
+      MoveCount: 24
+    - Level: 455
+      MoveCount: 45
+    - Level: 456
+      MoveCount: 31
+    - Level: 457
+      MoveCount: 26
+    - Level: 458
+      MoveCount: 35
+    - Level: 459
+      MoveCount: 19
+    - Level: 460
+      MoveCount: 27
+    - Level: 461
+      MoveCount: 20
+    - Level: 462
+      MoveCount: 19
+    - Level: 463
+      MoveCount: 22
+    - Level: 464
+      MoveCount: 28
+    - Level: 465
+      MoveCount: 28
+    - Level: 466
+      MoveCount: 33
+    - Level: 467
+      MoveCount: 43
+    - Level: 468
+      MoveCount: 22
+    - Level: 469
+      MoveCount: 41
+    - Level: 470
+      MoveCount: 26
+    - Level: 471
+      MoveCount: 21
+    - Level: 472
+      MoveCount: 29
+    - Level: 473
+      MoveCount: 10
+    - Level: 474
+      MoveCount: 27
+    - Level: 475
+      MoveCount: 38
+    - Level: 476
+      MoveCount: 30
+    - Level: 477
+      MoveCount: 23
+    - Level: 478
+      MoveCount: 30
+    - Level: 479
+      MoveCount: 19
+    - Level: 480
+      MoveCount: 16
+    - Level: 481
+      MoveCount: 24
+    - Level: 482
+      MoveCount: 11
+    - Level: 483
+      MoveCount: 15
+    - Level: 484
+      MoveCount: 26
+    - Level: 485
+      MoveCount: 36
+    - Level: 486
+      MoveCount: 20
+    - Level: 487
+      MoveCount: 14
+    - Level: 488
+      MoveCount: 16
+    - Level: 489
+      MoveCount: 15
+    - Level: 490
+      MoveCount: 28
+    - Level: 491
+      MoveCount: 21
+    - Level: 492
+      MoveCount: 30
+    - Level: 493
+      MoveCount: 17
+    - Level: 494
+      MoveCount: 20
+    - Level: 495
+      MoveCount: 22
+    - Level: 496
+      MoveCount: 13
+    - Level: 497
+      MoveCount: 34
+    - Level: 498
+      MoveCount: 25
+    - Level: 499
+      MoveCount: 21
+    - Level: 500
+      MoveCount: 20
+    - Level: 501
+      MoveCount: 27
+    - Level: 502
+      MoveCount: 10
+    - Level: 503
+      MoveCount: 35
+    - Level: 504
+      MoveCount: 28
+    - Level: 505
+      MoveCount: 31
+    - Level: 506
+      MoveCount: 20
+    - Level: 507
+      MoveCount: 27
+    - Level: 508
+      MoveCount: 31
+    - Level: 509
+      MoveCount: 31
+  plainDataProvider: {fileID: 11400000, guid: 0b36a3e477d999a4d8186908c92653c1, type: 2}

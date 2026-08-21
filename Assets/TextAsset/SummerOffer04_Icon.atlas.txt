@@ -1,0 +1,48 @@
+SummerOffer04_Icon.png
+size:3293,3293
+filter:Linear,Linear
+Layer 129
+bounds:2,723,170,127
+Layer 130
+bounds:2428,2170,37,52
+rotate:90
+Layer 131
+bounds:280,802,40,48
+Layer 132
+bounds:2323,2111,41,53
+Layer 133
+bounds:2323,2063,39,46
+Layer 134
+bounds:237,795,41,55
+Layer 135
+bounds:120,674,42,47
+Layer 136
+bounds:63,629,42,48
+rotate:90
+Layer 137
+bounds:2617,2227,45,47
+rotate:90
+Layer 138
+bounds:63,673,55,48
+Layer 139
+bounds:2546,2226,46,69
+rotate:90
+Layer 140
+bounds:2,627,59,94
+Layer 141
+bounds:174,761,61,89
+Layer 142
+bounds:2,550,75,29
+rotate:90
+Layer 143
+bounds:2323,2166,103,41
+Layer 144
+bounds:174,748,34,11
+Layer 145
+bounds:2323,2209,221,63
+offsets:1,1,223,65
+image
+bounds:2,852,2319,2439
+offsets:3,0,2322,2439
+image (1)
+bounds:2323,2274,968,1017

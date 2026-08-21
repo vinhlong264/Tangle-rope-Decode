@@ -1,0 +1,33 @@
+Basic_Silver_Chest1.png
+size:2135,2135
+filter:Linear,Linear
+BlackOutline/2
+bounds:2,561,707,440
+BlackOutline/3
+bounds:1428,1750,693,383
+BlackOutline/4
+bounds:2,1047,671,404
+BlackOutline/5
+bounds:707,1794,719,339
+BlackOutline/Layer 1
+bounds:2,9,709,504
+Normal/2
+bounds:711,515,707,440
+Normal/3
+bounds:1418,1363,693,385
+Normal/4
+bounds:675,1003,671,404
+Normal/5
+bounds:2,1801,703,332
+Normal/Layer 1
+bounds:713,9,709,504
+WhiteOutline/2
+bounds:1420,515,707,440
+WhiteOutline/3
+bounds:723,1409,693,383
+WhiteOutline/4
+bounds:1348,957,671,404
+WhiteOutline/5
+bounds:2,1453,719,339
+WhiteOutline/Layer 1
+bounds:1424,9,709,504

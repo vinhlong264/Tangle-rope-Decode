@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41dfae198ce0373e91752ff8f8c1885, type: 3}
+  m_Name: Is Scene Type Home
+  m_EditorClassIdentifier:
+  _developerDescription: Is current scene is type of home?
+  compareVariable: {fileID: 11400000, guid: e5dcaad5901bc1e45986dd8ec14d8818, type: 2}
+  referenceVariable:
+    _usage: 1
+    _value:
+    _constant: {fileID: 11400000, guid: 6b20e5eda450e0b4d805bcf9b5240ba3, type: 2}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  isNot: 0

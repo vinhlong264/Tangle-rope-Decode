@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4515ad94f8e06ca29f9b4e094613728, type: 3}
+  m_Name: Player_RankingEntryDataPersistentVariable
+  m_EditorClassIdentifier:
+  DataGroup: 4
+  ReadableSaveKey: Player_RankingEntryDataPersistentVariable
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 3700388124
+    m_Value1: 3640181792
+    m_Value2: 3383313906
+    m_Value3: 3430278691
+  setSessionStartValue: 0
+  initialValue:
+    id: 0
+    playerName:
+    score: 0
+    countryCode: US
+  value:
+    id: 0
+    playerName:
+    score: 0
+    countryCode: US
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

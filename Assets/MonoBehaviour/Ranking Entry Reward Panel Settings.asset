@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0a6b94fdfe060c5c2f6704d38946eb, type: 3}
+  m_Name: Ranking Entry Reward Panel Settings
+  m_EditorClassIdentifier:
+  settings:
+    resourceComponentsData:
+    - ResourceId:
+        _usage: 1
+        _value:
+        _constant: {fileID: 11400000, guid: ea78e2f9a04aeb1479c1015253583b54, type: 2}
+        _variable: {fileID: 0}
+        _variableInstancer: {fileID: 0}
+      Icon: {fileID: 21300000, guid: b62b6399451958f4c936a469aa759cb9, type: 2}
+    - ResourceId:
+        _usage: 1
+        _value:
+        _constant: {fileID: 11400000, guid: 601fc5101bede684a90d37a54d32c978, type: 2}
+        _variable: {fileID: 0}
+        _variableInstancer: {fileID: 0}
+      Icon: {fileID: 21300000, guid: ea980fc8fb066db4d94326e896dd92fd, type: 2}
+    - ResourceId:
+        _usage: 1
+        _value:
+        _constant: {fileID: 11400000, guid: 0923fcce25e44464ca7a4c10d0007d5a, type: 2}
+        _variable: {fileID: 0}
+        _variableInstancer: {fileID: 0}
+      Icon: {fileID: 21300000, guid: a9ea39abb1379bd47b571c67d44410e1, type: 2}
+    randomItemsIcon: {fileID: 21300000, guid: 5e8ae2e056d46a349a65daad768ce7a6, type: 2}
+    randomBoostersIcon: {fileID: 21300000, guid: b90a20a7a9412cc46a3776c1d0c23b16, type: 2}
+    resourcePrefix:
+    resourceTextFormatter: {fileID: 11400000, guid: 07e330c54d12ebf4fa0d8249aab2e1e8, type: 2}
+    boosterPrefix: x
+    boosterTextFormatter: {fileID: 11400000, guid: 32b5453de6530e9448b4a7c12d8116bd, type: 2}

@@ -1,0 +1,10 @@
+TanglePassIcon.png
+size:1465,1465
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:2,658,696,805
+Normal/Layer 1
+bounds:2,2,654,763
+rotate:90
+WhiteOutline/Layer 1
+bounds:700,658,696,805

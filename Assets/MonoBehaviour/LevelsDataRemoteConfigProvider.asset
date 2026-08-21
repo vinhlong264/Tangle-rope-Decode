@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b31eb149104c6e83d178f09b2276d54e, type: 3}
+  m_Name: LevelsDataRemoteConfigProvider
+  m_EditorClassIdentifier:
+  remoteConfigStringVariable: {fileID: 11400000, guid: 671334883f323554aa9921f69fb201af, type: 2}
+  useDebugValue: 0
+  debugValue:

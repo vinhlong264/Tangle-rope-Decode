@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450470644cc03fc40095bd3b2a8230d1, type: 3}
+  m_Name: NormalLevelsMoveCountSettingsService
+  m_EditorClassIdentifier:
+  initialData:
+    OnlyAvailableOnLoop: 1
+    OffsetGeneral: 0
+    MinMoveCountToUseCustomOffset: 0
+    CustomOffsetBelowMin: 0
+    SpesificLevelsOffsets: []
+    ExcludedLevels: 01000000
+  actualData:
+    OnlyAvailableOnLoop: 1
+    OffsetGeneral: 0
+    MinMoveCountToUseCustomOffset: 0
+    CustomOffsetBelowMin: 0
+    SpesificLevelsOffsets: []
+    ExcludedLevels: 01000000
+  plainDataProvider: {fileID: 11400000, guid: 3bdaccef63b2bbb4698de1e761449764, type: 2}
+  avgMoveCountsService: {fileID: 11400000, guid: 12dad5a782fc54c47913e3a149296e65, type: 2}
+  enabledCondition:
+    variableReferenceType: 0
+    atomReference:
+      _usage: 2
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 11400000, guid: 244d53b2a6c1bfe4480457618913c36b, type: 2}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 0}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+    customType1: {fileID: 0}

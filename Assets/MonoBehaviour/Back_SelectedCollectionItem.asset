@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a23e9722dc834f1a9c5ad8fe056146, type: 3}
+  m_Name: Back_SelectedCollectionItem
+  m_EditorClassIdentifier:
+  DataGroup: 7
+  ReadableSaveKey: Back_SelectedCollectionItem
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 1125830207
+    m_Value1: 3620811999
+    m_Value2: 1251669109
+    m_Value3: 2406102858
+  setSessionStartValue: 0
+  initialValue: back1
+  value: back1
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

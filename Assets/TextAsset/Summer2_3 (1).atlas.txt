@@ -1,0 +1,146 @@
+
+Summer2_3 (1).png
+size: 1245, 470
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Ball
+  rotate: false
+  xy: 971, 35
+  size: 119, 117
+  orig: 119, 117
+  offset: 0, 0
+  index: -1
+Ball_Underwater
+  rotate: false
+  xy: 1092, 42
+  size: 90, 26
+  orig: 90, 26
+  offset: 0, 0
+  index: -1
+Ball_Waterreflection
+  rotate: false
+  xy: 963, 13
+  size: 94, 20
+  orig: 94, 20
+  offset: 0, 0
+  index: -1
+Bed
+  rotate: false
+  xy: 472, 54
+  size: 319, 231
+  orig: 319, 231
+  offset: 0, 0
+  index: -1
+Bed_underwater
+  rotate: true
+  xy: 793, 11
+  size: 274, 58
+  orig: 274, 58
+  offset: 0, 0
+  index: -1
+Bed_waterreflection
+  rotate: false
+  xy: 472, 3
+  size: 274, 49
+  orig: 274, 49
+  offset: 0, 0
+  index: -1
+Fan_Gövde
+  rotate: false
+  xy: 980, 154
+  size: 101, 131
+  orig: 101, 131
+  offset: 0, 0
+  index: -1
+Fan_Shadow
+  rotate: false
+  xy: 1186, 271
+  size: 59, 71
+  orig: 75, 101
+  offset: 2, 3
+  index: -1
+Fan_blades
+  rotate: false
+  xy: 853, 40
+  size: 116, 122
+  orig: 116, 122
+  offset: 0, 0
+  index: -1
+Hammer
+  rotate: true
+  xy: 1083, 166
+  size: 133, 77
+  orig: 133, 77
+  offset: 0, 0
+  index: -1
+Hammer_Shadow
+  rotate: true
+  xy: 1162, 188
+  size: 111, 20
+  orig: 119, 33
+  offset: 6, 1
+  index: -1
+Layer 11
+  rotate: false
+  xy: 1092, 70
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: false
+  xy: 1017, 301
+  size: 167, 169
+  orig: 174, 174
+  offset: 2, 0
+  index: -1
+Rope_Full
+  rotate: true
+  xy: 1186, 344
+  size: 126, 57
+  orig: 126, 143
+  offset: 0, 0
+  index: -1
+Rope_mask
+  rotate: false
+  xy: 1184, 196
+  size: 59, 73
+  orig: 59, 74
+  offset: 0, 0
+  index: -1
+Rope_underwater
+  rotate: false
+  xy: 1092, 9
+  size: 79, 31
+  orig: 79, 31
+  offset: 0, 0
+  index: -1
+Rope_waterreflection
+  rotate: false
+  xy: 853, 14
+  size: 108, 24
+  orig: 108, 24
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 0, 0
+  size: 470, 470
+  orig: 470, 470
+  offset: 0, 0
+  index: -1
+Water
+  rotate: false
+  xy: 472, 287
+  size: 543, 183
+  orig: 543, 183
+  offset: 0, 0
+  index: -1
+rope
+  rotate: false
+  xy: 853, 164
+  size: 125, 121
+  orig: 126, 121
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8175d4b9da417ec5686ccc5b5fbf35d7, type: 3}
+  m_Name: BattlePassDataService
+  m_EditorClassIdentifier:
+  initialData:
+    Passes: []
+  actualData:
+    Passes:
+    - Id: battle_pass_default
+      GoldenTicketId: twistedtangle_battlepass
+      BonusCaseTargetToken: 10
+      BonusCaseAccumulateValue: 100
+      BonusCaseMaxValue: 5000
+      FirstFreeRewardId: twistedtangle_timefreeze_1
+      FirstGoldenTicketRewardId: twistedtangle_cut_1
+      TokenEarnAmounts:
+      - Difficulty: Easy
+        Tokens: 1
+      - Difficulty: Medium
+        Tokens: 1
+      - Difficulty: Hard
+        Tokens: 3
+      - Difficulty: Very Hard
+        Tokens: 5
+      TargetTokens: 0100000002000000030000000400000005000000060000000a0000000a0000000a0000000a0000000a0000000a0000000f0000000f0000000f0000000f0000000f000000140000001400000014000000140000001400000019000000190000001900000019000000190000001e0000001e00000023000000
+      FreeRewardIds:
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - coin_noniap_100
+      - twistedtangle_heartinf_15m
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - coin_noniap_100
+      - twistedtangle_cut_1
+      - battle_pass_free_chest_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_cut_1
+      - twistedtangle_heartinf_30m
+      - twistedtangle_timefreeze_1
+      - coin_noniap_200
+      - twistedtangle_shuffle_1
+      - twistedtangle_cut_1
+      - twistedtangle_timefreeze_1
+      - battle_pass_free_chest_2
+      - coin_noniap_200
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - battle_pass_free_chest_3
+      GoldenTicketRewardIds:
+      - twistedtangle_heartinf_15m
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_heartinf_30m
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - coin_noniap_500
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - battle_pass_golden_ticket_chest_1
+      - twistedtangle_cut_1
+      - twistedtangle_timefreeze_2
+      - twistedtangle_shuffle_2
+      - twistedtangle_cut_1
+      - coin_noniap_500
+      - twistedtangle_cut_1
+      - twistedtangle_timefreeze_2
+      - twistedtangle_shuffle_2
+      - twistedtangle_cut_1
+      - battle_pass_golden_ticket_chest_2
+      - twistedtangle_shuffle_2
+      - twistedtangle_heartinf_1h
+      - twistedtangle_cut_2
+      - twistedtangle_timefreeze_2
+      - battle_pass_golden_ticket_chest_3
+    - Id: battle_pass_halloween
+      GoldenTicketId: twistedtangle_battlepass
+      BonusCaseTargetToken: 10
+      BonusCaseAccumulateValue: 100
+      BonusCaseMaxValue: 5000
+      FirstFreeRewardId: twistedtangle_timefreeze_1
+      FirstGoldenTicketRewardId: twistedtangle_cut_1
+      TokenEarnAmounts:
+      - Difficulty: Easy
+        Tokens: 1
+      - Difficulty: Medium
+        Tokens: 1
+      - Difficulty: Hard
+        Tokens: 3
+      - Difficulty: Very Hard
+        Tokens: 5
+      TargetTokens: 0100000002000000030000000400000005000000060000000a0000000a0000000a0000000a0000000a0000000a0000000f0000000f0000000f0000000f0000000f000000140000001400000014000000140000001400000019000000190000001900000019000000190000001e0000001e00000023000000
+      FreeRewardIds:
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - coin_noniap_100
+      - twistedtangle_heartinf_15m
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - coin_noniap_100
+      - twistedtangle_cut_1
+      - battle_pass_free_chest_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_cut_1
+      - twistedtangle_heartinf_30m
+      - twistedtangle_timefreeze_1
+      - coin_noniap_200
+      - twistedtangle_shuffle_1
+      - twistedtangle_cut_1
+      - twistedtangle_timefreeze_1
+      - battle_pass_free_chest_2
+      - coin_noniap_200
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - battle_pass_free_chest_3
+      GoldenTicketRewardIds:
+      - twistedtangle_heartinf_15m
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_heartinf_30m
+      - twistedtangle_cut_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - twistedtangle_cut_1
+      - coin_noniap_500
+      - twistedtangle_shuffle_1
+      - twistedtangle_timefreeze_1
+      - battle_pass_golden_ticket_chest_1
+      - twistedtangle_cut_1
+      - twistedtangle_timefreeze_2
+      - twistedtangle_shuffle_2
+      - twistedtangle_cut_1
+      - coin_noniap_500
+      - twistedtangle_cut_1
+      - twistedtangle_timefreeze_2
+      - twistedtangle_shuffle_2
+      - twistedtangle_cut_1
+      - battle_pass_golden_ticket_chest_2
+      - twistedtangle_shuffle_2
+      - twistedtangle_heartinf_1h
+      - twistedtangle_cut_2
+      - twistedtangle_timefreeze_2
+      - battle_pass_golden_ticket_chest_3
+  plainDataProvider: {fileID: 11400000, guid: 99c70c79a8a149f4d97d7edc187e21ab, type: 2}

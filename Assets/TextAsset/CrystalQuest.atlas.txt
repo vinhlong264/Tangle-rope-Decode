@@ -1,0 +1,33 @@
+CrystalQuest.png
+size:5209,5209
+filter:Linear,Linear
+Grass1
+bounds:2606,1075,110,65
+offsets:1319,1275,2602,2935
+Grass2
+bounds:729,329,155,139
+offsets:460,274,2602,2935
+Grass3
+bounds:2847,1282,85,55
+offsets:1629,1083,2602,2935
+Grass4
+bounds:2606,1142,239,195
+offsets:1810,171,2602,2935
+Grass5
+bounds:4765,2239,189,150
+offsets:271,315,2602,2935
+Layer 10
+bounds:2606,1339,2157,1050
+offsets:217,64,2602,2935
+Layer 11
+bounds:2604,2391,2600,2816
+offsets:1,118,2602,2935
+Layer 3 copy 2
+bounds:2,470,2602,1802
+offsets:0,382,2602,2935
+Layer 6
+bounds:2,2274,2600,2933
+offsets:1,1,2602,2935
+Rope
+bounds:2,2,725,466
+offsets:904,754,2602,2935

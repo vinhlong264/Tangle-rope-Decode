@@ -1,0 +1,6701 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51503fdd47cb4ead2cb9b4194b24ce4d, type: 3}
+  m_Name: IAP Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    ProductPacks:
+    - Enabled: 1
+      Id: no_ads_pack
+      Name: no_ads_pack_name
+      Description: Remove Ads
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: no_ads_product_name
+        Id: noads_twistedtangle
+        Description: no_ads_product_info
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: 9ehqnp
+        ElephantEventParam: noads
+        Price: 7.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: cut_pack
+      Name: cut_pack_name
+      Description: cut_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_1
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_2
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_3
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_5
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_6
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_12
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_15
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_25
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Cut
+        Id: twistedtangle_cut_30
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: shuffle_pack
+      Name: shuffle_pack_name
+      Description: shuffle_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_1
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_2
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_3
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_5
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_6
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_12
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_15
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_25
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Shuffle
+        Id: twistedtangle_shuffle_30
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: time_freeze_pack
+      Name: time_freeze_pack_name
+      Description: time_freeze_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_1
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_2
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_3
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_5
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_6
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_12
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_15
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_25
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_30
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: undo_pack
+      Name: undo_pack_name
+      Description: undo_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_1
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_2
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_3
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_5
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_12
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_25
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Undo
+        Id: twistedtangle_undo_30
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: multiplier_pack
+      Name: multiplier_pack_name
+      Description: multiplier_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: 2x
+        Id: twistedtangle_multiplier_2x
+        Description: Multiply your rewards!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam: multiplier_2x
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: dynamic_quest_golden_pass_pack
+      Name: dynamic_quest_golden_pass_name
+      Description: dynamic_quest_golden_pass_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: golden_pass
+        Id: twistedtangle_dynamic_quest_golden_pass
+        Description: Golden Pass
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: coin_pack
+      Name: gold_pack_name
+      Description: gold_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Gold
+        Id: coin_noniap_2000_ego
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken: 0
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_100
+        Description:
+        IsConsumable: 1
+        Amount: 100
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_200
+        Description:
+        IsConsumable: 1
+        Amount: 200
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_300
+        Description:
+        IsConsumable: 1
+        Amount: 300
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_250
+        Description:
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_350
+        Description:
+        IsConsumable: 1
+        Amount: 350
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_450
+        Description:
+        IsConsumable: 1
+        Amount: 450
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_500
+        Description:
+        IsConsumable: 1
+        Amount: 500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_750
+        Description:
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_1000
+        Description:
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_1500
+        Description:
+        IsConsumable: 1
+        Amount: 1500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_2000
+        Description:
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_2500
+        Description:
+        IsConsumable: 1
+        Amount: 2500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_3000
+        Description:
+        IsConsumable: 1
+        Amount: 3000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_3500
+        Description:
+        IsConsumable: 1
+        Amount: 3500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_4000
+        Description:
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_4500
+        Description:
+        IsConsumable: 1
+        Amount: 4500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_5000
+        Description:
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_5500
+        Description:
+        IsConsumable: 1
+        Amount: 5500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_6000
+        Description:
+        IsConsumable: 1
+        Amount: 6000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_10000
+        Description:
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_25000
+        Description:
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_1000
+        Description:
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_2000
+        Description:
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_5000
+        Description:
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_10000
+        Description:
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_25000
+        Description:
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_50000
+        Description:
+        IsConsumable: 1
+        Amount: 50000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name:
+        Id: coin_noniap_bundle_65000
+        Description:
+        IsConsumable: 1
+        Amount: 65000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_1k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken: gtecic
+        ElephantEventParam: coin_1k
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Gold
+        Id: twistedtangle_coin_2k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam: coin_2k
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_5k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken: 1t4x9t
+        ElephantEventParam: coin_5k
+        Price: 7.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_10k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken: vgn61w
+        ElephantEventParam: coin_10k
+        Price: 14.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_25k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken: r8caov
+        ElephantEventParam: coin_25k
+        Price: 24.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_50k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 50000
+        AdjustEventToken: qhv316
+        ElephantEventParam: coin_50k
+        Price: 54.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Gold
+        Id: twistedtangle_coin_65k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 65000
+        AdjustEventToken:
+        ElephantEventParam: coin_65k
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_100k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 100000
+        AdjustEventToken: vkh3hf
+        ElephantEventParam: coin_100k
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: hammer_pack
+      Name: hammer_pack_name
+      Description: hammer_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_1
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_2
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_3
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_6
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_12
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_15
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Hammer
+        Id: twistedtangle_hammer_inf
+        Description: Smash pins with hammer!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam: hammer_inf
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: pocket_watch_pack
+      Name: pocket_watch_pack_name
+      Description: pocket_watch_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_1
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_2
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_3
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_6
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_12
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_15
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pocket Watch
+        Id: twistedtangle_pocket_watch_inf
+        Description: Increase your time!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam: pocket_watch_inf
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: heart_pack
+      Name: heart_pack_name
+      Description: heart_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Heart
+        Id: twistedtangle_heart_inf
+        Description: It allows access to challenging levels.
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam: heart_inf
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: skip_it_pack
+      Name: skip_ads_pack_name
+      Description: skip_ads_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Skip Ads
+        Id: twistedtangle_skipit_5
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken: wixr5g
+        ElephantEventParam: skipit_5
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_10
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 10
+        AdjustEventToken: wixr5g
+        ElephantEventParam: skipit_10
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_20
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 20
+        AdjustEventToken: gchjll
+        ElephantEventParam: skipit_20
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_50
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 50
+        AdjustEventToken: 6dcbtt
+        ElephantEventParam: skipit_50
+        Price: 7.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_100
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 100
+        AdjustEventToken: nxn76w
+        ElephantEventParam: skipit_100
+        Price: 13.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_400
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 400
+        AdjustEventToken: q53wwt
+        ElephantEventParam: skipit_400
+        Price: 29.99
+      DisablerIds:
+      - twistedtangle_skipit_ul
+    - Enabled: 1
+      Id: rope_pack
+      Name: rope_pack_name
+      Description: rope_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Disco Ball
+        Id: twistedtangle_rope_disco
+        Description: Disco Rope
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: jn03jz
+        ElephantEventParam: rope_disco
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Pearls
+        Id: twistedtangle_rope_pearls
+        Description: Pealrs Rope
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: y6qa4x
+        ElephantEventParam: rope_pearls
+        Price: 1.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: pin_pack
+      Name: pin_pack_name
+      Description: pin_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Lotus Flower
+        Id: twistedtangle_pin_lotus
+        Description: Lotus Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: 9cm62n
+        ElephantEventParam: pin_lotus
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Sport Shoe
+        Id: twistedtangle_pin_sportshoe
+        Description: Sportshoe Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: x7smv8
+        ElephantEventParam: pin_sportshoe
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Speaker
+        Id: twistedtangle_pin_speaker
+        Description: Speaker Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: x7smv8
+        ElephantEventParam: pin_speaker
+        Price: 2.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Fourth of July
+      Name: Fourth of July
+      Description: Fourth of July
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: scv1t5
+        ElephantEventParam: twistedtangle_4th_ofjuly_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: b2c9gv
+        ElephantEventParam: twistedtangle_4th_ofjuly_2
+        Price: 6.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly__3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 1izt8s
+        ElephantEventParam: twistedtangle_4th_ofjuly__3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: mf0nm8
+        ElephantEventParam: twistedtangle_4th_ofjuly_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: 66p56b
+        ElephantEventParam: twistedtangle_4th_ofjuly_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_4th_ofjuly_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: xc8lou
+        ElephantEventParam: twistedtangle_4th_ofjuly_6
+        Price: 49.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Segmented
+      Name: Segmented
+      Description: Segmented
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: wwiv78
+        ElephantEventParam: twistedtangle_mothers_day_offer_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: 494s7t
+        ElephantEventParam: twistedtangle_mothers_day_offer_2
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: mqbe79
+        ElephantEventParam: twistedtangle_mothers_day_offer_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: kiiyog
+        ElephantEventParam: twistedtangle_mothers_day_offer_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: kirwqm
+        ElephantEventParam: twistedtangle_mothers_day_offer_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: m3cgzu
+        ElephantEventParam: twistedtangle_mothers_day_offer_6
+        Price: 49.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Segmented Anniversary
+      Name: Segmented Anniversary
+      Description: Segmented Anniversary
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: fmlufj
+        ElephantEventParam: twistedtangle_second_anniversary_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: hk0r52
+        ElephantEventParam: twistedtangle_second_anniversary_2
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 382jkt
+        ElephantEventParam: twistedtangle_second_anniversary_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: ynejpy
+        ElephantEventParam: twistedtangle_second_anniversary_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: wss3w3
+        ElephantEventParam: twistedtangle_second_anniversary_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: wwywks
+        ElephantEventParam: twistedtangle_second_anniversary_6
+        Price: 49.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Mini Shop Special Offers
+      Name: Mini Shop Special Offers
+      Description: Mini Shop Special Offers
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer A
+        Id: twistedtangle_special_offers_1
+        Description: Special Offer A
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 6wqjgt
+        ElephantEventParam: twistedtangle_special_offers_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer B
+        Id: twistedtangle_special_offers_2
+        Description: Special Offer B
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 3w68cg
+        ElephantEventParam: twistedtangle_special_offers_2
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer C
+        Id: twistedtangle_special_offers_3
+        Description: Special Offer C
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 7ntu3g
+        ElephantEventParam: twistedtangle_special_offers_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer D
+        Id: twistedtangle_special_offers_4
+        Description: Special Offer D
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 3k9fbm
+        ElephantEventParam: twistedtangle_special_offers_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer E
+        Id: twistedtangle_special_offers_5
+        Description: Special Offer E
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 2wbu08
+        ElephantEventParam: twistedtangle_special_offers_5
+        Price: 29.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer F
+        Id: twistedtangle_special_offers_6
+        Description: Special Offer F
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: krm4fn
+        ElephantEventParam: twistedtangle_special_offers_6
+        Price: 34.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer G
+        Id: twistedtangle_special_offers_7
+        Description: Special Offer G
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: bortqn
+        ElephantEventParam: twistedtangle_special_offers_7
+        Price: 39.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer H
+        Id: twistedtangle_special_offers_8
+        Description: Special Offer H
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: ecxfjp
+        ElephantEventParam: twistedtangle_special_offers_8
+        Price: 54.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer I
+        Id: twistedtangle_special_offers_9
+        Description: Special Offer I
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 7l1dei
+        ElephantEventParam: twistedtangle_special_offers_9
+        Price: 79.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer J
+        Id: twistedtangle_special_offers_10
+        Description: Special Offer J
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: qtcfgp
+        ElephantEventParam: twistedtangle_special_offers_10
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer K
+        Id: twistedtangle_special_offers_11
+        Description: Special Offer K
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 1hr8il
+        ElephantEventParam: twistedtangle_special_offers_11
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer L
+        Id: twistedtangle_special_offers_12
+        Description: Special Offer L
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 5fddfp
+        ElephantEventParam: twistedtangle_special_offers_12
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer M
+        Id: twistedtangle_special_offers_13
+        Description: Special Offer M
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: 3xeg10
+        ElephantEventParam: twistedtangle_special_offers_13
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer O
+        Id: twistedtangle_special_offers_14
+        Description: Special Offer O
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: kh29xm
+        ElephantEventParam: twistedtangle_special_offers_14
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Special Offer P
+        Id: twistedtangle_special_offers_15
+        Description: Special Offer P
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken: of97u9
+        ElephantEventParam: twistedtangle_special_offers_15
+        Price: 19.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Summer Offer
+      Name: Summer Offer
+      Description: Summer Offer
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_summer25_offer_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_summer25_offer_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_2
+        Price: 6.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_summer25_offer_3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_summer25_offer_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_summer25_offer_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_summer25_offer_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_6
+        Price: 49.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Labor Day Offer
+      Name: Labor Day Offer
+      Description: Labor Day Offer
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_2
+        Price: 6.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_6
+        Price: 49.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Starter Offer
+      Name: Starter Offer
+      Description: Starter Offer
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_casualstarter_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_casualstarter_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_casualstarter_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_casualstarter_1
+        Price: 6.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_casualstarter_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_casualstarter_1
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_casualstarter_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_casualstarter_1
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_casualstarter_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_casualstarter_1
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_casualstarter_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_casualstarter_1
+        Price: 49.99
+      DisablerIds: []
+    BundlePacks:
+    - Enabled: 1
+      IsDiscount: 1
+      Id: discounts_no_ads
+      Name: Discounts No Ads
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: No Ads 2
+          Id: twistedtangle_noads_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: m6a8x1
+          ElephantEventParam: noads_2
+          Price: 6.49
+        ProductIds:
+        - noads_twistedtangle
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: No Ads 3
+          Id: twistedtangle_noads_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: d5z4ja
+          ElephantEventParam: noads_3
+          Price: 4.99
+        ProductIds:
+        - noads_twistedtangle
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: No Ads 24H
+          Id: noads_twistedtangle_24h
+          Description:
+          IsConsumable: 1
+          Amount: 24
+          AdjustEventToken: yhil9j
+          ElephantEventParam: noads_24h
+          Price: 0.99
+        ProductIds:
+        - noads_twistedtangle
+    - Enabled: 1
+      IsDiscount: 0
+      Id: dynamic_quest_golden_pass_bundles
+      Name: dynamic_quest_golden_pass_name
+      Description: dynamic_quest_golden_pass_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Golden Pass
+          Id: twistedtangle_dynamic_quest_golden_pass_1
+          Description:
+          IsConsumable: 1
+          Amount: 1
+          AdjustEventToken: iw8ua4
+          ElephantEventParam: dynamic_quest_golden_pass_1
+          Price: 9.99
+        ProductIds:
+        - twistedtangle_dynamic_quest_golden_pass
+      - BundleInfo:
+          Enabled: 0
+          UseInShop: 0
+          Name: Golden Pass
+          Id: twistedtangle_dynamic_quest_golden_pass_2
+          Description:
+          IsConsumable: 1
+          Amount: 1
+          AdjustEventToken: 94lubs
+          ElephantEventParam: dynamic_quest_golden_pass_2
+          Price: 4.99
+        ProductIds:
+        - twistedtangle_dynamic_quest_golden_pass
+    - Enabled: 1
+      IsDiscount: 0
+      Id: multiplier_options_pack
+      Name: multiplier_pack_name
+      Description: multiplier_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Double Reward
+          Id: twistedtangle_multiplier_2x_15m
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 15
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Double Reward
+          Id: twistedtangle_multiplier_2x_30m
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 30
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: 2X
+          Id: twistedtangle_multiplier_2x_1h
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken:
+          ElephantEventParam: multiplier_2x_1h
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ego_offers
+      Name: End Game Offers
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: ego_coin_1_name
+          Id: twistedtangle_ego_coin_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: jlmlhb
+          ElephantEventParam: ego_coin_1
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000_ego
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: ego_booster_1_name
+          Id: twistedtangle_ego_booster_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 1ot6mm
+          ElephantEventParam: ego_booster_1
+          Price: 4.99
+        ProductIds:
+        - coin_noniap_2000_ego
+        - twistedtangle_cut_3
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_1_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_iap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: q5bzcf
+          ElephantEventParam: ladder_offer_1_iap_1
+          Price: 7.99
+        ProductIds:
+        - coin_noniap_5000
+        - twistedtangle_shuffle_5
+        - twistedtangle_heartinf_3h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_iap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 2xx3it
+          ElephantEventParam: ladder_offer_1_iap_2
+          Price: 22.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_6h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_1_noniap_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_1500
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_2_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: 6dw3k8
+          ElephantEventParam: ladder_offer_2_iap_1
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: mlxyzh
+          ElephantEventParam: ladder_offer_2_iap_2
+          Price: 5.99
+        ProductIds:
+        - coin_noniap_4000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: pra1es
+          ElephantEventParam: ladder_offer_2_iap_3
+          Price: 12.99
+        ProductIds:
+        - coin_noniap_10000
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_iap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: s9kox4
+          ElephantEventParam: ladder_offer_2_iap_4
+          Price: 24.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_5
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_6
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_7
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_2_noniap_8
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+        - twistedtangle_cut_1
+        - twistedtangle_shuffle_1
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_3_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_iap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 5r6ixy
+          ElephantEventParam: ladder_offer_3_iap_1
+          Price: 7.99
+        ProductIds:
+        - coin_noniap_5000
+        - twistedtangle_shuffle_5
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_iap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 13t4zp
+          ElephantEventParam: ladder_offer_3_iap_2
+          Price: 22.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+        - twistedtangle_shuffle_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_3h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_5
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_3_noniap_6
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_4_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: ob26tm
+          ElephantEventParam: ladder_offer_4_iap_1
+          Price: 12.99
+        ProductIds:
+        - coin_noniap_10000
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: wlw4up
+          ElephantEventParam: ladder_offer_4_iap_2
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: b17u5d
+          ElephantEventParam: ladder_offer_4_iap_3
+          Price: 5.99
+        ProductIds:
+        - coin_noniap_4000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_iap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: l0oe8r
+          ElephantEventParam: ladder_offer_4_iap_4
+          Price: 24.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_5
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_6
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_7
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+        - twistedtangle_cut_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name:
+          Id: ladder_offer_4_noniap_8
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_6h
+    - Enabled: 1
+      IsDiscount: 1
+      Id: discounts_skip_it
+      Name: Discount Skip Ads
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 2
+          Id: twistedtangle_skipit_50_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: gs90u3
+          ElephantEventParam: skipit_50_2
+          Price: 4.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 3
+          Id: twistedtangle_skipit_50_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: psf4fn
+          ElephantEventParam: skipit_50_3
+          Price: 3.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 4
+          Id: twistedtangle_skipit_50_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: um5odw
+          ElephantEventParam: skipit_50_4
+          Price: 2.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Skip Ads 50 5
+          Id: twistedtangle_skipit_50_5
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: v4sj9w
+          ElephantEventParam: skipit_50_5
+          Price: 1.99
+        ProductIds:
+        - twistedtangle_skipit_50
+    - Enabled: 1
+      IsDiscount: 0
+      Id: heart_infinite_pack
+      Name: heart_infinite_pack_name
+      Description: heart_infinite_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_15m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 15
+          AdjustEventToken:
+          ElephantEventParam: heartinf_15m
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_30m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 30
+          AdjustEventToken:
+          ElephantEventParam: heartinf_30m
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_45m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 45
+          AdjustEventToken:
+          ElephantEventParam: heartinf_45m
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_1h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken:
+          ElephantEventParam: heartinf_1h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_3h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 180
+          AdjustEventToken:
+          ElephantEventParam: heartinf_3h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_6h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 360
+          AdjustEventToken:
+          ElephantEventParam: heartinf_6h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_9h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 540
+          AdjustEventToken:
+          ElephantEventParam: heartinf_9h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_12h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 720
+          AdjustEventToken:
+          ElephantEventParam: heartinf_12h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_24h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 1440
+          AdjustEventToken:
+          ElephantEventParam: heartinf_24h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_48h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 2880
+          AdjustEventToken:
+          ElephantEventParam: heartinf_48h
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 0
+          Name: Heart
+          Id: twistedtangle_heartinf_single_1
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken: vvxbst
+          ElephantEventParam: heartinf_single_1
+          Price: 0.99
+        ProductIds:
+        - twistedtangle_heart_inf
+    - Enabled: 1
+      IsDiscount: 0
+      Id: casual_bundles
+      Name: casual_bundles_pack_name
+      Description: casual_bundles_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualstarter_1_name
+          Id: twistedtangle_casualstarter_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: xcuahv
+          ElephantEventParam: casualstarter_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_1000
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 0
+          UseInShop: 1
+          Name: casualstarter_v1_1_name
+          Id: twistedtangle_casualstarter_v1_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: bisppz
+          ElephantEventParam: casualstarter_v1_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_1000
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack1_name
+          Id: twistedtangle_casualpack1_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: vvxv0q
+          ElephantEventParam: casualpack1_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_2000
+        - twistedtangle_heartinf_15m
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack2_name
+          Id: twistedtangle_casualpack2_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: kkuf42
+          ElephantEventParam: casualpack2_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_5000
+        - twistedtangle_heartinf_45m
+        - twistedtangle_cut_2
+        - twistedtangle_undo_2
+        - twistedtangle_timefreeze_2
+        - twistedtangle_shuffle_2
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack3_name
+          Id: twistedtangle_casualpack3_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: p6mqjz
+          ElephantEventParam: casualpack3_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_10000
+        - twistedtangle_heartinf_3h
+        - twistedtangle_cut_5
+        - twistedtangle_undo_5
+        - twistedtangle_timefreeze_5
+        - twistedtangle_shuffle_5
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack4_name
+          Id: twistedtangle_casualpack4_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: kvqkqu
+          ElephantEventParam: casualpack4_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_25000
+        - twistedtangle_heartinf_9h
+        - twistedtangle_cut_12
+        - twistedtangle_undo_12
+        - twistedtangle_timefreeze_12
+        - twistedtangle_shuffle_12
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack5_name
+          Id: twistedtangle_casualpack5_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: ft3qt1
+          ElephantEventParam: casualpack5_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_50000
+        - twistedtangle_heartinf_24h
+        - twistedtangle_cut_25
+        - twistedtangle_undo_25
+        - twistedtangle_timefreeze_25
+        - twistedtangle_shuffle_25
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack6_name
+          Id: twistedtangle_casualpack6_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: krn770
+          ElephantEventParam: casualpack6_1
+          Price: 0
+        ProductIds:
+        - coin_noniap_bundle_65000
+        - twistedtangle_heartinf_48h
+        - twistedtangle_cut_30
+        - twistedtangle_undo_30
+        - twistedtangle_timefreeze_30
+        - twistedtangle_shuffle_30
+    FakeReceiptIds: []
+    OfferPopUpsSettings:
+    - Enabled: 1
+      Id: noads_twistedtangle
+      Priority: 1
+      EarlyOffer: 1
+      MinEarlyOfferLevel: 8
+      MinEarlyOfferInterCount: 1
+      MinOfferLevel: 20
+      LevelFrequency: 20
+      InterFrequency: 6
+      MinPayment: 0
+      DailyShowLimit: 2
+      TotalShowLimit: 9999999
+    LimitedOffers:
+    - Enabled: 0
+      OfferId: noads_twistedtangle_24h
+      HasInfiniteDuration: 1
+      OfferDurationHours: 0.01
+      HasInfiniteOfferCount: 1
+      MaxOfferCount: 0
+      ProductId: noads_twistedtangle_24h
+    TemporaryProducts:
+    - productPackId: discounts_no_ads
+      allSettings:
+      - Id: noads_twistedtangle_24h
+        OriginalSaveProductId: noads_twistedtangle_24h
+        ExpirationHours: 24
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    - productPackId: multiplier_pack
+      allSettings:
+      - Id: twistedtangle_multiplier_2x_15m
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 0
+        ExpirationMinutes: 15
+        ExpirationSeconds: 0
+      - Id: twistedtangle_multiplier_2x_30m
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 0
+        ExpirationMinutes: 30
+        ExpirationSeconds: 0
+      - Id: twistedtangle_multiplier_2x_1h
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    - productPackId: heart_infinite_pack
+      allSettings:
+      - Id: twistedtangle_heartinf_15m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 15
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_30m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 30
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_45m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 45
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_1h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_3h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 3
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_6h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 6
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_9h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 9
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_12h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 12
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_24h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 24
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_48h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 48
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_single_1
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    ConditionalIds:
+    - productPackId: no_ads_pack
+      allSettings:
+      - Id: no_ads_pack
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: interstitial_enabled
+        DependentValue: 1
+    - productPackId: casual_bundles
+      allSettings:
+      - Id: twistedtangle_casualstarter_v1_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 0
+        DependentRemoteConfigKey:
+        DependentValue: 1
+      - Id: casual_bundles
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.402823E+38
+        DependentRemoteConfigKey: boosters_enabled
+        DependentValue: 1
+    - productPackId: discounts_skip_it
+      allSettings:
+      - Id: discounts_skip_it
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: boosters_enabled
+        DependentValue: 0
+  actualData:
+    ProductPacks:
+    - Enabled: 1
+      Id: no_ads_pack
+      Name: no_ads_pack_name
+      Description: Remove Ads
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: no_ads_product_name
+        Id: noads_twistedtangle
+        Description: no_ads_product_info
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: 9ehqnp
+        ElephantEventParam: noads
+        Price: 7.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: cut_pack
+      Name: cut_pack_name
+      Description: cut_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_1
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_2
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_3
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_4
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 4
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_5
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_6
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_7
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 7
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_8
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 8
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_9
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 9
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_10
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 10
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_11
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 11
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_12
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_13
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 13
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_14
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 14
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_15
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_16
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 16
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_17
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 17
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_18
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 18
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_19
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 19
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_20
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 20
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_21
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 21
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_22
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 22
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_23
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 23
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_24
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 24
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_25
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_26
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 26
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_27
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 27
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_28
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 28
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_29
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 29
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Cut
+        Id: twistedtangle_cut_30
+        Description: Cut the ropes!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: shuffle_pack
+      Name: shuffle_pack_name
+      Description: shuffle_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_1
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_2
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_3
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_4
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 4
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_5
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_6
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_7
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 7
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_8
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 8
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_9
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 9
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_10
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 10
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_11
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 11
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_12
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_13
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 13
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_14
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 14
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_15
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_16
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 16
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_17
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 17
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_18
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 18
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_19
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 19
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_20
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 20
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_21
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 21
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_22
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 22
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_23
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 23
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_24
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 24
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_25
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_26
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 26
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_27
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 27
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_28
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 28
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_29
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 29
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Shuffle
+        Id: twistedtangle_shuffle_30
+        Description: Shuffle the game map!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: time_freeze_pack
+      Name: time_freeze_pack_name
+      Description: time_freeze_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_1
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_2
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_3
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_4
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 4
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_5
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_6
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 6
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_7
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 7
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_8
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 8
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_9
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 9
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_10
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 10
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_11
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 11
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_12
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_13
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 13
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_14
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 14
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_15
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 15
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_16
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 16
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_17
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 17
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_18
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 18
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_19
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 19
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_20
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 20
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_21
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 21
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_22
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 22
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_23
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 23
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_24
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 24
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_25
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_26
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 26
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_27
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 27
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_28
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 28
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_29
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 29
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Time Freeze
+        Id: twistedtangle_timefreeze_30
+        Description: Freeze the time for more time!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: undo_pack
+      Name: undo_pack_name
+      Description: undo_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Undo
+        Id: twistedtangle_undo_1
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Undo
+        Id: twistedtangle_undo_2
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 2
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Undo
+        Id: twistedtangle_undo_3
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 3
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Undo
+        Id: twistedtangle_undo_5
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Undo
+        Id: twistedtangle_undo_12
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 12
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Undo
+        Id: twistedtangle_undo_25
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 25
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Undo
+        Id: twistedtangle_undo_30
+        Description: Take back your move!
+        IsConsumable: 1
+        Amount: 30
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: multiplier_pack
+      Name: multiplier_pack_name
+      Description: multiplier_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: 2x
+        Id: twistedtangle_multiplier_2x
+        Description: Multiply your rewards!
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam: multiplier_2x
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: dynamic_quest_golden_pass_pack
+      Name: dynamic_quest_golden_pass_name
+      Description: dynamic_quest_golden_pass_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: golden_pass
+        Id: twistedtangle_dynamic_quest_golden_pass
+        Description: Golden Pass
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: coin_pack
+      Name: gold_pack_name
+      Description: gold_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: coin_noniap_2000_ego
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken: 0
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_50
+        Description:
+        IsConsumable: 1
+        Amount: 50
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_100
+        Description:
+        IsConsumable: 1
+        Amount: 100
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_200
+        Description:
+        IsConsumable: 1
+        Amount: 200
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_250
+        Description:
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_300
+        Description:
+        IsConsumable: 1
+        Amount: 300
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_350
+        Description:
+        IsConsumable: 1
+        Amount: 350
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_400
+        Description:
+        IsConsumable: 1
+        Amount: 400
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_450
+        Description:
+        IsConsumable: 1
+        Amount: 450
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_500
+        Description:
+        IsConsumable: 1
+        Amount: 500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_600
+        Description:
+        IsConsumable: 1
+        Amount: 600
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_700
+        Description:
+        IsConsumable: 1
+        Amount: 700
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_750
+        Description:
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_1000
+        Description:
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_bundle_1000
+        Description:
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_1500
+        Description:
+        IsConsumable: 1
+        Amount: 1500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_2000
+        Description:
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_bundle_2000
+        Description:
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_2500
+        Description:
+        IsConsumable: 1
+        Amount: 2500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_3000
+        Description:
+        IsConsumable: 1
+        Amount: 3000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_3200
+        Description:
+        IsConsumable: 1
+        Amount: 3200
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_3300
+        Description:
+        IsConsumable: 1
+        Amount: 3300
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_3400
+        Description:
+        IsConsumable: 1
+        Amount: 3400
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_3500
+        Description:
+        IsConsumable: 1
+        Amount: 3500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_4000
+        Description:
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_4200
+        Description:
+        IsConsumable: 1
+        Amount: 4200
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_4500
+        Description:
+        IsConsumable: 1
+        Amount: 4500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_5000
+        Description:
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_bundle_5000
+        Description:
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_5200
+        Description:
+        IsConsumable: 1
+        Amount: 5200
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_5500
+        Description:
+        IsConsumable: 1
+        Amount: 5500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_6000
+        Description:
+        IsConsumable: 1
+        Amount: 6000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_6500
+        Description:
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_7000
+        Description:
+        IsConsumable: 1
+        Amount: 7000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_7500
+        Description:
+        IsConsumable: 1
+        Amount: 7500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_8000
+        Description:
+        IsConsumable: 1
+        Amount: 8000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_8500
+        Description:
+        IsConsumable: 1
+        Amount: 8500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_9000
+        Description:
+        IsConsumable: 1
+        Amount: 9000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_9500
+        Description:
+        IsConsumable: 1
+        Amount: 9500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_10000
+        Description:
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_bundle_10000
+        Description:
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_11000
+        Description:
+        IsConsumable: 1
+        Amount: 11000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_12000
+        Description:
+        IsConsumable: 1
+        Amount: 12000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_12500
+        Description:
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_13000
+        Description:
+        IsConsumable: 1
+        Amount: 13000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_16000
+        Description:
+        IsConsumable: 1
+        Amount: 16000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_17000
+        Description:
+        IsConsumable: 1
+        Amount: 17000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_20000
+        Description:
+        IsConsumable: 1
+        Amount: 20000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_25000
+        Description:
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_bundle_25000
+        Description:
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_30000
+        Description:
+        IsConsumable: 1
+        Amount: 30000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_35000
+        Description:
+        IsConsumable: 1
+        Amount: 35000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_36000
+        Description:
+        IsConsumable: 1
+        Amount: 36000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_40000
+        Description:
+        IsConsumable: 1
+        Amount: 40000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_45000
+        Description:
+        IsConsumable: 1
+        Amount: 45000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_47000
+        Description:
+        IsConsumable: 1
+        Amount: 47000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_bundle_50000
+        Description:
+        IsConsumable: 1
+        Amount: 50000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_58000
+        Description:
+        IsConsumable: 1
+        Amount: 58000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_65000
+        Description:
+        IsConsumable: 1
+        Amount: 65000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_bundle_65000
+        Description:
+        IsConsumable: 1
+        Amount: 65000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_75000
+        Description:
+        IsConsumable: 1
+        Amount: 75000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_85000
+        Description:
+        IsConsumable: 1
+        Amount: 85000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_100000
+        Description:
+        IsConsumable: 1
+        Amount: 100000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_110000
+        Description:
+        IsConsumable: 1
+        Amount: 110000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_115000
+        Description:
+        IsConsumable: 1
+        Amount: 115000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_120000
+        Description:
+        IsConsumable: 1
+        Amount: 120000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_125000
+        Description:
+        IsConsumable: 1
+        Amount: 125000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_130000
+        Description:
+        IsConsumable: 1
+        Amount: 130000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_140000
+        Description:
+        IsConsumable: 1
+        Amount: 140000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name:
+        Id: coin_noniap_150000
+        Description:
+        IsConsumable: 1
+        Amount: 150000
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_1k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 1000
+        AdjustEventToken: gtecic
+        ElephantEventParam: coin_1k
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_2k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 2000
+        AdjustEventToken:
+        ElephantEventParam: coin_2k
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_5k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 5000
+        AdjustEventToken: 1t4x9t
+        ElephantEventParam: coin_5k
+        Price: 7.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_10k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 10000
+        AdjustEventToken: vgn61w
+        ElephantEventParam: coin_10k
+        Price: 14.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_25k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 25000
+        AdjustEventToken: r8caov
+        ElephantEventParam: coin_25k
+        Price: 24.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_50k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 50000
+        AdjustEventToken: qhv316
+        ElephantEventParam: coin_50k
+        Price: 54.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_65k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 65000
+        AdjustEventToken:
+        ElephantEventParam: coin_65k
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Gold
+        Id: twistedtangle_coin_100k
+        Description: Increase gold
+        IsConsumable: 1
+        Amount: 100000
+        AdjustEventToken: vkh3hf
+        ElephantEventParam: coin_100k
+        Price: 99.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: heart_pack
+      Name: heart_pack_name
+      Description: heart_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Heart
+        Id: twistedtangle_heart_inf
+        Description: It allows access to challenging levels.
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam: heart_inf
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: skip_it_pack
+      Name: skip_ads_pack_name
+      Description: skip_ads_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_5
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 5
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_10
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 10
+        AdjustEventToken: wixr5g
+        ElephantEventParam: skipit_10
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_20
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 20
+        AdjustEventToken: gchjll
+        ElephantEventParam: skipit_20
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_50
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 50
+        AdjustEventToken: 6dcbtt
+        ElephantEventParam: skipit_50
+        Price: 7.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_100
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 100
+        AdjustEventToken: nxn76w
+        ElephantEventParam: skipit_100
+        Price: 13.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Skip Ads
+        Id: twistedtangle_skipit_400
+        Description: It provides unlocking reward without watching ads.
+        IsConsumable: 1
+        Amount: 400
+        AdjustEventToken: q53wwt
+        ElephantEventParam: skipit_400
+        Price: 29.99
+      DisablerIds:
+      - twistedtangle_skipit_ul
+    - Enabled: 1
+      Id: rope_pack
+      Name: rope_pack_name
+      Description: rope_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Disco Ball
+        Id: twistedtangle_rope_disco
+        Description: Disco Rope
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: jn03jz
+        ElephantEventParam: rope_disco
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Pearls
+        Id: twistedtangle_rope_pearls
+        Description: Pealrs Rope
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: y6qa4x
+        ElephantEventParam: rope_pearls
+        Price: 1.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: pin_pack
+      Name: pin_pack_name
+      Description: pin_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Lotus Flower
+        Id: twistedtangle_pin_lotus
+        Description: Lotus Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: 9cm62n
+        ElephantEventParam: pin_lotus
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Sport Shoe
+        Id: twistedtangle_pin_sportshoe
+        Description: Sportshoe Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: x7smv8
+        ElephantEventParam: pin_sportshoe
+        Price: 2.99
+      - Enabled: 1
+        UseInShop: 1
+        Name: Speaker
+        Id: twistedtangle_pin_speaker
+        Description: Speaker Pin
+        IsConsumable: 0
+        Amount: 0
+        AdjustEventToken: x7smv8
+        ElephantEventParam: pin_speaker
+        Price: 2.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: card_pack
+      Name: card_pack_name
+      Description: card_pack_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: Blue Card Pack
+        Id: card_pack_blue
+        Description: Earn new cards!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Pink Card Pack
+        Id: card_pack_pink
+        Description: Earn new cards!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Green Card Pack
+        Id: card_pack_green
+        Description: Earn new cards!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Purple Card Pack
+        Id: card_pack_purple
+        Description: Earn new cards!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      - Enabled: 1
+        UseInShop: 1
+        Name: Yellow Card Pack
+        Id: card_pack_yellow
+        Description: Earn new cards!
+        IsConsumable: 1
+        Amount: 0
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: battle_pass_golden_ticket_pack
+      Name: battle_pass_golden_ticket_name
+      Description: battle_pass_golden_ticket_info
+      Products:
+      - Enabled: 1
+        UseInShop: 1
+        Name: golden_ticket
+        Id: battle_pass_golden_ticket
+        Description: Golden Ticket
+        IsConsumable: 1
+        Amount: 1
+        AdjustEventToken:
+        ElephantEventParam:
+        Price: 0
+      DisablerIds: []
+    - Enabled: 1
+      Id: Segmented Anniversary
+      Name: Segmented Anniversary
+      Description: Segmented Anniversary
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: fmlufj
+        ElephantEventParam: twistedtangle_second_anniversary_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: hk0r52
+        ElephantEventParam: twistedtangle_second_anniversary_2
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 382jkt
+        ElephantEventParam: twistedtangle_second_anniversary_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: ynejpy
+        ElephantEventParam: twistedtangle_second_anniversary_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniiversary_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: wss3w3
+        ElephantEventParam: twistedtangle_second_anniiversary_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_second_anniversary_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: wwywks
+        ElephantEventParam: twistedtangle_second_anniversary_6
+        Price: 49.99
+      DisablerIds: []
+    - Enabled: 1
+      Id: Labor Day Offer
+      Name: Labor Day Offer
+      Description: Labor Day Offer
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_2
+        Price: 6.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_summer25_offer_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_laborday25_offer_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: 42pymj
+        ElephantEventParam: twistedtangle_laborday25_offer_6
+        Price: 49.99
+      DisablerIds: []
+    BundlePacks:
+    - Enabled: 1
+      IsDiscount: 1
+      Id: discounts_no_ads
+      Name: Discounts No Ads
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: No Ads 2
+          Id: twistedtangle_noads_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: m6a8x1
+          ElephantEventParam: noads_2
+          Price: 6.49
+        ProductIds:
+        - noads_twistedtangle
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: No Ads 3
+          Id: twistedtangle_noads_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: d5z4ja
+          ElephantEventParam: noads_3
+          Price: 4.99
+        ProductIds:
+        - noads_twistedtangle
+      - BundleInfo:
+          Enabled: 0
+          UseInShop: 1
+          Name: No Ads 24H
+          Id: noads_twistedtangle_24h
+          Description:
+          IsConsumable: 1
+          Amount: 24
+          AdjustEventToken: yhil9j
+          ElephantEventParam: noads_24h
+          Price: 0.99
+        ProductIds:
+        - noads_twistedtangle
+    - Enabled: 1
+      IsDiscount: 0
+      Id: dynamic_quest_golden_pass_bundles
+      Name: dynamic_quest_golden_pass_name
+      Description: dynamic_quest_golden_pass_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Golden Pass
+          Id: twistedtangle_dynamic_quest_golden_pass_1
+          Description:
+          IsConsumable: 1
+          Amount: 1
+          AdjustEventToken: iw8ua4
+          ElephantEventParam: dynamic_quest_golden_pass_1
+          Price: 9.99
+        ProductIds:
+        - twistedtangle_dynamic_quest_golden_pass
+      - BundleInfo:
+          Enabled: 0
+          UseInShop: 1
+          Name: Golden Pass
+          Id: twistedtangle_dynamic_quest_golden_pass_2
+          Description:
+          IsConsumable: 1
+          Amount: 1
+          AdjustEventToken: 94lubs
+          ElephantEventParam: dynamic_quest_golden_pass_2
+          Price: 4.99
+        ProductIds:
+        - twistedtangle_dynamic_quest_golden_pass
+    - Enabled: 1
+      IsDiscount: 0
+      Id: multiplier_options_pack
+      Name: multiplier_pack_name
+      Description: multiplier_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Double Reward
+          Id: twistedtangle_multiplier_2x_15m
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 15
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Double Reward
+          Id: twistedtangle_multiplier_2x_30m
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 30
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: 2X
+          Id: twistedtangle_multiplier_2x_1h
+          Description: Double your rewards!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken:
+          ElephantEventParam: multiplier_2x_1h
+          Price: 0
+        ProductIds:
+        - twistedtangle_multiplier_2x
+    - Enabled: 1
+      IsDiscount: 0
+      Id: dynamic_quest_reward_bundles
+      Name: dynamic_quest_reward_bundles_name
+      Description: dynamic_quest_reward_bundles_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: dynamic_quest_card_pack_bundle
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_5000
+        - card_pack_yellow
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: dynamic_quest_golden_pass_card_pack_bundle
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_10000
+        - card_pack_yellow
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ego_offers
+      Name: End Game Offers
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: ego_coin_1_name
+          Id: twistedtangle_ego_coin_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: jlmlhb
+          ElephantEventParam: ego_coin_1
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000_ego
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: ego_booster_1_name
+          Id: twistedtangle_ego_booster_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 1ot6mm
+          ElephantEventParam: ego_booster_1
+          Price: 4.99
+        ProductIds:
+        - coin_noniap_2000_ego
+        - twistedtangle_cut_3
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_1_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_1_iap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: q5bzcf
+          ElephantEventParam: ladder_offer_1_iap_1
+          Price: 7.99
+        ProductIds:
+        - coin_noniap_5000
+        - twistedtangle_shuffle_5
+        - twistedtangle_heartinf_3h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_1_iap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 2xx3it
+          ElephantEventParam: ladder_offer_1_iap_2
+          Price: 22.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_1_noniap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_1_noniap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_1_noniap_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_6h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_1_noniap_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_1500
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_2_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_iap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: 6dw3k8
+          ElephantEventParam: ladder_offer_2_iap_1
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_iap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: mlxyzh
+          ElephantEventParam: ladder_offer_2_iap_2
+          Price: 5.99
+        ProductIds:
+        - coin_noniap_4000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_iap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: pra1es
+          ElephantEventParam: ladder_offer_2_iap_3
+          Price: 12.99
+        ProductIds:
+        - coin_noniap_10000
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_iap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: s9kox4
+          ElephantEventParam: ladder_offer_2_iap_4
+          Price: 24.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_5
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_6
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_7
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_2_noniap_8
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+        - twistedtangle_cut_1
+        - twistedtangle_shuffle_1
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_3_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_iap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 5r6ixy
+          ElephantEventParam: ladder_offer_3_iap_1
+          Price: 7.99
+        ProductIds:
+        - coin_noniap_5000
+        - twistedtangle_shuffle_5
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_iap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: 13t4zp
+          ElephantEventParam: ladder_offer_3_iap_2
+          Price: 22.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+        - twistedtangle_shuffle_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_noniap_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_noniap_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_noniap_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_noniap_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_3h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_noniap_5
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_3_noniap_6
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+    - Enabled: 1
+      IsDiscount: 0
+      Id: ladder_offer_4_pack
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_iap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: ob26tm
+          ElephantEventParam: ladder_offer_4_iap_1
+          Price: 12.99
+        ProductIds:
+        - coin_noniap_10000
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_iap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: wlw4up
+          ElephantEventParam: ladder_offer_4_iap_2
+          Price: 2.99
+        ProductIds:
+        - coin_noniap_2000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_iap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: b17u5d
+          ElephantEventParam: ladder_offer_4_iap_3
+          Price: 5.99
+        ProductIds:
+        - coin_noniap_4000
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_iap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: l0oe8r
+          ElephantEventParam: ladder_offer_4_iap_4
+          Price: 24.99
+        ProductIds:
+        - coin_noniap_25000
+        - twistedtangle_cut_3
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_2
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_3
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_4
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_5
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_6
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_7
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_timefreeze_1
+        - twistedtangle_cut_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: ladder_offer_4_noniap_8
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_6h
+    - Enabled: 1
+      IsDiscount: 1
+      Id: discounts_skip_it
+      Name: Discount Skip Ads
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Skip Ads 50 2
+          Id: twistedtangle_skipit_50_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: gs90u3
+          ElephantEventParam: skipit_50_2
+          Price: 4.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Skip Ads 50 3
+          Id: twistedtangle_skipit_50_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: psf4fn
+          ElephantEventParam: skipit_50_3
+          Price: 3.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Skip Ads 50 4
+          Id: twistedtangle_skipit_50_4
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: um5odw
+          ElephantEventParam: skipit_50_4
+          Price: 2.99
+        ProductIds:
+        - twistedtangle_skipit_50
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Skip Ads 50 5
+          Id: twistedtangle_skipit_50_5
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: v4sj9w
+          ElephantEventParam: skipit_50_5
+          Price: 1.99
+        ProductIds:
+        - twistedtangle_skipit_50
+    - Enabled: 1
+      IsDiscount: 0
+      Id: heart_infinite_pack
+      Name: heart_infinite_pack_name
+      Description: heart_infinite_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_15m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 15
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_30m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 30
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_45m
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 45
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_1h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_2h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 120
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_3h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 180
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_4h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 240
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_5h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 300
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_6h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 360
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_7h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 420
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_8h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 480
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_9h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 540
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_10h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 600
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_12h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 720
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_24h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 1440
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_48h
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 2880
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heart_inf
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Heart
+          Id: twistedtangle_heartinf_single_1
+          Description: Use infinite hearts!
+          IsConsumable: 1
+          Amount: 60
+          AdjustEventToken: vvxbst
+          ElephantEventParam: heartinf_single_1
+          Price: 0.99
+        ProductIds:
+        - twistedtangle_heart_inf
+    - Enabled: 1
+      IsDiscount: 0
+      Id: card_collection_grandprize
+      Name: card_collection_grandprize_name
+      Description: card_collection_grandprize_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Card Collection Grand Prize
+          Id: card_collection_grandprize_1
+          Description: Claim the grand prize of card collection!
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_10000
+        - twistedtangle_cut_10
+        - twistedtangle_timefreeze_10
+        - twistedtangle_shuffle_10
+    - Enabled: 1
+      IsDiscount: 0
+      Id: card_collection_chest
+      Name: card_collection_chest_name
+      Description: card_collection_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Card Collection Bronze Chest
+          Id: card_collection_bronze_chest
+          Description: Claim the card collection chest!
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - card_pack_green
+        - card_pack_blue
+        - coin_noniap_100
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Card Collection Silver Chest
+          Id: card_collection_silver_chest
+          Description: Claim the card collection chest!
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - card_pack_green
+        - card_pack_purple
+        - coin_noniap_250
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Card Collection Gold Chest
+          Id: card_collection_gold_chest
+          Description: Claim the card collection chest!
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - card_pack_yellow
+        - card_pack_pink
+        - card_pack_purple
+        - twistedtangle_cut_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+    - Enabled: 1
+      IsDiscount: 0
+      Id: casual_bundles
+      Name: casual_bundles_pack_name
+      Description: casual_bundles_pack_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualstarter_1_name
+          Id: twistedtangle_casualstarter_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: xcuahv
+          ElephantEventParam: casualstarter_1
+          Price: 1.99
+        ProductIds:
+        - coin_noniap_bundle_1000
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 0
+          UseInShop: 1
+          Name: casualstarter_v1_1_name
+          Id: twistedtangle_casualstarter_v1_1
+          Description:
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken: bisppz
+          ElephantEventParam: casualstarter_v1_1
+          Price: 4.99
+        ProductIds:
+        - coin_noniap_bundle_1000
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack1_name
+          Id: twistedtangle_casualpack1_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: vvxv0q
+          ElephantEventParam: casualpack1_1
+          Price: 5.99
+        ProductIds:
+        - coin_noniap_bundle_2000
+        - twistedtangle_heartinf_15m
+        - twistedtangle_cut_1
+        - twistedtangle_undo_1
+        - twistedtangle_timefreeze_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack2_name
+          Id: twistedtangle_casualpack2_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: kkuf42
+          ElephantEventParam: casualpack2_1
+          Price: 9.99
+        ProductIds:
+        - coin_noniap_bundle_5000
+        - twistedtangle_heartinf_45m
+        - twistedtangle_cut_2
+        - twistedtangle_undo_2
+        - twistedtangle_timefreeze_2
+        - twistedtangle_shuffle_2
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack3_name
+          Id: twistedtangle_casualpack3_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: p6mqjz
+          ElephantEventParam: casualpack3_1
+          Price: 19.99
+        ProductIds:
+        - coin_noniap_bundle_10000
+        - twistedtangle_heartinf_3h
+        - twistedtangle_cut_5
+        - twistedtangle_undo_5
+        - twistedtangle_timefreeze_5
+        - twistedtangle_shuffle_5
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack4_name
+          Id: twistedtangle_casualpack4_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: kvqkqu
+          ElephantEventParam: casualpack4_1
+          Price: 39.99
+        ProductIds:
+        - coin_noniap_bundle_25000
+        - twistedtangle_heartinf_9h
+        - twistedtangle_cut_12
+        - twistedtangle_undo_12
+        - twistedtangle_timefreeze_12
+        - twistedtangle_shuffle_12
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack5_name
+          Id: twistedtangle_casualpack5_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: ft3qt1
+          ElephantEventParam: casualpack5_1
+          Price: 79.99
+        ProductIds:
+        - coin_noniap_bundle_50000
+        - twistedtangle_heartinf_24h
+        - twistedtangle_cut_25
+        - twistedtangle_undo_25
+        - twistedtangle_timefreeze_25
+        - twistedtangle_shuffle_25
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: casualpack6_name
+          Id: twistedtangle_casualpack6_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken: krn770
+          ElephantEventParam: casualpack6_1
+          Price: 99.99
+        ProductIds:
+        - coin_noniap_bundle_65000
+        - twistedtangle_heartinf_48h
+        - twistedtangle_cut_30
+        - twistedtangle_undo_30
+        - twistedtangle_timefreeze_30
+        - twistedtangle_shuffle_30
+    - Enabled: 1
+      IsDiscount: 0
+      Id: race_rewards
+      Name:
+      Description:
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: race_reward_1st
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_1000
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: race_reward_2nd
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_600
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: race_reward_3rd
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_300
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: race_reward_1st_with_cards
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_1000
+        - card_pack_pink
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: race_reward_2nd_with_cards
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_500
+        - card_pack_purple
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name:
+          Id: race_reward_3rd_with_cards
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_200
+        - card_pack_blue
+    - Enabled: 1
+      IsDiscount: 0
+      Id: daily_login_progressive_prize_bundles
+      Name: daily_login_progressive_prize_name
+      Description: daily_login_progressive_prize_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Daily Login Progressive Bundle Day 8
+          Id: daily_login_progressive_day8_bundle
+          Description: Daily Login Progressive Prize!
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_250
+        - twistedtangle_heartinf_30m
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Daily Login Progressive Bundle Day 15
+          Id: daily_login_progressive_day15_bundle
+          Description: Daily Login Progressive Prize!
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_500
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Daily Login Progressive Bundle Day 22
+          Id: daily_login_progressive_day22_bundle
+          Description: Daily Login Progressive Prize!
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_750
+        - twistedtangle_timefreeze_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Daily Login Progressive Bundle Day 30
+          Id: daily_login_progressive_day30_bundle
+          Description: Daily Login Progressive Prize!
+          IsConsumable: 0
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - coin_noniap_1000
+        - twistedtangle_cut_2
+    - Enabled: 1
+      IsDiscount: 0
+      Id: battle_pass_golden_ticket_bundles
+      Name: battle_pass_golden_ticket_name
+      Description: battle_pass_golden_ticket_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: Golden Ticket
+          Id: twistedtangle_battlepass
+          Description:
+          IsConsumable: 1
+          Amount: 1
+          AdjustEventToken: qxgf5i
+          ElephantEventParam: battlepass
+          Price: 9.99
+        ProductIds:
+        - battle_pass_golden_ticket
+    - Enabled: 1
+      IsDiscount: 0
+      Id: battle_pass_reward_chests
+      Name: battle_pass_reward_chests_name
+      Description: battle_pass_reward_chests_info
+      Bundles:
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: chest
+          Id: battle_pass_free_chest_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_1
+        - twistedtangle_shuffle_1
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: chest
+          Id: battle_pass_free_chest_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_shuffle_1
+        - twistedtangle_heartinf_30m
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: chest
+          Id: battle_pass_free_chest_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_2
+        - twistedtangle_shuffle_2
+        - twistedtangle_timefreeze_2
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: chest
+          Id: battle_pass_golden_ticket_chest_1
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_shuffle_1
+        - twistedtangle_cut_2
+        - twistedtangle_heartinf_1h
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: chest
+          Id: battle_pass_golden_ticket_chest_2
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_heartinf_1h
+        - twistedtangle_cut_2
+        - twistedtangle_timefreeze_2
+      - BundleInfo:
+          Enabled: 1
+          UseInShop: 1
+          Name: chest
+          Id: battle_pass_golden_ticket_chest_3
+          Description:
+          IsConsumable: 1
+          Amount: 0
+          AdjustEventToken:
+          ElephantEventParam:
+          Price: 0
+        ProductIds:
+        - twistedtangle_cut_4
+        - twistedtangle_timefreeze_4
+        - twistedtangle_shuffle_4
+        - twistedtangle_heartinf_2h
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts:
+    - productPackId: discounts_no_ads
+      allSettings:
+      - Id: noads_twistedtangle_24h
+        OriginalSaveProductId: noads_twistedtangle_24h
+        ExpirationHours: 24
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    - productPackId: multiplier_pack
+      allSettings:
+      - Id: twistedtangle_multiplier_2x_15m
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 0
+        ExpirationMinutes: 15
+        ExpirationSeconds: 0
+      - Id: twistedtangle_multiplier_2x_30m
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 0
+        ExpirationMinutes: 30
+        ExpirationSeconds: 0
+      - Id: twistedtangle_multiplier_2x_1h
+        OriginalSaveProductId: twistedtangle_multiplier_2x
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    - productPackId: heart_infinite_pack
+      allSettings:
+      - Id: twistedtangle_heartinf_15m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 15
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_30m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 30
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_45m
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 0
+        ExpirationMinutes: 45
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_1h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_2h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 2
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_3h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 3
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_4h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 4
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_5h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 5
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_6h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 6
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_7h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 7
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_8h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 8
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_9h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 9
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_10h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 10
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_12h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 12
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_24h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 24
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_48h
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 48
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+      - Id: twistedtangle_heartinf_single_1
+        OriginalSaveProductId: twistedtangle_heart_inf
+        ExpirationHours: 1
+        ExpirationMinutes: 0
+        ExpirationSeconds: 0
+    ConditionalIds:
+    - productPackId: no_ads_pack
+      allSettings:
+      - Id: no_ads_pack
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: interstitial_enabled
+        DependentValue: 1
+    - productPackId: casual_bundles
+      allSettings:
+      - Id: twistedtangle_casualstarter_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+      - Id: twistedtangle_casualstarter_v1_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+      - Id: twistedtangle_casualpack1_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+      - Id: twistedtangle_casualpack2_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+      - Id: twistedtangle_casualpack3_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+      - Id: twistedtangle_casualpack4_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+      - Id: twistedtangle_casualpack5_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+      - Id: twistedtangle_casualpack6_1
+        MinPaymentAmount: 0
+        MaxPaymentAmount: 3.4028235E+38
+        DependentRemoteConfigKey: casual_bundles_enabled
+        DependentValue: 1
+  plainDataProvider: {fileID: 11400000, guid: c4e689c874c76ff4b90efd3bf3bcfcd6, type: 2}
+  dataSources:
+  - {fileID: 11400000, guid: 8a198330152ed914b86cb65e3aa09e9f, type: 2}
+  - {fileID: 11400000, guid: 54cf35deae4436c4792d180f687c8b80, type: 2}
+  - {fileID: 11400000, guid: b5750a87736ae2e479dd705509814888, type: 2}
+  - {fileID: 11400000, guid: 7ca0f09e9778b4c4ba39db1d8506bd5a, type: 2}
+  - {fileID: 11400000, guid: 9fdcc7f662a6cd74abf71fea644f2a66, type: 2}
+  - {fileID: 11400000, guid: f76dd6914264324458c4ced0916e45ef, type: 2}
+  - {fileID: 11400000, guid: 590184cbb7542514388770e4784bf9c0, type: 2}
+  - {fileID: 11400000, guid: 8e4a017c087949e4f9d5dc588d61d30d, type: 2}
+  - {fileID: 11400000, guid: 4105e963a13e613409743f6368e9ece4, type: 2}
+  - {fileID: 11400000, guid: 9e7f62f6414dccf41b11ff68bc94aa03, type: 2}
+  - {fileID: 11400000, guid: ed6da3a40a24e4d448f93f713bbfbfd7, type: 2}
+  - {fileID: 11400000, guid: 73dd4670011a9f246b2874c936f84298, type: 2}
+  - {fileID: 11400000, guid: 3d5f1472601f8a64aa6028fdec776583, type: 2}
+  - {fileID: 11400000, guid: 9dbfaaa2bb371494899522d392f5918b, type: 2}
+  - {fileID: 11400000, guid: e88391c4449b4684db048ede1e171936, type: 2}
+  - {fileID: 11400000, guid: 10ddd327a6676484ebd5c75e0275eb76, type: 2}
+  - {fileID: 11400000, guid: 1c87f98ef548c7b4c92c5522ca424029, type: 2}
+  - {fileID: 11400000, guid: 23b83a3dd557904419de8256c6344e7d, type: 2}
+  - {fileID: 11400000, guid: 3621f51607df8f34ead12dd3b1d44e85, type: 2}
+  storeController: {fileID: 11400000, guid: 65e3f29e411d14243af92063bb1bc821, type: 2}
+  configSource: {fileID: 11400000, guid: 3eeef9e222f78bf4dbc0394af691e707, type: 2}
+  savedPayments: {fileID: 11400000, guid: 90ac2898ad8f6ea44bfac6ce9b3cdfc5, type: 2}
+  fakeReceipts: {fileID: 11400000, guid: d222ac4bf57e5f3459cf4183b1e3a2ae, type: 2}
+  idDisableData:
+  - {fileID: 11400000, guid: 6b9a1a46d4c2a5c4ea09947cac582581, type: 2}
+  - {fileID: 11400000, guid: c5fd4abf1b8130b448c01cd3ca8633c0, type: 2}
+  - {fileID: 11400000, guid: ee14745faf46f1f47ac4a6beeaa6312c, type: 2}
+  idHideInShopData: []

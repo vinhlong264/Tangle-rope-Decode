@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac312f9d009c13738bd9cee0720298a, type: 3}
+  m_Name: Default Shop Bundle Pack View Settings
+  m_EditorClassIdentifier:
+  iapDataService: {fileID: 11400000, guid: a6768798eb39b7444897e842db82e5f8, type: 2}
+  defaultViewPrefab: {fileID: 114919942235722503, guid: 339b2d71ef41e0a4a8dc4c61ce2069d3, type: 2}
+  viewPrefabsWithBundleId:
+  - bundleId: twistedtangle_casualstarter_1
+    view: {fileID: 114066778049879928, guid: f23d1eeeb605f834495d05ce8751f415, type: 2}
+  - bundleId: twistedtangle_casualpack3_1
+    view: {fileID: 114066778049879928, guid: d02a9b7c0507bbb4ea736a91ec5b5001, type: 2}
+  - bundleId: twistedtangle_casualpack6_1
+    view: {fileID: 114066778049879928, guid: 8792882c6ba08b348a135a522e5a6942, type: 2}
+  - bundleId: twistedtangle_casualstarter_v1_1
+    view: {fileID: 114066778049879928, guid: f23d1eeeb605f834495d05ce8751f415, type: 2}
+  - bundleId: twistedtangle_battlepass
+    view: {fileID: 114967328832014496, guid: 3c3e018c9f16a6840aef64412acf2308, type: 2}
+  viewPrefabsWithBundlePackId:
+  - bundlePackId: casual_bundles
+    view: {fileID: 114066778049879928, guid: 614f30929e159d84380c9a1cf085d84a, type: 2}

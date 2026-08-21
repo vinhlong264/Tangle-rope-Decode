@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3c947e9ff1f9ca2db1eed2838478e, type: 3}
+  m_Name: IAP Data SO_Segmeneted
+  m_EditorClassIdentifier:
+  data:
+    ProductPacks:
+    - Enabled: 1
+      Id: Segmented
+      Name: Segmented
+      Description: Segmented
+      Products:
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_1
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 250
+        AdjustEventToken: wwiv78
+        ElephantEventParam: twistedtangle_mothers_day_offer_1
+        Price: 1.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_2
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 750
+        AdjustEventToken: 494s7t
+        ElephantEventParam: twistedtangle_mothers_day_offer_2
+        Price: 4.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_3
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 1600
+        AdjustEventToken: mqbe79
+        ElephantEventParam: twistedtangle_mothers_day_offer_3
+        Price: 9.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_4
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 4000
+        AdjustEventToken: kiiyog
+        ElephantEventParam: twistedtangle_mothers_day_offer_4
+        Price: 19.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_5
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 6500
+        AdjustEventToken: kirwqm
+        ElephantEventParam: twistedtangle_mothers_day_offer_5
+        Price: 22.99
+      - Enabled: 1
+        UseInShop: 0
+        Name: Segmented
+        Id: twistedtangle_mothers_day_offer_6
+        Description: Segmented
+        IsConsumable: 1
+        Amount: 12500
+        AdjustEventToken: m3cgzu
+        ElephantEventParam: twistedtangle_mothers_day_offer_6
+        Price: 49.99
+      DisablerIds: []
+    BundlePacks: []
+    FakeReceiptIds: []
+    OfferPopUpsSettings: []
+    LimitedOffers: []
+    TemporaryProducts: []
+    ConditionalIds: []

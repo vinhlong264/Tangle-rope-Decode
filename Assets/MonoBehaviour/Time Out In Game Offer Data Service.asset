@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7411c2d3e55cc7be3629f6ad2e50e88, type: 3}
+  m_Name: Time Out In Game Offer Data Service
+  m_EditorClassIdentifier:
+  initialData:
+    CostByRepeat:
+    - 900
+    - 1900
+    - 2900
+    - 3900
+    - 4900
+    ItemAmountByTryAgain:
+    - Count: 0
+      Amount: 20
+    - Count: 2
+      Amount: 30
+    - Count: 3
+      Amount: 40
+    - Count: 4
+      Amount: 50
+    - Count: 5
+      Amount: 60
+    - Count: 6
+      Amount: 70
+    - Count: 7
+      Amount: 80
+  actualData:
+    CostByRepeat:
+    - 900
+    - 1900
+    - 2900
+    - 3900
+    - 4900
+    ItemAmountByTryAgain:
+    - Count: 0
+      Amount: 20
+    - Count: 2
+      Amount: 30
+    - Count: 3
+      Amount: 45
+    - Count: 5
+      Amount: 50
+  plainDataProvider: {fileID: 11400000, guid: 94770c575fb16e247b6ecf28d741b4c8, type: 2}
+  currentRepeatCount: {fileID: 11400000, guid: e840532eee1f3274681b134e0abeaa62, type: 2}
+  currentTryAgainCount:
+    variableReferenceType: 1
+    atomReference:
+      _usage: 0
+      _value: 0
+      _constant: {fileID: 0}
+      _variable: {fileID: 0}
+      _variableInstancer: {fileID: 0}
+    persistent: {fileID: 11400000, guid: 410eb683f839d6e4f9c27dbe6f15f93a, type: 2}
+    scriptableProperty: {fileID: 0}
+    conditionalScriptableProperty: {fileID: 0}
+  itemId:
+    _usage: 1
+    _value:
+    _constant: {fileID: 11400000, guid: dbbf1fbf115dce0499546fed753c52f3, type: 2}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  OnGrantItemAmountInt:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGrantItemAmountFloat:
+    m_PersistentCalls:
+      m_Calls: []
+  OnItemGranted:
+    m_PersistentCalls:
+      m_Calls: []

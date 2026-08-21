@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f5b8b55b889d515364aeaa2a4e8650, type: 3}
+  m_Name: RaceDataReadService
+  m_EditorClassIdentifier:
+  initialData:
+    RaceStartTime:
+    RaceFinishTime:
+    RaceDeclineLevelNumber: 0
+    RaceCountToday: 0
+    RaceCountUpdateTime:
+  actualData:
+    RaceStartTime:
+    RaceFinishTime:
+    RaceDeclineLevelNumber: 0
+    RaceCountToday: 0
+    RaceCountUpdateTime:
+  plainDataProvider: {fileID: 11400000, guid: c9b6e36e0f80c2a4894dafe9d1b2be49, type: 2}

@@ -1,0 +1,69 @@
+
+3_Coin.png
+size: 936, 936
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+BlackOutline/Layer 1
+  rotate: true
+  xy: 706, 596
+  size: 338, 173
+  orig: 339, 173
+  offset: 1, 0
+  index: -1
+BlackOutline/coin1_1
+  rotate: false
+  xy: 2, 649
+  size: 356, 285
+  orig: 356, 286
+  offset: 0, 1
+  index: -1
+BlackOutline/coin1_3
+  rotate: false
+  xy: 2, 50
+  size: 309, 310
+  orig: 309, 310
+  offset: 0, 0
+  index: -1
+Normal/Layer 1
+  rotate: false
+  xy: 613, 90
+  size: 321, 164
+  orig: 321, 164
+  offset: 0, 0
+  index: -1
+Normal/coin1_1
+  rotate: false
+  xy: 360, 658
+  size: 344, 276
+  orig: 344, 276
+  offset: 0, 0
+  index: -1
+Normal/coin1_3
+  rotate: true
+  xy: 313, 48
+  size: 297, 298
+  orig: 297, 298
+  offset: 0, 0
+  index: -1
+WhiteOutline/Layer 1
+  rotate: true
+  xy: 672, 256
+  size: 338, 173
+  orig: 339, 173
+  offset: 1, 0
+  index: -1
+WhiteOutline/coin1_1
+  rotate: false
+  xy: 2, 362
+  size: 356, 285
+  orig: 356, 286
+  offset: 0, 1
+  index: -1
+WhiteOutline/coin1_3
+  rotate: true
+  xy: 360, 347
+  size: 309, 310
+  orig: 309, 310
+  offset: 0, 0
+  index: -1

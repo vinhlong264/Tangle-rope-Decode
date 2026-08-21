@@ -1,0 +1,102 @@
+Turnuva OP.png
+size:2330,2330
+filter:Linear,Linear
+Layer 11
+bounds:2052,1821,253,220
+offsets:840,160,1922,734
+rotate:90
+Layer 12
+bounds:2,1482,2048,846
+Layer 13
+bounds:2,1072,1920,408
+offsets:1,0,1922,734
+Layer 2
+bounds:2,16,267,68
+offsets:450,156,1922,734
+Layer 4
+bounds:1924,1139,341,104
+offsets:1153,149,1922,734
+rotate:90
+Layer 8
+bounds:1594,565,505,436
+offsets:319,168,1922,734
+rotate:90
+Table
+bounds:2032,106,1374,295
+offsets:272,0,1922,734
+rotate:90
+coin base
+bounds:1594,255,413,308
+offsets:1094,145,1922,734
+coin1
+bounds:1691,88,88,34
+offsets:1178,462,1922,734
+coin10
+bounds:1247,44,88,40
+offsets:1162,249,1922,734
+coin2
+bounds:1337,49,87,35
+offsets:1172,440,1922,734
+coin3
+bounds:1152,47,93,37
+offsets:1240,399,1922,734
+coin4
+bounds:1594,86,95,36
+offsets:1235,377,1922,734
+coin5
+bounds:2052,1509,96,40
+offsets:1305,336,1922,734
+coin6
+bounds:2150,1509,89,40
+offsets:1300,313,1922,734
+coin7
+bounds:1924,1101,97,36
+offsets:1377,374,1922,734
+coin8
+bounds:500,2,89,38
+offsets:1380,351,1922,734
+coin9
+bounds:591,2,84,38
+offsets:1407,264,1922,734
+coin_1
+bounds:1924,156,97,85
+offsets:1092,143,1922,734
+rotate:90
+coin_2
+bounds:1822,162,91,100
+offsets:1202,140,1922,734
+rotate:90
+fan
+bounds:2052,2076,242,252
+offsets:945,290,1922,734
+fan body_
+bounds:2052,1551,190,268
+offsets:993,235,1920,732
+fan_shadow
+bounds:725,35,212,49
+offsets:975,207,1922,734
+hammer_shadow
+bounds:271,26,227,58
+offsets:845,163,1922,734
+left_curtain_2
+bounds:799,86,793,984
+offsets:0,0,2200,984
+right_curtain copy
+bounds:2,86,795,984
+offsets:1405,0,2200,984
+rope1
+bounds:1594,189,64,226
+offsets:20,39,1920,732
+rotate:90
+rope2
+bounds:939,43,41,211
+offsets:56,69,1920,732
+rotate:90
+rope3
+bounds:500,42,42,223
+offsets:1821,59,1920,732
+rotate:90
+rope4
+bounds:1594,124,63,213
+offsets:1832,51,1920,732
+rotate:90

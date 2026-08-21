@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7a4c7434854fc849c751dafd7d6cb8a, type: 3}
+  m_Name: Persistent Dynamic Quest Data
+  m_EditorClassIdentifier:
+  DataGroup: 0
+  ReadableSaveKey: PersistentDynamicQuestData
+  OnChangedObject:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedObjectHistory:
+    m_PersistentCalls:
+      m_Calls: []
+  guid:
+    m_Value0: 345465831
+    m_Value1: 3190978084
+    m_Value2: 677249739
+    m_Value3: 3844767849
+  setSessionStartValue: 0
+  initialValue:
+    Id:
+    IsLive: 0
+    Step: 0
+    Tokens: 0
+    PendingTokens: 0
+    PendingMultiplier: 0
+    IsGoldenPassPurchased: 0
+    IsGoldenPassActive: 0
+    GoldenPassIntroLastShownStep: 0
+  value:
+    Id:
+    IsLive: 0
+    Step: 0
+    Tokens: 0
+    PendingTokens: 0
+    PendingMultiplier: 0
+    IsGoldenPassPurchased: 0
+    IsGoldenPassActive: 0
+    GoldenPassIntroLastShownStep: 0
+  isDirty: 0
+  OnChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangedHistory:
+    m_PersistentCalls:
+      m_Calls: []

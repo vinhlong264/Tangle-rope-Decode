@@ -1,0 +1,16 @@
+Booster_Scissors.png
+size:1427,1427
+filter:Linear,Linear
+BlackOutline/Layer 1
+bounds:1094,675,750,330
+rotate:90
+BlackOutline/scissors2
+bounds:366,676,362,749
+Normal/Layer 1
+bounds:2,334,756,330
+Normal/scissors2
+bounds:2,666,362,759
+WhiteOutline/Layer 1
+bounds:2,2,750,330
+WhiteOutline/scissors2
+bounds:730,678,362,747

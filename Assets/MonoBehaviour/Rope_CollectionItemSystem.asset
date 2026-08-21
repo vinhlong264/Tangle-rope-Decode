@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00614c10152b749e144a4a748576bc2f, type: 3}
+  m_Name: Rope_CollectionItemSystem
+  m_EditorClassIdentifier:
+  itemsService: {fileID: 11400000, guid: 049390b81744b29499671d2ab941b375, type: 2}
+  selectedCollectionItem: {fileID: 11400000, guid: 3abe1a1907c23164fbcbeab694cb7732, type: 2}
+  previewCollectionItem: {fileID: 11400000, guid: b406c708362b2bc41ab06d199090d4fd, type: 2}
+  collectionTypeId:
+    _usage: 0
+    _value: rope
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  OnItemEquipped:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e724f0dc6dc265abc9c573c04643cf4, type: 3}
+  m_Name: Session Started Sequencer Data
+  m_EditorClassIdentifier:
+  data: {fileID: 0}
+  steps:
+  - {fileID: 11400000, guid: 01b83bd2509201145855ee2475538830, type: 2}
+  - {fileID: 11400000, guid: 346f9cbacf55bc9489371f01767fd139, type: 2}
+  - {fileID: 11400000, guid: 9d7a5c56815427243bb8c4d6df48362c, type: 2}
+  - {fileID: 11400000, guid: a77bda2ec5518c34787c7ac10bf6a8e1, type: 2}
+  - {fileID: 11400000, guid: 515bde30d39f37042898a68db26ba67e, type: 2}
+  - {fileID: 11400000, guid: 8490ab5623638ae4fb85d6f930adfa55, type: 2}
+  - {fileID: 11400000, guid: 0e313b6fdff434444919ac1ab91913fa, type: 2}
+  - {fileID: 11400000, guid: 4b6f67b322f7f2d4d84a755bc821457f, type: 2}
+  - {fileID: 11400000, guid: c22e683ad2a322144b742999b816c01a, type: 2}
+  - {fileID: 11400000, guid: 54f2ba92970a7ea4f8b0fd469eeb31f1, type: 2}
+  - {fileID: 11400000, guid: 877f424147d912949b2a032f08152308, type: 2}
+  - {fileID: 11400000, guid: 0cb94205221c8bb4d8394fac4331e139, type: 2}

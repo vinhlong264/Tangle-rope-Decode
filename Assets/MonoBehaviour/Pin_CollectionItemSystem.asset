@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00614c10152b749e144a4a748576bc2f, type: 3}
+  m_Name: Pin_CollectionItemSystem
+  m_EditorClassIdentifier:
+  itemsService: {fileID: 11400000, guid: 189edc7d1dd770f49832ae2fda23ca33, type: 2}
+  selectedCollectionItem: {fileID: 11400000, guid: df3e7f474ffc04f4dbdae9ba75a90da4, type: 2}
+  previewCollectionItem: {fileID: 11400000, guid: e5db341beedc5af4b931e35b5e2490d1, type: 2}
+  collectionTypeId:
+    _usage: 0
+    _value: pin
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  OnItemEquipped:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00614c10152b749e144a4a748576bc2f, type: 3}
+  m_Name: Back_CollectionItemSystem
+  m_EditorClassIdentifier:
+  itemsService: {fileID: 11400000, guid: 9eda0108fa6863b40a086c1342bd7d45, type: 2}
+  selectedCollectionItem: {fileID: 11400000, guid: 2105c65009797be4a808e606d22f1866, type: 2}
+  previewCollectionItem: {fileID: 11400000, guid: 27ff0c92bdc9a7444b2df31ad4e33d18, type: 2}
+  collectionTypeId:
+    _usage: 0
+    _value: background
+    _constant: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+  OnItemEquipped:
+    m_PersistentCalls:
+      m_Calls: []

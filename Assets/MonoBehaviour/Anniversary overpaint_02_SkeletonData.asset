@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 106799970, guid: ebe353a9e51fc6708625f16edcb81e06, type: 3}
+  m_Name: Anniversary overpaint_02_SkeletonData
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: e9454424eeba7784280f591d40ec4204, type: 2}
+  scale: 0.01
+  skeletonJSON: {fileID: 4900000, guid: 56b88a1c3de51d641a427ba245bf8b71, type: 3}
+  isUpgradingBlendModeMaterials: 0
+  blendModeMaterials:
+    requiresBlendModeMaterials: 1
+    applyAdditiveMaterial: 1
+    additiveMaterials:
+    - pageName: Anniversary overpaint_02.png
+      material: {fileID: 2100000, guid: ab8c7d6cb965c65458a0ca911b78d949, type: 2}
+    multiplyMaterials:
+    - pageName: Anniversary overpaint_02.png
+      material: {fileID: 2100000, guid: 7a2e79867c2403f4582d22d835c5fd92, type: 2}
+    screenMaterials: []
+  skeletonDataModifiers: []
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0.2
+  controller: {fileID: 0}

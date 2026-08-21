@@ -1,0 +1,19 @@
+GiftBox_Blue_Front.png
+size:1402,1402
+filter:Linear,Linear
+BlackOutline/2_top
+bounds:2,414,570,491
+BlackOutline/Layer 1
+bounds:416,2,410,408
+rotate:90
+Normal/2_rope
+bounds:1148,920,61,480
+Normal/2_top
+bounds:2,907,572,493
+Normal/Layer 1
+bounds:2,2,412,410
+WhiteOutline/2_top
+bounds:576,909,570,491
+WhiteOutline/Layer 1
+bounds:574,495,410,408
+rotate:90

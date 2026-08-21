@@ -1,0 +1,26 @@
+Starter_Icon.png
+size:1503,1503
+filter:Linear,Linear
+L_sc
+bounds:2,459,631,528
+offsets:185,612,1154,2050
+Layer 1
+bounds:2,989,683,512
+offsets:206,895,1154,2050
+R_sc
+bounds:635,459,528,583
+offsets:246,666,1154,2050
+rotate:90
+pocket
+bounds:687,989,587,512
+offsets:247,619,1154,2050
+ropess
+bounds:1038,94,363,351
+offsets:379,795,1154,2050
+rotate:90
+shuffle
+bounds:2,22,533,435
+offsets:335,729,1154,2050
+shuffle_base
+bounds:537,2,499,455
+offsets:348,644,1154,2050
